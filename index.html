@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KIMI COMMAND CENTER · Portfolio Intelligence</title>
+<style>
+  :root {
+    --bg: #0a0e14; --panel: #111827; --panel2: #0d1420; --line: #1f2b3a;
+    --txt: #e5edf5; --dim: #8aa0b6; --accent: #4da3ff; --up: #2ecc71; --dn: #ff5c5c;
+    --warn: #ffb84d; --mono: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--txt); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; padding: 18px; max-width: 1280px; margin: 0 auto; }
+  h1 { font-family: var(--mono); font-size: 20px; letter-spacing: 2px; }
+  h1 .k { color: var(--accent); }
+  .sub { color: var(--dim); font-size: 12px; margin-top: 4px; font-family: var(--mono); }
+  .grid { display: grid; gap: 14px; margin-top: 16px; }
+  .cols-2 { grid-template-columns: 1fr 1fr; }
+  .cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+  @media (max-width: 900px) { .cols-2, .cols-3 { grid-template-columns: 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .card h2 { font-family: var(--mono); font-size: 13px; letter-spacing: 1.5px; color: var(--accent); margin-bottom: 10px; text-transform: uppercase; }
+  .nav-big { font-family: var(--mono); font-size: 34px; font-weight: 700; }
+  .nav-chg { font-family: var(--mono); font-size: 15px; margin-top: 4px; }
+  .up { color: var(--up); } .dn { color: var(--dn); } .flat { color: var(--dim); }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th { text-align: left; color: var(--dim); font-family: var(--mono); font-size: 10.5px; letter-spacing: .5px; padding: 6px 8px; border-bottom: 1px solid var(--line); text-transform: uppercase; }
+  td { padding: 6px 8px; border-bottom: 1px solid #16202e; font-variant-numeric: tabular-nums; }
+  tr:hover td { background: #141d2b; }
+  .num { text-align: right; font-family: var(--mono); }
+  .flag { border-left: 4px solid var(--warn); background: #1a1508; padding: 10px 12px; border-radius: 6px; margin: 6px 0; font-size: 13px; }
+  .flag.crit { border-left-color: var(--dn); background: #1d0d0d; }
+  .flag b { font-family: var(--mono); }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 2px 7px; border-radius: 20px; border: 1px solid var(--line); color: var(--dim); margin-left: 6px; }
+  .pill.buy { color: var(--up); border-color: var(--up); }
+  .pill.sell { color: var(--dn); border-color: var(--dn); }
+  .bar-row { display: flex; align-items: center; gap: 8px; margin: 7px 0; font-size: 12px; }
+  .bar-label { width: 190px; color: var(--dim); flex-shrink: 0; }
+  .bar-track { flex: 1; height: 14px; background: #16202e; border-radius: 4px; position: relative; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 4px; }
+  .bar-target { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--warn); }
+  .bar-val { width: 130px; text-align: right; font-family: var(--mono); font-size: 11px; flex-shrink: 0; }
+  .sig { padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px; margin: 7px 0; font-size: 13px; background: var(--panel2); }
+  .sig .meta { color: var(--dim); font-size: 11px; margin-top: 3px; font-family: var(--mono); }
+  .sig a { color: var(--accent); text-decoration: none; }
+  .brief { font-size: 13.5px; line-height: 1.65; }
+  .brief h3 { font-family: var(--mono); color: var(--accent); font-size: 13px; margin: 14px 0 6px; letter-spacing: 1px; }
+  .brief ul { padding-left: 20px; } .brief li { margin: 4px 0; }
+  .muted { color: var(--dim); font-size: 12px; }
+  .spark { width: 100%; height: 90px; }
+  .refresh { font-family: var(--mono); font-size: 11px; color: var(--dim); cursor: pointer; border: 1px solid var(--line); padding: 4px 10px; border-radius: 6px; background: none; }
+  .refresh:hover { color: var(--txt); border-color: var(--accent); }
+  .topbar { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+  .kpi { text-align: right; }
+  .kpi .lbl { font-size: 10px; color: var(--dim); font-family: var(--mono); letter-spacing: 1px; }
+  .kpi .val { font-family: var(--mono); font-size: 15px; }
+  #status { font-family: var(--mono); font-size: 11px; color: var(--dim); margin-top: 8px; }
+  a.src { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>
+    <h1><span class="k">KIMI</span> COMMAND CENTER</h1>
+    <div class="sub" id="asof">portfolio intelligence · loading…</div>
+  </div>
+  <button class="refresh" onclick="location.reload()">↻ REFRESH</button>
+</div>
+
+<div class="grid cols-3">
+  <div class="card">
+    <h2>Net Asset Value</h2>
+    <div class="nav-big" id="nav">—</div>
+    <div class="nav-chg" id="navChg">—</div>
+    <div class="muted" style="margin-top:6px" id="navNote">All lines marked to market in SGD, net of IBKR margin loan.</div>
+  </div>
+  <div class="card">
+    <h2>NAV History</h2>
+    <canvas class="spark" id="spark"></canvas>
+    <div class="muted" id="sparkNote">Recorded each day the brief runs.</div>
+  </div>
+  <div class="card">
+    <h2>Exposure</h2>
+    <div id="kpis"></div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card" id="riskCard">
+    <h2>🚩 Risk Flags</h2>
+    <div id="riskFlags"><div class="muted">Evaluating…</div></div>
+  </div>
+</div>
+
+<div class="grid cols-2">
+  <div class="card">
+    <h2>⚖️ Bottleneck Barbell — Drift vs Target</h2>
+    <div id="barbell"></div>
+    <div class="muted" style="margin-top:8px">Amber tick = target weight. Liquid book only; property &amp; PE excluded.</div>
+  </div>
+  <div class="card">
+    <h2>📈 Top Movers (1D)</h2>
+    <table id="movers"><thead><tr><th>Name</th><th class="num">Price</th><th class="num">1D %</th><th class="num">Value SGD</th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
+
+<div class="grid cols-2">
+  <div class="card">
+    <h2>🕵️ Insider Trades — Your Tickers</h2>
+    <div id="insiders"><div class="muted">Awaiting first brief run…</div></div>
+  </div>
+  <div class="card">
+    <h2>🏛️ Congress Trades</h2>
+    <div id="congress"><div class="muted">Awaiting first brief run…</div></div>
+  </div>
+</div>
+
+<div class="grid cols-2">
+  <div class="card">
+    <h2>🇺🇸 Trump / Policy Watch</h2>
+    <div id="trump"><div class="muted">Awaiting first brief run…</div></div>
+  </div>
+  <div class="card">
+    <h2>🎯 Alpha Opportunities</h2>
+    <div id="opps"><div class="muted">Awaiting first brief run…</div></div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>📋 Latest Daily Brief</h2>
+    <div class="brief" id="brief"><div class="muted">The 7:45am SGT weekday brief will appear here after its first run.</div></div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>All Holdings</h2>
+    <table id="holdings"><thead><tr><th>Name</th><th>Class</th><th>Cur</th><th class="num">Qty</th><th class="num">Price</th><th class="num">Value SGD</th><th class="num">1D %</th><th class="num">% NW</th></tr></thead><tbody></tbody></table>
+  </div>
+</div>
+
+<div id="status"></div>
+<div class="muted" style="margin-top:14px">Live prices: Yahoo Finance ~15min delayed via public proxy · Cash / fund / PE / property static — edit <span style="font-family:var(--mono)">data/holdings.json</span> when balances change · Personal use only · Not financial advice · Built by Kimi</div>
+
+<script>
+const PROXIES = [
+  u => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
+  u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`
+];
+const $ = id => document.getElementById(id);
+const fmtS = n => (n<0?"-S$":"S$") + Math.abs(n).toLocaleString(undefined,{maximumFractionDigits:0});
+const fmtPct = n => (n>0?"+":"") + n.toFixed(2) + "%";
+const cls = n => n > 0.005 ? "up" : n < -0.005 ? "dn" : "flat";
+const status = m => $("status").textContent = m;
+
+async function fetchRaw(url) {
+  let lastErr;
+  for (const p of PROXIES) {
+    try { const r = await fetch(p(url)); if (r.ok) return await r.text(); lastErr = new Error("HTTP "+r.status); }
+    catch(e) { lastErr = e; }
+  }
+  throw lastErr;
+}
+async function yahooChart(sym) {
+  const u = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?interval=1d&range=5d`;
+  const j = JSON.parse(await fetchRaw(u));
+  const res = j.chart && j.chart.result && j.chart.result[0];
+  if (!res) return null;
+  const m = res.meta || {};
+  return { price: m.regularMarketPrice, prev: m.chartPreviousClose != null ? m.chartPreviousClose : m.previousClose, ccy: m.currency };
+}
+
+async function main() {
+  const [holdings, config] = await Promise.all([
+    fetch("data/holdings.json").then(r=>r.json()),
+    fetch("data/config.json").then(r=>r.json())
+  ]);
+  let daily = null;
+  try { daily = await fetch("data/daily.json?ts="+Date.now()).then(r=> r.ok ? r.json() : null); } catch(e) {}
+  $("asof").textContent = `holdings as of ${holdings.asOf} · ${holdings.positions.length} lines · all times SGT`;
+
+  // FX
+  status("Fetching FX…");
+  const fxPairs = { USD:"USDSGD=X", CNY:"USDCNY=X", HKD:"USDHKD=X", MYR:"USDMYR=X" };
+  const fx = { SGD: 1 };
+  try {
+    const got = {};
+    for (const [c,s] of Object.entries(fxPairs)) { const q = await yahooChart(s); if (q) got[c]=q.price; }
+    if (got.USD) {
+      fx.USD = got.USD;
+      if (got.CNY) fx.CNY = got.USD/got.CNY;
+      if (got.HKD) fx.HKD = got.USD/got.HKD;
+      if (got.MYR) fx.MYR = got.USD/got.MYR;
+    }
+  } catch(e) { status("FX fetch failed — using config-free fallback rates"); fx.USD=1.34; fx.CNY=1/5.3763; fx.HKD=1/5.814; fx.MYR=1/3.3333; }
+
+  // Prices
+  const live = holdings.positions.filter(p => p.yahoo);
+  const results = [];
+  let done = 0;
+  await Promise.all(live.map(async p => {
+    try { const q = await yahooChart(p.yahoo); results.push({p, q}); }
+    catch(e) { results.push({p, q:null}); }
+    status(`Fetching prices… ${++done}/${live.length}`);
+  }));
+  status("");
+
+  // Value everything
+  let nav = 0, navPrev = 0, listedNow = 0, listedPrev = 0;
+  const rows = [];
+  for (const {p, q} of results) {
+    const rate = fx[p.currency] || 1;
+    const val = p.qty * q.price * rate;
+    const prev = p.qty * q.prev * rate;
+    nav += val; navPrev += prev; listedNow += val; listedPrev += prev;
+    rows.push({ p, price: q.price, val, d1: (q.price/q.prev - 1)*100 });
+  }
+  for (const p of holdings.positions.filter(p => !p.yahoo)) {
+    let val = p.staticSgd != null ? p.staticSgd : (p.staticCcy||0) * (fx[p.currency]||1);
+    nav += val; navPrev += val;
+    rows.push({ p, price: null, val, d1: null });
+  }
+  const navChg = nav - navPrev, navChgPct = navPrev ? navChg/navPrev*100 : 0;
+
+  $("nav").textContent = fmtS(nav);
+  $("navChg").innerHTML = `<span class="${cls(navChg)}">${navChg>=0?"+":""}${fmtS(navChg).replace("S$","S$")} · ${fmtPct(navChgPct)} today</span>`;
+
+  // KPIs
+  const byClass = {}, byCcy = {};
+  for (const r of rows) {
+    byClass[r.p.class] = (byClass[r.p.class]||0) + r.val;
+    byCcy[r.p.currency] = (byCcy[r.p.currency]||0) + r.val;
+  }
+  $("kpis").innerHTML = Object.entries(byClass).sort((a,b)=>b[1]-a[1])
+    .map(([k,v]) => `<div class="bar-row"><div class="bar-label">${k}</div><div class="bar-track"><div class="bar-fill" style="width:${Math.max(0.5, v/nav*100)}%"></div></div><div class="bar-val">${(v/nav*100).toFixed(1)}%</div></div>`).join("")
+    + `<div class="muted" style="margin-top:8px">FX: USD ${fx.USD?fx.USD.toFixed(4):"—"} · CNY ${fx.CNY?fx.CNY.toFixed(4):"—"} · HKD ${fx.HKD?fx.HKD.toFixed(4):"—"} · MYR ${fx.MYR?fx.MYR.toFixed(4):"—"} (SGD per unit)</div>`;
+
+  // Risk flags (live checks + daily.json flags)
+  const R = config.riskRules, flags = [];
+  for (const r of rows) {
+    if (r.d1 != null && r.d1 <= R.singlePositionDayDropPct && r.val/nav > 0.005)
+      flags.push({crit:true, t:`${r.p.name} down ${r.d1.toFixed(1)}% in a day`, d:`Position is ${(r.val/nav*100).toFixed(1)}% of NW (${fmtS(r.val)}).`});
+  }
+  const listedChg = listedPrev ? (listedNow/listedPrev-1)*100 : 0;
+  if (listedChg <= R.listedBookDayDropPct) flags.push({crit:true, t:`Listed book ${fmtPct(listedChg)} today`, d:`All listed securities combined: ${fmtS(listedNow)}.`});
+  const silver = rows.find(r => r.p.yahoo === "SI=F");
+  if (silver && silver.d1 != null && silver.d1 <= R.silverDayDropPct)
+    flags.push({crit:true, t:`Silver ${fmtPct(silver.d1)} — leveraged IBKR line`, d:`1,777 oz vs ~S$56k loan ≈ 1.5x leverage; account equity ≈ ${fmtPct(silver.d1*1.5)}.`});
+  if (daily && daily.riskFlags) for (const f of daily.riskFlags) flags.push({crit: f.level==="critical", t:f.title, d:f.detail});
+  $("riskFlags").innerHTML = flags.length
+    ? flags.map(f => `<div class="flag ${f.crit?"crit":""}"><b>${f.crit?"🔴 CRITICAL":"🟡 WATCH"}</b> — ${f.t}<div class="muted">${f.d||""}</div></div>`).join("")
+    : `<div class="muted">✅ No rule breaches right now (single-name −${Math.abs(R.singlePositionDayDropPct)}%, book −${Math.abs(R.listedBookDayDropPct)}%, silver −${Math.abs(R.silverDayDropPct)}%, FX ±${R.fxDayMovePct}%).</div>`;
+
+  // Barbell drift
+  const targets = config.barbellTargets;
+  const sleeveVal = {};
+  for (const r of rows) if (r.p.sleeve && targets[r.p.sleeve] != null) sleeveVal[r.p.sleeve] = (sleeveVal[r.p.sleeve]||0) + r.val;
+  const liquid = Object.values(sleeveVal).reduce((a,b)=>a+b,0);
+  $("barbell").innerHTML = Object.entries(targets).map(([s,t]) => {
+    const cur = sleeveVal[s]||0, pct = liquid? cur/liquid*100 : 0;
+    return `<div class="bar-row"><div class="bar-label">${s}</div><div class="bar-track"><div class="bar-fill" style="width:${Math.min(100,pct)}%"></div><div class="bar-target" style="left:${t}%"></div></div><div class="bar-val">${pct.toFixed(1)}% / ${t}%</div></div>`;
+  }).join("") + `<div class="muted" style="margin-top:6px">Mapped liquid pool: ${fmtS(liquid)} — excludes unallocated cash, property &amp; PE.</div>`;
+
+  // Movers
+  const movers = rows.filter(r=>r.d1!=null).sort((a,b)=>Math.abs(b.d1)-Math.abs(a.d1)).slice(0,10);
+  $("movers").querySelector("tbody").innerHTML = movers.map(r =>
+    `<tr><td>${r.p.name}</td><td class="num">${r.price!=null?r.price.toFixed(r.price<10?3:2):"—"}</td><td class="num ${cls(r.d1)}">${fmtPct(r.d1)}</td><td class="num">${fmtS(r.val)}</td></tr>`).join("");
+
+  // Holdings table
+  rows.sort((a,b)=>b.val-a.val);
+  $("holdings").querySelector("tbody").innerHTML = rows.map(r =>
+    `<tr><td>${r.p.name}</td><td class="muted">${r.p.class}</td><td class="muted">${r.p.currency}</td><td class="num">${r.p.qty?r.p.qty.toLocaleString():"—"}</td><td class="num">${r.price!=null?r.price.toFixed(r.price<10?3:2):"—"}</td><td class="num">${fmtS(r.val)}</td><td class="num ${r.d1!=null?cls(r.d1):""}">${r.d1!=null?fmtPct(r.d1):"—"}</td><td class="num">${(r.val/nav*100).toFixed(1)}%</td></tr>`).join("");
+
+  // daily.json sections
+  const sigHtml = (arr, empty, render) => arr && arr.length ? arr.map(render).join("") : `<div class="muted">${empty}</div>`;
+  $("insiders").innerHTML = daily ? sigHtml(daily.insiderTrades, "No insider filings flagged in the latest run.", x =>
+    `<div class="sig"><b>${x.ticker}</b> — ${x.insider} (${x.role||"insider"}) <span class="pill ${x.type==="Buy"?"buy":"sell"}">${x.type||"?"}</span><div class="meta">${x.shares||""} ${x.value?("· ~"+x.value):""} · ${x.date||""} ${x.url?`· <a class="src" href="${x.url}">filing</a>`:""}</div></div>`) : $("insiders").innerHTML;
+  $("congress").innerHTML = daily ? sigHtml(daily.congressTrades, "No congress trades flagged in the latest run.", x =>
+    `<div class="sig"><b>${x.member}</b> (${x.chamber||""}) — ${x.ticker} <span class="pill ${(x.type||"").toLowerCase().includes("purchase")?"buy":"sell"}">${x.type||""}</span><div class="meta">${x.range||""} · filed ${x.date||""} ${x.url?`· <a class="src" href="${x.url}">source</a>`:""}</div></div>`) : $("congress").innerHTML;
+  $("trump").innerHTML = daily ? sigHtml(daily.trumpWatch, "Nothing flagged in the latest run.", x =>
+    `<div class="sig">${x.title}<div class="meta">${x.detail||""} ${x.url?`· <a class="src" href="${x.url}">source</a>`:""}</div></div>`) : $("trump").innerHTML;
+  $("opps").innerHTML = daily ? sigHtml(daily.opportunities, "No opportunities flagged in the latest run.", x =>
+    `<div class="sig"><b>${x.ticker||""}</b> ${x.thesis||""}<div class="meta">${x.signal||""}</div></div>`) : $("opps").innerHTML;
+  if (daily && daily.briefHtml) $("brief").innerHTML = daily.briefHtml;
+
+  // Sparkline
+  const hist = (daily && daily.navHistory) || [];
+  hist.push({date: new Date().toISOString().slice(0,10), nav});
+  const c = $("spark"), ctx = c.getContext("2d");
+  c.width = c.offsetWidth * 2; c.height = 180; ctx.scale(1,1);
+  if (hist.length > 1) {
+    const vals = hist.map(h=>h.nav), mn = Math.min(...vals), mx = Math.max(...vals), rg = (mx-mn)||1;
+    ctx.strokeStyle = "#4da3ff"; ctx.lineWidth = 2.5; ctx.beginPath();
+    vals.forEach((v,i)=>{ const x = i/(vals.length-1)*c.width, y = c.height-10-((v-mn)/rg)*(c.height-20); i?ctx.lineTo(x,y):ctx.moveTo(x,y); });
+    ctx.stroke();
+    $("sparkNote").textContent = `${hist.length} daily records · range ${fmtS(mn)} – ${fmtS(mx)}`;
+  } else { $("sparkNote").textContent = "History builds as the daily brief runs — first point recorded today."; }
+}
+main().catch(e => status("Error: " + e.message));
+</script>
+</body>
+</html>
