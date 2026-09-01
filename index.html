@@ -213,6 +213,7 @@ async function main() {
   const rows = [];
   for (const {p, q} of results) {
     const rate = fx[p.currency] || 1;
+    if (!q) { const val = p.fallbackSgd || 0; nav += val; navPrev += val; rows.push({ p, price: null, val, d1: null }); continue; }
     const val = p.qty * q.price * rate;
     const prev = p.qty * q.prev * rate;
     nav += val; navPrev += prev; listedNow += val; listedPrev += prev;

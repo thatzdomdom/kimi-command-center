@@ -24,7 +24,7 @@
     { "name": "YZJ Shipbuilding", "yahoo": "BS6.SI", "class": "Equity", "region": "China/HK", "currency": "SGD", "qty": 10000, "sleeve": "SGD income" },
     { "name": "Global Investments", "yahoo": "B73.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 263877, "sleeve": "SGD income" },
     { "name": "Singtel", "yahoo": "Z74.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 7310, "sleeve": "SGD income" },
-    { "name": "Lum Chang Holdings", "yahoo": "L46.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 28760, "sleeve": "SGD income" },
+    { "name": "Lum Chang Holdings", "yahoo": "L46.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 28760, "fallbackSgd": 17256, "sleeve": "SGD income", "notes": "No Yahoo live feed; falls back to statement value" },
     { "name": "Metro Holdings", "yahoo": "M01.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 34768, "sleeve": "SGD income" },
     { "name": "Tuan Sing Holdings", "yahoo": "T24.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 50616, "sleeve": "SGD income" },
     { "name": "Food Empire", "yahoo": "F03.SI", "class": "Equity", "region": "Singapore", "currency": "SGD", "qty": 5000, "sleeve": "SGD income" },
