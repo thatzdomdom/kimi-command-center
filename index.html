@@ -6,9 +6,9 @@
 <title>KIMI COMMAND CENTER · Portfolio Intelligence</title>
 <style>
   :root {
-    --bg: #0a0e14; --panel: #111827; --panel2: #0d1420; --line: #1f2b3a;
-    --txt: #e5edf5; --dim: #8aa0b6; --accent: #4da3ff; --up: #2ecc71; --dn: #ff5c5c;
-    --warn: #ffb84d; --mono: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+    --bg: #f4f6fa; --panel: #ffffff; --panel2: #eef3f9; --line: #dbe4ef;
+    --txt: #182233; --dim: #5c6d84; --accent: #1d6fe0; --up: #128a43; --dn: #d63333;
+    --warn: #b9770e; --mono: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--txt); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; padding: 18px; max-width: 1280px; margin: 0 auto; }
@@ -19,25 +19,25 @@
   .cols-2 { grid-template-columns: 1fr 1fr; }
   .cols-3 { grid-template-columns: 1fr 1fr 1fr; }
   @media (max-width: 900px) { .cols-2, .cols-3 { grid-template-columns: 1fr; } }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(24,34,51,.06); }
   .card h2 { font-family: var(--mono); font-size: 13px; letter-spacing: 1.5px; color: var(--accent); margin-bottom: 10px; text-transform: uppercase; }
   .nav-big { font-family: var(--mono); font-size: 34px; font-weight: 700; }
   .nav-chg { font-family: var(--mono); font-size: 15px; margin-top: 4px; }
   .up { color: var(--up); } .dn { color: var(--dn); } .flat { color: var(--dim); }
   table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
   th { text-align: left; color: var(--dim); font-family: var(--mono); font-size: 10.5px; letter-spacing: .5px; padding: 6px 8px; border-bottom: 1px solid var(--line); text-transform: uppercase; }
-  td { padding: 6px 8px; border-bottom: 1px solid #16202e; font-variant-numeric: tabular-nums; }
-  tr:hover td { background: #141d2b; }
+  td { padding: 6px 8px; border-bottom: 1px solid #e9eff6; font-variant-numeric: tabular-nums; }
+  tr:hover td { background: #f0f5fb; }
   .num { text-align: right; font-family: var(--mono); }
-  .flag { border-left: 4px solid var(--warn); background: #1a1508; padding: 10px 12px; border-radius: 6px; margin: 6px 0; font-size: 13px; }
-  .flag.crit { border-left-color: var(--dn); background: #1d0d0d; }
+  .flag { border-left: 4px solid var(--warn); background: #fdf6e4; padding: 10px 12px; border-radius: 6px; margin: 6px 0; font-size: 13px; }
+  .flag.crit { border-left-color: var(--dn); background: #fdecec; }
   .flag b { font-family: var(--mono); }
   .pill { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 2px 7px; border-radius: 20px; border: 1px solid var(--line); color: var(--dim); margin-left: 6px; }
   .pill.buy { color: var(--up); border-color: var(--up); }
   .pill.sell { color: var(--dn); border-color: var(--dn); }
   .bar-row { display: flex; align-items: center; gap: 8px; margin: 7px 0; font-size: 12px; }
   .bar-label { width: 190px; color: var(--dim); flex-shrink: 0; }
-  .bar-track { flex: 1; height: 14px; background: #16202e; border-radius: 4px; position: relative; overflow: hidden; }
+  .bar-track { flex: 1; height: 14px; background: #e4ebf4; border-radius: 4px; position: relative; overflow: hidden; }
   .bar-fill { height: 100%; background: var(--accent); border-radius: 4px; }
   .bar-target { position: absolute; top: -2px; bottom: -2px; width: 2px; background: var(--warn); }
   .bar-val { width: 130px; text-align: right; font-family: var(--mono); font-size: 11px; flex-shrink: 0; }
@@ -294,7 +294,7 @@ async function main() {
   c.width = c.offsetWidth * 2; c.height = 180; ctx.scale(1,1);
   if (hist.length > 1) {
     const vals = hist.map(h=>h.nav), mn = Math.min(...vals), mx = Math.max(...vals), rg = (mx-mn)||1;
-    ctx.strokeStyle = "#4da3ff"; ctx.lineWidth = 2.5; ctx.beginPath();
+    ctx.strokeStyle = "#1d6fe0"; ctx.lineWidth = 2.5; ctx.beginPath();
     vals.forEach((v,i)=>{ const x = i/(vals.length-1)*c.width, y = c.height-10-((v-mn)/rg)*(c.height-20); i?ctx.lineTo(x,y):ctx.moveTo(x,y); });
     ctx.stroke();
     $("sparkNote").textContent = `${hist.length} daily records · range ${fmtS(mn)} – ${fmtS(mx)}`;
