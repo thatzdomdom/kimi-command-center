@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-03",
-  "navSgd": 10405638.0,
-  "navChgPct": -0.242,
-  "listedChgPct": -1.265,
+  "date": "2026-09-04",
+  "navSgd": 10407120.0,
+  "navChgPct": -0.115,
+  "listedChgPct": -0.602,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2712,
-    "CNY": 0.189449,
-    "HKD": 0.162118,
-    "MYR": 0.31442
+    "USD": 1.267,
+    "CNY": 0.188831,
+    "HKD": 0.161615,
+    "MYR": 0.31373
   },
   "riskFlags": [],
   "navHistory": [
@@ -22,15 +22,80 @@
     },
     {
       "date": "2026-09-03",
-      "nav": 10405638.0
+      "nav": 10398629.0
+    },
+    {
+      "date": "2026-09-04",
+      "nav": 10407120.0
     }
   ],
-  "snapshotAt": "2026-09-03T07:40:08+08:00",
+  "snapshotAt": "2026-09-04T07:40:07+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,405,638 (-0.24% day; listed book -1.27%)</h3><ul><li><b>Biggest mover:</b> silver miners again — SILJ -4.2%, GDX -3.9%, SLVP -3.4% (Sep 2 US close); silver futures bouncing +2.0% overnight to ~US$65.9/oz.</li><li><b>Key thing:</b> market prices ~60-70% chance of a Fed HIKE on Sep 15-16 (Chair Warsh) — that repricing, not Iran, drove this week's metals/miner slide. US payrolls Friday is the next swing factor.</li></ul><h3>Portfolio moves (Sep 2 closes)</h3><ul><li><b>US ETFs:</b> GDX -3.9%, SILJ -4.2%, SLVP -3.4%, VNM +0.3%.</li><li><b>SGX:</b> CDL +2.1%, DBS +0.9% (77.60), UOL +0.3%; Seatrium -2.3%, YZJ -2.1%, VICOM -1.1%; STI +0.6% to 5,744.</li><li><b>HK:</b> Xiaomi +1.8%, Tencent -0.7%, SMIC -0.9%; HSI 25,311.</li><li><b>Metals:</b> silver settled ~US$64.6 Sep 2 (4th down day, ~5% off late-Aug ~$68); gold Dec futures ~US$4,434 after four down sessions from ~$4,510.</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>None found</b> in public web sources for held names. SGXNet/HKEX feeds are poorly indexed — none surfaced, not proof of absence.</li></ul><h3>Congress trades</h3><ul><li><b>Rep. Michael Rulli (R-OH, House): SOLD GOOGL US$50,001-100,000</b>, traded Aug 24, disclosed late Aug. Meets the US$50K watch threshold. <a href=\"https://finance.yahoo.com/markets/stocks/articles/congressman-sold-alphabet-stock-three-193104909.html\">Source</a></li></ul><h3>Trump / policy watch (24-48h)</h3><ul><li><b>Fed hawkish repricing:</b> ~60-70% odds of +25bp on Sep 15-16; 10y UST 4.78-4.80% (highest since Jan 2025), 30y ~5.28%. ADP today, payrolls Friday.</li><li><b>US-Iran war:</b> fresh strikes on IRGC targets Sep 1; Trump ruled out nuclear use; Brent ~US$95.6 — energy inflation feeding the bond selloff.</li><li><b>Canada:</b> counter-tariffs on C$27.6bn of US goods effective Sep 8; steel/aluminum counter-tariffs rise to 50%.</li><li><b>G20:</b> all but China back action vs non-market policies; chair statement flags rare-earth export restrictions; Bessent pressing BOJ to hike Sep 17-18. JGB 10y hit 3%, first since 1996.</li><li><b>Singapore:</b> SORA bottomed and drifting up (1M ~1.25%); DBS raised fixed mortgage rates Sep 1; MAS neutral, next review Oct.</li></ul><h3>Risk</h3><ul><li><b>Watcher riskFlags: none today.</b> Yesterday saw silver -6.8% intraday and miners -8 to -10%.</li><li><b>Leveraged silver (IBKR):</b> 1,777 oz ~S$149k vs ~S$56,240 loan (~1.5x). A -6.7% silver day ~ -10% account equity; cushion thinner after this week's slide.</li><li><b>FX:</b> ~35% of net worth non-SGD; SGD near 2026 highs (USDSGD 1.2712). CNY piles ~S$1.65m are the largest single FX exposure.</li><li><b>Concentration:</b> ~62% of the liquid book is idle cash — low market risk, high repricing risk if the Fed re-hikes.</li><li><b>Rates vs SGD income sleeve:</b> rising SORA pressures REIT/developer block even as it helps DBS margins.</li></ul><h3>Alpha — signals, not advice</h3><ul><li><b>GDX/SILJ:</b> real-assets sleeve ~4% vs 20% target after a 13-14% two-day miner flush on rate repricing; soft payrolls Friday = recovery start, hot print = better entry later.</li><li><b>SMIC (0981.HK):</b> AI-bottleneck target 15% vs ~1% filled; China AI-sovereignty chokepoint, -0.9% while NVDA-MediaTek shows capex cycle intact — accumulation zone while pressure is rates-driven.</li><li><b>US duration/TIPS:</b> defense sleeve 0% vs 15% target; 10y 4.78% / 30y 5.28% — 10y at/above 5.0% around the FOMC = zone to start building.</li></ul>",
-  "insiderTrades": [],
+  "briefHtml": "<h3>NAV S$10,407,120 (-0.12% day; listed book -0.60%)</h3><ul><li><b>Biggest mover:</b> metals roared back — silver +4.4% to ~US$67.6, gold +3.6% to ~US$4,525 (live); Sep 3 US close: GDX +4.0%, SLVP +3.2%, SILJ +2.4%.</li><li><b>Key thing:</b> the Fed-hike trade cracked — ADP +38k (weakest since Jan), Waller leans hold, Williams sees easing inflation; Sep hike odds ~60-64% (from ~67%). Tonight's payrolls (8:30pm SGT, consensus ~+56k) decides if the rebound holds.</li></ul><h3>Portfolio moves (Sep 3 closes)</h3><ul><li><b>US ETFs:</b> GDX +4.0% (101.49), SLVP +3.2% (41.60), SILJ +2.4% (32.39), VNM -0.8%.</li><li><b>SGX:</b> Seatrium +1.4%, YZJ +1.3%, VICOM +1.1%, DBS +0.5% (77.95, record area); UOL -2.0%, CDL -0.9%; STI ended Aug at all-time closing high, JPM target 7,000.</li><li><b>HK:</b> Xiaomi -2.2%, Tencent -1.2%, SMIC -0.3%; HSI 25,252.</li><li><b>Metals:</b> spot gold printed ~US$4,545 on Sep 3; WGC: record 289t official-sector gold buying in Q2.</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>Singtel: six Change-of-Interest filings dated Sep 1</b> (directors Yong Ying-I, Yong Hsin Yue, Wee Siew Kim, Tan Tze Gay, Lim Swee Say, Lee Theng Kiat), filed with a Notice of Transfer of Treasury Shares — consistent with share-based director compensation, not open-market dealing. <a href=\"https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements\">Source</a></li><li>Singtel also ran daily buy-backs under its S$2bn programme on Aug 28, Sep 1, Sep 2. Nothing found for other held SGX/HK names.</li></ul><h3>Congress trades</h3><ul><li><b>Quiet week:</b> BeltwayIQ week-36 tally (Aug 31-Sep 6, in progress): 4 filings, 1 member, all sales, ~US$57k est. volume; names/tickers not shown publicly. <a href=\"https://www.beltwayiq.com/report/2026-w36\">Source</a></li><li>No new named trades beyond yesterday's item: Rep. Michael Rulli (R-OH) sold GOOGL US$50,001-100,000 (traded Aug 24).</li></ul><h3>Trump / policy watch (24-48h)</h3><ul><li><b>Fed:</b> ADP +38k; Waller leans hold; Williams: inflation easing as tariff effects fade; hike odds ~60-64%; payrolls tonight 8:30pm SGT (consensus ~+56k, July was -23k).</li><li><b>Tariffs:</b> Trump slaps up to 100% tariffs on foreign-made drones (Sep 3); Canada counter-tariffs on C$27.6bn of US goods effective Sep 8.</li><li><b>Iran/Hormuz:</b> two tankers mined in the strait; Trump: demined, \"zero tolerance\"; aides working to cap escalation before Nov 3 midterms; new \"economic asphyxiation\" sanctions; Lloyd's £1.4bn war loss; US diesel at 4-yr high.</li><li><b>AI:</b> Nvidia agrees US$13bn deal for Hugging Face; HPE record quarter; Broadcom -5% after modest beat.</li><li><b>Portfolio corporate:</b> Singtel-KKR completed S$6.6bn STT GDC acquisition (Sep 2).</li></ul><h3>Risk</h3><ul><li><b>Watcher riskFlags: none today.</b> Silver rebound rebuilt the leveraged-line cushion.</li><li><b>Leveraged silver (IBKR):</b> 1,777 oz ~S$152k vs ~S$56,240 loan (~1.5x); equity ~S$96k. Hot payrolls tonight likely retests US$64-65 silver support.</li><li><b>FX:</b> ~35% of net worth non-SGD; SGD firming (1.2712 to 1.2670 in a day) erodes USD/HKD/CNY sleeves in SGD terms.</li><li><b>Concentration:</b> ~62% of liquid book idle cash while STI makes all-time highs — opportunity cost now visible; DBS at record high; Astral NAV stale (Apr 30).</li><li><b>Event risk:</b> NFP tonight + Hormuz headlines + Canada tariffs Sep 8 into Monday's Asia open.</li></ul><h3>Alpha — signals, not advice</h3><ul><li><b>GDX/SILJ/SLVP:</b> flush reversed on the Fed-hike crack; sleeve ~4% vs 20% target. Weak NFP (<56k) confirms the add zone; hot NFP gives a second, better entry. Chart repair needs silver above US$67.2.</li><li><b>SMIC / Xiaomi:</b> US AI capex accelerating (NVDA US$13bn Hugging Face, HPE record) while Asia AI lags (SMIC -0.3%, Xiaomi -2.2%); AI-bottleneck target 15% vs ~1% filled — relative-value accumulation zone.</li><li><b>US duration/TIPS:</b> 10y round-tripped 4.81% to 4.76%; a hot-NFP spike toward 4.9-5.0% is the designated entry zone for the 15% defense sleeve — decide the trigger before the number.</li></ul>",
+  "insiderTrades": [
+    {
+      "ticker": "Z74.SI",
+      "insider": "Yong Ying-I",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    },
+    {
+      "ticker": "Z74.SI",
+      "insider": "Yong Hsin Yue",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    },
+    {
+      "ticker": "Z74.SI",
+      "insider": "Wee Siew Kim",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    },
+    {
+      "ticker": "Z74.SI",
+      "insider": "Tan Tze Gay",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    },
+    {
+      "ticker": "Z74.SI",
+      "insider": "Lim Swee Say",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    },
+    {
+      "ticker": "Z74.SI",
+      "insider": "Lee Theng Kiat",
+      "role": "Director",
+      "type": "Change of Interest (unclassified)",
+      "shares": null,
+      "value": null,
+      "date": "2026-09-01",
+      "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements"
+    }
+  ],
   "congressTrades": [
     {
       "member": "Michael Rulli",
@@ -44,46 +109,46 @@
   ],
   "trumpWatch": [
     {
-      "title": "Fed hike repricing (Sep 15-16 FOMC)",
-      "detail": "Markets price ~60-70% odds of a +25bp hike (funds rate 3.50-3.75%) after hawkish remarks from Chair Kevin Warsh; 10y UST 4.78-4.80% (highest since Jan 2025), 30y ~5.28%. Drove the 4-day gold/silver correction hitting the real-assets sleeve. ADP Wed and payrolls Fri are the next catalysts.",
-      "url": "https://www.webull.com.au/news-detail/15481471035982848?tickerId=913244540"
+      "title": "Fed-hike trade cracks on soft ADP + dovish pushback",
+      "detail": "ADP August +38k (weakest since Jan; manufacturing -17k); Fed governor Waller leans toward holding rates; NY Fed's Williams sees inflation easing as tariff effects fade. September hike odds slipped to ~60-64% from ~67%; dollar -0.7%, 10y to 4.76%. August payrolls tonight 8:30pm SGT (consensus ~+56k; July -23k) is the decider for the metals rebound.",
+      "url": "https://ca.finance.yahoo.com/news/gold-rebounds-september-interest-rate-155921340.html"
     },
     {
-      "title": "US-Iran war escalation",
-      "detail": "Fresh US strikes on IRGC targets at noon ET Sep 1; Trump publicly ruled out nuclear use Aug 31. Brent ~US$95.6, WTI ~US$90-91, highest since July; energy inflation is feeding the global bond selloff.",
-      "url": "https://news.futunn.com/en/post/78655214/us-stock-market-close-escalating-us-iran-tensions-trigger-a"
+      "title": "Trump tariffs up to 100% on foreign-made drones",
+      "detail": "New tariffs of up to 100% on foreign-made drones announced Sep 3 — defense/tech supply-chain theme relevant to the AI-bottleneck and defense sleeves.",
+      "url": "https://www.crossingwallstreet.com/"
     },
     {
-      "title": "Canada counter-tariffs effective Sep 8",
-      "detail": "C$27.6bn of US imports targeted, dollar-for-dollar response to US Section 338 tariffs; steel/aluminum counter-tariffs rise 25% to 50%. US-Canada trade conflict still escalating.",
+      "title": "Iran/Hormuz escalation management",
+      "detail": "Two tankers struck by mines in the Strait of Hormuz; Trump declared the strait demined with 'zero tolerance' for new mines. Senior aides working to prevent escalation before the Nov 3 midterms, with a more aggressive posture reportedly on the table after the vote. New 'economic asphyxiation' sanctions unveiled; Lloyd's estimates £1.4bn war loss; US diesel at four-year high. WTI ~US$91.5.",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-3rd-september-2026/article71420222.ece/amp/"
+    },
+    {
+      "title": "Nvidia US$13bn Hugging Face deal",
+      "detail": "Nvidia agreed a US$13bn deal for AI platform Hugging Face; HPE posted a record quarter with upsized guidance; Broadcom beat modestly and fell ~5% after the bell. AI capex buildout continues despite the rates scare.",
+      "url": "https://www.crossingwallstreet.com/"
+    },
+    {
+      "title": "Canada counter-tariffs effective Sep 8 (reminder)",
+      "detail": "C$27.6bn of US imports targeted from Monday Sep 8, dollar-for-dollar response to US Section 338 tariffs; steel/aluminum counter-tariffs rise 25% to 50%.",
       "url": "https://www.blakes.com/insights/canada-imposes-counter-tariffs-on-27-6-billion-of-u-s-imports-effective-september-8-2026/"
-    },
-    {
-      "title": "G20 backs action vs non-market policies (China isolated)",
-      "detail": "All G20 finance chiefs except China backed action on distorted trade; chair statement urged avoiding export restrictions on critical minerals (rare-earths lever stays live); Bessent pressed BOJ toward a Sep 17-18 hike; Japan 10y JGB hit 3% for the first time since 1996.",
-      "url": "https://www.tbsnews.net/world/g20-finance-chiefs-except-china-back-action-distorted-trade-1530976"
-    },
-    {
-      "title": "Singapore rates drifting up",
-      "detail": "SORA bottomed and climbing (1M ~1.25%, 3M ~1.18% end-Aug); DBS raised its 3-yr fixed HDB package off 1.70% from Sep 1; MAS neutral, next review October. Tailwind for banks, headwind for S-REITs/developers.",
-      "url": "https://fairloanmortgage.com/mortgage-loan/singapore-home-loan-rates-september-2026/"
     }
   ],
   "opportunities": [
     {
-      "ticker": "GDX / SILJ",
-      "thesis": "Real-assets sleeve is ~4% of NAV vs 20% barbell target; miners flushed ~13-14% in two sessions purely on Fed-hike repricing while the structural deficit/war-inflation/central-bank-buying story is unchanged.",
-      "signal": "Watch Friday payrolls: soft print likely unwinds the hike pricing and starts the recovery (silver already +2% overnight); hot print extends the sale and improves the entry. Signals, not advice."
+      "ticker": "GDX / SILJ / SLVP",
+      "thesis": "Real-assets sleeve ~4% of NAV vs 20% barbell target; the two-day flush reversed exactly on the Fed-hike crack (GDX back above US$100, silver ~US$67.6), validating that the selloff was rates-driven, not thesis-driven.",
+      "signal": "Tonight's NFP: weak print (<56k) likely collapses hike odds and confirms the add zone; hot print produces a second flush and a better entry. Chart repair needs silver above US$67.2. Signals, not advice."
     },
     {
-      "ticker": "0981.HK (SMIC)",
-      "thesis": "AI-bottleneck target 15% vs ~1% filled; SMIC is the China AI-sovereignty chokepoint and the AI capex cycle is still expanding (Nvidia's US$3.5bn MediaTek investment this week).",
-      "signal": "HK tech pressure is rates-driven, not fundamentals-driven; accumulation zone for the target sleeve while SMIC trades -0.9% at HK$68.25. Signals, not advice."
+      "ticker": "0981.HK (SMIC) / 1810.HK (Xiaomi)",
+      "thesis": "AI-bottleneck target 15% vs ~1% filled; US AI capex keeps accelerating (NVDA US$13bn Hugging Face, HPE record quarter) while Asia-listed AI hardware lags the US tape (SMIC -0.3%, Xiaomi -2.2% on Sep 3).",
+      "signal": "Divergence between US AI capex headlines and HK-listed AI names is a relative-value accumulation zone, not a fundamentals problem. Signals, not advice."
     },
     {
       "ticker": "US 10y / TIPS (Defense sleeve)",
-      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled; 10y UST 4.78% and 30y 5.28% with a live hike threat means duration is approaching levels where the sleeve pays for its keep.",
-      "signal": "10y at or above 5.0% around the Sep 15-16 FOMC = zone to start building duration; a Warsh hike followed by a growth scare is the classic setup. Signals, not advice."
+      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled; 10y UST round-tripped 4.81% to 4.76% on the data, showing both sides of the trade are live.",
+      "signal": "A hot NFP tonight that spikes the 10y toward 4.9-5.0% is the designated entry zone for the 15% defense target; a weak NFP means duration rallies away — decide the trigger before the number. Signals, not advice."
     }
   ]
 }
