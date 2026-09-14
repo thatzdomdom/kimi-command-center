@@ -1,25 +1,40 @@
 {
-  "date": "2026-09-11",
-  "navSgd": 10360383.0,
-  "navChgPct": -0.342,
-  "listedChgPct": -1.806,
+  "date": "2026-09-14",
+  "navSgd": 10360104.0,
+  "navChgPct": -0.555,
+  "listedChgPct": -2.906,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2681,
-    "CNY": 0.189212,
-    "HKD": 0.161725,
-    "MYR": 0.312263
+    "USD": 1.2672,
+    "CNY": 0.189208,
+    "HKD": 0.161593,
+    "MYR": 0.311504
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "SMIC -6.8% in a day",
+      "title": "SMIC -6.0% in a day",
       "detail": "Position is 1.1% of NW."
     },
     {
       "level": "critical",
-      "title": "Xiaomi Corp -5.5% in a day",
+      "title": "Xiaomi Corp -7.3% in a day",
       "detail": "Position is 1.1% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "ETFMG Jr Silver Miners -5.9% in a day",
+      "detail": "Position is 0.9% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "iShares Global Silver Miners -6.0% in a day",
+      "detail": "Position is 1.0% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "City Developments -5.1% in a day",
+      "detail": "Position is 0.6% of NW."
     }
   ],
   "navHistory": [
@@ -45,68 +60,57 @@
     },
     {
       "date": "2026-09-11",
-      "nav": 10360383.0
+      "nav": 10362331.0
+    },
+    {
+      "date": "2026-09-14",
+      "nav": 10360104.0
     }
   ],
-  "snapshotAt": "2026-09-11T07:40:14+08:00",
+  "snapshotAt": "2026-09-14T07:40:20+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,360,383 (-0.34% day; listed book -1.81%)</h3><ul><li><b>Biggest mover:</b> silver — futures ~US$64.0, down ~5.8% vs the Sep 10 settlement (live ~07:50 SGT), after SLV's -3.8% plunge on Sep 10; Sep 10 US close: SILJ -4.0%, SLVP -3.9%, GDX -3.5%.</li><li><b>Key thing:</b> August US CPI lands tonight 8:30pm SGT — the decider for next week's Sep 15-16 FOMC, priced as a ~60% coin-flip HIKE, against an oil shock (WTI $102.93, Brent $108.28 after the US sank five Iranian tankers). Waller tied his vote to this print.</li></ul><h3>Portfolio moves (Sep 10 closes unless noted)</h3><ul><li><b>US ETFs:</b> SILJ -4.0%, SLVP -3.9%, GDX -3.5%, VNM +0.8%.</li><li><b>Watcher flags (critical):</b> SMIC -6.8% and Xiaomi -5.5% — verified vs Yahoo closes: actual Sep 10 moves were SMIC -2.4% and Xiaomi -1.7%; the flags measure the multi-day slide off a stale baseline (watcher skipped Sep 5-9). The slide is real: SMIC -10.3% from Aug 31, Xiaomi -8.9% from Sep 4, Tencent -6.5% from Aug 28.</li><li><b>SGX:</b> Yanlord -2.8%, YZJ -2.3%, CDL -1.6%, DBS -0.9% (76.79); STI -0.7% to 5,729.6.</li><li><b>HK:</b> SMIC 63.45, Xiaomi 25.92, Tencent 425.6; HSI 25,275 (-0.2%) — onshore CSI 300 fell only -0.5%, i.e. an offshore/HK de-rating.</li><li><b>Metals (live):</b> silver US$64.01 (-5.8%), gold futures US$4,356 (-1.4%); silver has taken out the US$64.7 support.</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>None found</b> for held names Sep 4-11 in public web sources. Last week's Singtel cluster (six director Change-of-Interest filings, Sep 1, likely share-based comp) remains the most recent item. None surfaced is not proof of absence.</li></ul><h3>Congress trades</h3><ul><li><b>No new filings this week</b> — BeltwayIQ week-37 (Sep 7-13, in progress) shows 0 filings disclosed so far. <a href=\"https://www.beltwayiq.com/report/2026-w37\">Source</a></li><li>Week 36 closed quiet: 4 filings, 1 member, all sales, ~US$57k. Only named item in the window: Rep. Michael Rulli (R-OH) sold GOOGL US$50,001-100,000 (traded Aug 24).</li></ul><h3>Trump / policy watch (24-48h)</h3><ul><li><b>Iran war escalation:</b> US sank five Iranian oil tankers; Iran attacked 10 ships near Hormuz (one seafarer killed); Trump expects the war to end after midterms (contra advisors' warnings it could run past Jan 2029) and threatened strikes on Pickaxe Mountain near Natanz. WTI $102.93 (+7.1%), Brent $108.28; US diesel record $5.85/gal.</li><li><b>IAEA reported Iran to the UN Security Council</b> (first time in 20 years) over uranium traces at undeclared sites — uranium-theme relevant; China/Russia opposed.</li><li><b>Fed politics:</b> Aug payrolls +162k revived the Sep 15-16 hike to ~60%; Trump demanded the Fed CUT rates or face trade retaliation; promised a US$5,000 \"Trump dividend\" per adult if the GOP holds Congress. August CPI tonight is the decider.</li><li><b>Canada:</b> new EOs impose 50% tariffs on more Canadian goods effective Sep 15.</li><li><b>Plumbing:</b> Treasury tripled longer-dated buybacks to US$6bn (landed soft, yields rose; 30y >5.3%); ECB hiked Sep 10.</li></ul><h3>Risk</h3><ul><li><b>Watcher flags:</b> SMIC -6.8% / Xiaomi -5.5% (critical) — multi-day moves off a stale baseline; the HK-tech slide is real and continues.</li><li><b>Leveraged silver (IBKR):</b> silver -5.8% live ≈ -8.7% equity on the line today if it holds; position ~S$144k vs ~S$56,240 loan → equity ~S$88k (was ~S$96k a week ago). Hot CPI extends the flush (BofA Q4 target US$55 vs Goldman US$85-100).</li><li><b>Oil-shock stagflation loop:</b> Brent $108 + record diesel feeds the very CPI the Fed reacts to; pressures the SGD income sleeve via rates and margins via energy costs.</li><li><b>FX:</b> ~35% of net worth non-SGD; USDCNY ~6.70 — oil shock is CNY-negative; watch the ~S$1.65m CNY piles.</li><li><b>Concentration:</b> the ~62% cash pile preserved capital this week — pre-commit deployment triggers before tonight's CPI and next week's FOMC.</li><li><b>Event stack:</b> CPI tonight → FOMC Sep 15-16 → Canada tariffs Sep 15 → BOJ Sep 17-18 → Iran headlines.</li></ul><h3>Alpha — signals, not advice</h3><ul><li><b>GDX/SILJ/SLVP + silver:</b> real-assets sleeve ~4% vs 20% target; silver round-tripped to ~US$64 with the structural bid intact (record Q2 official gold buying, ~US$2bn weekly gold-ETF inflows). Cool CPI tonight = snap-back entry; hot CPI = final flush toward US$60-62 = aggressive add zone.</li><li><b>SMIC/Xiaomi/Tencent:</b> SMIC -10% from Aug 31 while hyperscaler 2026 capex guidance was raised ~US$30bn to ~US$733bn (UOB Kay Hian); the wedge between AI capex fundamentals and HK prices is the widest yet. AI-bottleneck 15% vs ~1% filled; Asia barbell 10% vs ~3% — staged accumulation while the oil shock dominates.</li><li><b>US duration/TIPS (Defense sleeve):</b> 10y at ~4.95%, a hair under the 5.0% trigger; a hot-CPI print to ≥5.0% IS the signal to start building the 15% defense sleeve into peak-hike pricing; cool CPI = stand down.</li></ul>",
+  "briefHtml": "<h3>NAV S$10,360,104 (watcher -0.56%; listed -2.91% — stale baseline, see notes)</h3><ul><li><b>Biggest mover (Fri, verified):</b> Intel +19.4% to $79.77 as Oracle's cloud beat reignited the AI-infrastructure trade (Dell +12%, HPE +12%). In-book: silver miners ground lower (SILJ ~-2% to $30.55); SMIC fell a 4th straight day to HK$63.15 (-10% in two weeks).</li><li><b>The one thing:</b> Wednesday's FOMC (~2am SGT Thu) is an ~87-90% priced <b>hike</b> after Friday's hot core CPI (+0.3% m/m vs +0.2% exp). Warsh faces a live oil shock (WTI ~$100, record diesel >$6, Houthis seized Perim Island) with the 10y just below 5%.</li></ul><h3>Watcher flags: 5 critical — all stale-baseline artifacts</h3><ul><li>Verified Friday moves: SMIC <b>-0.47%</b> (63.15), Xiaomi <b>+1.70%</b> (26.36), Tencent +0.66% (428.40), CDL <b>-0.93%</b> (8.50), SILJ ~-2% (30.55; NAV -0.50%), SIL +0.17% (SLVP proxy). The '-6%/-7.3% in a day' flags compare vs ~Sep 4 closes, not Friday.</li><li>Real drift since Sep 4: SMIC -10% in 2 weeks, SILJ -3.6%, CDL ~-5% from early-Sep highs. Slow bleed, not crash.</li><li>FX: USDSGD 1.2672; implied USDCNY ~6.70 (CNY strength flatters the CNY cash piles). priceErrors: L46.SI feed still down.</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>None found</b> for held names Sep 7-14 (SGXNet/web + HKEX checks; Seatrium IR page shows nothing since June). None surfaced is not proof of absence.</li></ul><h3>Congress trades</h3><ul><li><b>Zero filings</b> — BeltwayIQ week-37 (Sep 7-13) closed at 0 filings / 0 members / ~$0k. <a href=\"https://www.beltwayiq.com/report/2026-w37\">Source</a></li><li>Capitol Trades shows an undated 5-trade cluster from Rep. Cisneros (D-CA): sold AMD, APP; bought AGIO, APH, APG — all $1k-15k, below the $50k alert threshold. <a href=\"https://www.capitoltrades.com/\">Source</a></li></ul><h3>Policy watch</h3><ul><li><b>FOMC Wed:</b> hot core CPI pushed hike odds to ~87-90%; RSM expects ≥2 more hikes over 12m. Fed in blackout — statement + dots are the only signals. <a href=\"https://finance.yahoo.com/economy/policy/article/fed-rate-hike-odds-surge-to-90-on-monthly-jump-in-core-prices-131206510.html\">Yahoo</a></li><li><b>Iran:</b> Houthis seized Perim Island (Red Sea) Fri; Saudi East-West pipeline temporarily closed after drone attack; US restricted Hormuz air-defence slots; Tehran rejects talks unless all demands met. <a href=\"https://en.wikipedia.org/wiki/2026_Iran_war\">Timeline</a></li><li><b>Canada:</b> 50% tariffs on additional Canadian goods effective tomorrow Sep 15 — one day before the FOMC; Canada's C$27.6bn counter-tariffs live since Sep 8. <a href=\"https://www.blakes.com/insights/us-canada-tariffs-timeline-of-key-dates-and-documents/\">Blakes</a></li></ul><h3>Market context (~07:45 SGT)</h3><ul><li>US Fri: S&P 7,656.98 (+0.86%), Dow 52,573.29 (+0.98%), Nasdaq 26,333.04 (+0.96%) — all down on the week. VIX 15.84 (-11.2%).</li><li>10y just below 5% (highest since Oct 2023); gold ~$4,380 (Fri low $4,318); silver $64.61 (+0.5% vs Fri settle $64.284); WTI ~$100, Brent ~$104, diesel record >$6.</li></ul><h3>Risk</h3><ul><li><b>Binary event:</b> Wed FOMC 87-90% priced to hike; VIX 15.84 prices neither tail. Hawkish hike → 10y through 5%, metals + HK tech hit together; surprise hold → violent relief rally. Gap lands ~2am SGT Thu.</li><li><b>Silver line:</b> 1,777 oz vs ~S$56,240 loan ≈ 1.5x; equity ~S$89.2k at $64.61. Flush to $60 = -11.6% equity; no margin danger, but carry rises with every hike.</li><li><b>Oil-stagflation loop tightening into the Fed:</b> Perim Island + Saudi pipeline closure + record diesel feed September CPI. Concentration: metals complex = dominant factor bet. FX: ~35% non-SGD. 62% idle cash = the hedge and the powder.</li></ul><h3>Alpha (signals, not advice)</h3><ul><li><b>US 10y/TIPS</b> (Defense 15% vs ~0%): post-FOMC 10y ≥5.0% = trigger to start building duration into peak-hike pricing; scale in tranches.</li><li><b>Silver/SLVP/SILJ</b> (Real assets 20% vs ~4%): hike + $62-64 holding = reload zone (sell-rumor-buy-news); clean break of $60 = wait. Leveraged line = no urgency.</li><li><b>SMIC/Tencent/Xiaomi</b> (Asia 10% vs ~3%; AI 15% vs ~1%): US AI-infra ripped Friday while SMIC hit HK$63.15 (-16.7% from Aug 18, consensus target ~94). Wednesday is the trigger either way; staggered small tranches.</li></ul>",
   "insiderTrades": [],
-  "congressTrades": [
-    {
-      "member": "Michael Rulli",
-      "chamber": "House",
-      "ticker": "GOOGL",
-      "type": "Sale",
-      "range": "$50,001-$100,000",
-      "date": "2026-08-24",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/congressman-sold-alphabet-stock-three-193104909.html"
-    }
-  ],
+  "congressTrades": [],
   "trumpWatch": [
     {
-      "title": "Iran war escalation — tankers sunk, Hormuz attacks",
-      "detail": "US sank five Iranian oil tankers; Iran attacked 10 ships near Hormuz (one seafarer killed, one missing); US aircraft reportedly damaged at Jordan's Muwaffaq Salti base. Trump expects the war to end after the Nov midterms, contra advisors' warnings it could run past Jan 2029; threatened strikes on Pickaxe Mountain near Natanz. WTI +7.1% to $102.93, Brent $108.28; US diesel record $5.85/gal.",
-      "url": "https://www.justsecurity.org/156837/early-edition-september-10-2026/"
+      "title": "FOMC Wednesday: hike odds ~87-90% after hot core CPI",
+      "detail": "August core CPI +0.3% m/m (vs +0.2% expected; 2.4% y/y), headline 3.4% y/y. CME FedWatch ~87-90% for a 25bp hike on Sep 16 (decision ~2am SGT Thu). Chair Warsh: underlying inflation hasn't 'meaningfully improved'. RSM expects at least two more hikes over the next year. Fed in blackout since Sep 5.",
+      "url": "https://finance.yahoo.com/economy/policy/article/fed-rate-hike-odds-surge-to-90-on-monthly-jump-in-core-prices-131206510.html"
     },
     {
-      "title": "IAEA reports Iran to UN Security Council (first time in 20 years)",
-      "detail": "35-member board voted to report Iran over uranium traces at undeclared sites; sponsored by US/UK/France/Germany; China, Russia, Niger opposed. Direct uranium-theme relevance.",
-      "url": "https://www.justsecurity.org/156837/early-edition-september-10-2026/"
+      "title": "Iran war opens new front — Houthis seize Perim Island; Saudi pipeline shut",
+      "detail": "Sep 11: Houthis retook Perim Island at the Red Sea's southern entrance; Saudi Arabia temporarily closed its East-West crude pipeline after a drone attack from Iraq. Sep 12: US restricted air-defence time slots for Hormuz transits; Tehran says no talks unless the US accepts all its conditions. NYT: Iran's hard-liners sabotaged the US peace deal. Trump framed the war as a continuation of the post-9/11 War on Terror. WTI ~$100, Brent ~$104, US diesel record >$6/gal.",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
     {
-      "title": "Fed hike coin-flip into tonight's CPI; Trump pressure campaign",
-      "detail": "August payrolls +162k (vs ~56k expected) revived Sep 15-16 hike odds to ~60%; August CPI tonight 8:30pm SGT is the decider (Waller tied his vote to it). Trump publicly demanded the Fed CUT rates or face trade retaliation; promised a US$5,000 'Trump dividend' per adult (~US$1.35tn) if Republicans hold Congress, plus US$500 Obamacare rebate checks to ~1M people pre-midterms.",
-      "url": "https://recessionalert.com/mib-daily-payrolls-162k-against-56k-bought-a-september-hike-the-president-demanded-cuts-anyway-and-memory-rallied-regardless-as-record-5-850-diesel-leaves-one-cpi-print-deciding-the-meeting/"
+      "title": "Canada trade war: 50% tariffs on more goods effective Sep 15",
+      "detail": "Trump issued five proclamations Sep 8 ('Excluding Certain Canadian Products from Importation'); CTV-reported 50% tariffs on additional Canadian goods take effect Sep 15 — one day before the FOMC. Canada's C$27.6bn counter-tariffs (15/25/50%) live since Sep 8. Second supply-side price impulse landing the same week as the Fed.",
+      "url": "https://ballotpedia.org/Donald_Trump%27s_executive_orders_and_actions_on_trade_and_tariffs,_2025-2026"
     },
     {
-      "title": "Canada trade war widens — 50% tariffs on more goods from Sep 15",
-      "detail": "New executive orders impose 50% tariffs on additional Canadian goods effective Sep 15, on top of Canada's C$27.6bn counter-tariffs that took effect Sep 8.",
-      "url": "https://www.ctvnews.ca/world/trumps-tariffs/article/calls-for-companies-that-leave-canada-to-be-punished-as-trade-war-intensifies-live-updates-here/"
-    },
-    {
-      "title": "Treasury buyback tripling lands soft; ECB hikes",
-      "detail": "US Treasury tripled longer-dated buybacks to US$6bn but below market hopes (~US$10bn) — 10y rose to ~4.95% (highest since Oct 2023), 30y through 5.3%. ECB hiked Sep 10. AI policy churn: Treasury CIO Corcos moved off AI policy (Politico); DOJ probing Nvidia's Groq licensing deal.",
-      "url": "https://www.thecorequant.com/asx-pre-market-thursday-10-september-2026"
+      "title": "AI infrastructure bid confirmed — Oracle cloud beat drives INTC +19%, Dell +12%",
+      "detail": "Friday's US rally was led by AI-infrastructure names after Oracle's strong cloud quarter: Intel +19.4% to $79.77, Dell +12% (record), HPE +12%, HP +8.4%. Hyperscaler capex (~US$733bn annualized) intact — the fundamental leg under the AI-bottleneck theme while HK names de-rate on rates.",
+      "url": "https://www.stl.news/stock-market-today-friday-september-11th-2026/"
     }
   ],
   "opportunities": [
     {
-      "ticker": "GDX / SILJ / SLVP + silver",
-      "thesis": "Real-assets sleeve ~4% of NAV vs 20% barbell target; silver round-tripped the post-ADP rebound to ~US$64 while the structural bid stays intact (record Q2 official-sector gold buying; ~US$2bn weekly gold-ETF inflows). The selloff is rates/oil-driven, not thesis-driven.",
-      "signal": "Cool CPI tonight = snap-back entry; hot CPI likely forces a final flush toward US$60-62 silver = the aggressive add zone. Pre-commit the trigger. Signals, not advice."
-    },
-    {
-      "ticker": "0981.HK / 1810.HK / 0700.HK",
-      "thesis": "AI-bottleneck target 15% vs ~1% filled; Asia barbell 10% vs ~3%. SMIC -10% from Aug 31, Xiaomi -9% from Sep 4, Tencent -6.5% from Aug 28 while hyperscaler 2026 capex guidance was raised ~US$30bn to ~US$733bn and Tencent/Baidu capex estimates raised 18%/48% (UOB Kay Hian).",
-      "signal": "The wedge between AI capex fundamentals and HK prices is the widest yet; macro capitulation, not fundamentals — staged accumulation zone while the oil shock dominates headlines. Signals, not advice."
-    },
-    {
       "ticker": "US 10y / TIPS (Defense sleeve)",
-      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled; 10y UST at ~4.95%, highest since Oct 2023, 30y through 5.3% — a hair under the 5.0% entry zone.",
-      "signal": "A hot CPI tonight printing 10y >= 5.0% IS the trigger to start building the 15% defense sleeve into peak-hike pricing (Warsh hike + oil shock = duration insurance at its cheapest on a 2-3y view). Cool CPI = stand down. Signals, not advice."
+      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled. 10y UST just below 5% — highest since Oct 2023 — into an ~87-90% priced Warsh hike on Sep 16. Peak-hike pricing + oil shock = duration insurance at its cheapest on a 2-3y view.",
+      "signal": "Post-FOMC 10y >= 5.0% starts the build; scale in tranches (RSM sees >=2 more hikes over 12m). Surprise hold = stand down. Signals, not advice."
+    },
+    {
+      "ticker": "Silver / SLVP / SILJ",
+      "thesis": "Real assets target 20% vs ~4% filled. Silver held ~$64 through a hot-CPI week (+0.5% this morning to $64.61); Friday's miner 'crash' was mostly stale-baseline optics (SILJ NAV -0.50%, SIL +0.17%). Structural deficit + inflation-hedge bid intact.",
+      "signal": "Classic sell-the-rumor setup: if Wednesday's hike lands and silver holds $62-64, the flush is done = reload zone. Clean break of $60 = wait. Leveraged IBKR line means no urgency. Signals, not advice."
+    },
+    {
+      "ticker": "0981.HK / 0700.HK / 1810.HK",
+      "thesis": "Asia barbell 10% vs ~3%; AI bottlenecks 15% vs ~1%. SMIC HK$63.15 is -16.7% from Aug 18 vs consensus target ~HK$94, while US AI-infra ripped Friday (INTC +19%, Dell +12% on Oracle cloud) with hyperscaler capex ~US$733bn intact. The wedge is rates-driven, not fundamentals.",
+      "signal": "Wednesday's FOMC is the trigger either way: a hold or dovish-guided hike likely snaps HK tech back; a hawkish hike probably gives one more leg down to buy. Staggered small tranches only. Signals, not advice."
     }
   ]
 }
