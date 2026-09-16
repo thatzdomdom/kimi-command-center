@@ -1,55 +1,30 @@
 {
-  "date": "2026-09-15",
-  "navSgd": 10354132.0,
-  "navChgPct": -0.615,
-  "listedChgPct": -3.229,
+  "date": "2026-09-16",
+  "navSgd": 10350927.0,
+  "navChgPct": -0.527,
+  "listedChgPct": -2.788,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2702,
-    "CNY": 0.189639,
-    "HKD": 0.161957,
-    "MYR": 0.311782
+    "USD": 1.2732,
+    "CNY": 0.19001,
+    "HKD": 0.162315,
+    "MYR": 0.311868
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "SMIC -10.2% in a day",
-      "detail": "Position is 1.1% of NW."
+      "title": "SMIC -7.0% in a day",
+      "detail": "Position is 1.0% of NW."
     },
     {
       "level": "critical",
-      "title": "VanEck Gold Miners -5.2% in a day",
-      "detail": "Position is 1.2% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "ETFMG Jr Silver Miners -7.3% in a day",
+      "title": "ETFMG Jr Silver Miners -7.5% in a day",
       "detail": "Position is 0.9% of NW."
     },
     {
       "level": "critical",
-      "title": "iShares Global Silver Miners -7.3% in a day",
+      "title": "iShares Global Silver Miners -7.6% in a day",
       "detail": "Position is 0.9% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "City Developments -5.2% in a day",
-      "detail": "Position is 0.6% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Silver — unallocated (IBKR) -6.3% in a day",
-      "detail": "Position is 1.4% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Listed book -3.23% today",
-      "detail": "All listed securities combined."
-    },
-    {
-      "level": "critical",
-      "title": "Silver -6.3% — leveraged IBKR line",
-      "detail": "~1.5x leverage implies account equity ~-9.4%."
     }
   ],
   "navHistory": [
@@ -83,99 +58,198 @@
     },
     {
       "date": "2026-09-15",
-      "nav": 10354132.0
+      "nav": 10345833.0
+    },
+    {
+      "date": "2026-09-16",
+      "nav": 10350927.0
     }
   ],
-  "snapshotAt": "2026-09-15T07:40:15+08:00",
+  "snapshotAt": "2026-09-16T07:40:11+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,354,132 (watcher -0.62%; listed -3.23% — stale baseline, see notes)</h3><ul><li><b>Biggest mover (Mon, verified):</b> US semis — DRAM -7%, SOXX -5.5% (MRVL -7.5%, INTC -5.5%, NVDA -3.5%) after Anthropic CEO Amodei's AI-slowdown essay backed by Musk/Altman/Hassabis. In-book: SMIC -2.9% to HK$61.30 (5th down day); CDL S$8.15 (~-4.1% Monday per CDL IR); Xiaomi +3.0%, Tencent +0.5% diverged higher.</li><li><b>The one thing:</b> FOMC decision ~2:00am SGT Thursday — CME FedWatch 93% priced for a 25bp hike to 3.75-4.00% (first since Jul 2023, first under Chair Warsh). 10y UST breached 5.01% intraday Monday (first >5% since Oct 2023), settled ~4.99%.</li></ul><h3>Watcher flags: 8 critical — all stale-baseline artifacts</h3><ul><li>Verified Monday moves vs flags: SMIC <b>-2.93%</b> (flag -10.2%), silver ~<b>-1%</b> (flag -6.3%), SILJ $29.39 <b>-3.8%</b> (flag -7.3%), GDX ~$94.40 <b>-2.8%</b> (flag -5.2%), CDL S$8.15 (flag -5.2% = Friday-vs-Sep-4 math; cumulative from Sep 4 now ~-9%). Flags compare vs ~Sep 4 baselines, not Monday. Slow bleed, not crash.</li><li>FX: USDSGD 1.2702; implied USDCNY ~6.70. priceErrors: L46.SI feed still down (3rd session). NAV history reconciles flat: 10,352,814 → 10,354,132 (+0.01%).</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>None found</b> for held names Sep 8-15 (SGX announcements/web + HKEX checks on DBS, F&N, VICOM, Straits Trading, CDL, UOL, Wing Tai, Yanlord, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT, Tencent, SMIC, Xiaomi). US holdings are ETFs — no insider reports exist. None surfaced is not proof of absence.</li></ul><h3>Congress trades</h3><ul><li>BeltwayIQ week-38: <b>0 filings</b> so far (week in progress; w37 also zero). <a href=\"https://www.beltwayiq.com/report/2026-w38\">Source</a></li><li>Capitol Trades feed, disclosed Mon Sep 14 (US): Rep. John Rose (R-TN) sold AMCPX $500K-1M and <b>GOOGL $250K-500K</b>; Rep. Thomas Kean Jr (R-NJ) sold GOOGL, AMCR, JNJ ($1K-15K each). All sells, all House GOP; trade dates not shown (45-day STOCK Act lag). <a href=\"https://www.capitoltrades.com/\">Source</a></li></ul><h3>Policy watch</h3><ul><li><b>AI fight:</b> Trump on Truth Social — \"SICK conspiracy against AI and Data Centers… WHOEVER WINS AI, WINS!\" — rejecting the Amodei/Altman/Musk/Hassabis slowdown push; Vance calls it a \"Trojan Horse\". Xi pitched a China-led AI ecosystem at BRICS. <a href=\"https://finance.yahoo.com/technology/article/trump-dismisses-calls-to-slow-ai-development-blames-conspiracy-against-ai-and-data-centers-153021111.html\">Source</a></li><li><b>FOMC eve:</b> 93% priced hike to 3.75-4.00% Thu 2am SGT; Deutsche Bank sees a \"baby cycle\" (+1.14pp avg to 10y over 12m); BOJ Friday. <a href=\"https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09142026-12120379\">Source</a></li><li><b>Iran war:</b> Saudi East-West pipeline (4-5m bpd, ~4% of global supply) shut Sep 11 after drone attacks from Iraq; repair est. 3-5 weeks. Hormuz vessel struck; US sanctions on a Russian bank; Vance confirms direct Houthi talks. Brent ~$106-108. <a href=\"https://www.news18.com/world/us-iran-war-live-updates-houthis-red-sea-saudi-oil-pipeline-attack-trump-vessels-strait-of-hormuz-oil-prices-hike-latest-news-liveblog-10327800.html\">Source</a></li><li><b>Canada:</b> Section 338 product additions/removals effective TODAY Sep 15; import bans Sep 29 — second supply-side price impulse in FOMC week. <a href=\"https://ballotpedia.org/Donald_Trump%27s_executive_orders_and_actions_on_trade_and_tariffs,_2025-2026\">Source</a></li></ul><h3>Risk</h3><ul><li><b>Event risk:</b> 93% priced = asymmetric surprise on a hold; hawkish guidance = one more de-rating leg for HK tech / SGX property / miners.</li><li><b>Margin:</b> IBKR silver line 1,777 oz x ~$63.6 x 1.2702 ≈ S$143.6k position vs ~S$56.2k loan (~1.5x; equity ~S$87k). Silver held $63-64 through the repricing; post-FOMC flush <$60 starts to matter.</li><li><b>Concentration/FX:</b> ~62% of liquid book idle cash; ~35% of net worth non-SGD.</li></ul><h3>Alpha (signals, not advice)</h3><ul><li><b>Defense sleeve (15% vs ~0%):</b> 10y 5.01% printed the trigger a day early — post-statement ≥5% starts the tranche build; surprise hold = stand down.</li><li><b>Silver/SLVP/SILJ (20% vs ~4%):</b> sell-rumor-buy-news — hike lands + $62-64 holds = reload zone; clean break <$60 = wait.</li><li><b>HK AI (SMIC/Tencent/Xiaomi):</b> essay selloff is sentiment, not capex (~US$733bn intact; IGV +5% same day). Xiaomi +3%/Tencent +0.5% diverging; SMIC -19% from Aug 18 vs ~HK$94 target; Huawei-backed DUV tools in SMIC testing. Post-FOMC stabilization = staggered small tranches.</li></ul>",
+  "briefHtml": "<h3>NAV S$10,350,927 (watcher -0.53%; listed -2.79% — stale baseline, see notes)</h3><ul><li><b>Biggest mover (Tue, verified):</b> oil — WTI <b>+4.2% to $105.70</b>, Brent $108.55 on fresh Houthi strikes against Saudi (East-West pipeline still shut). In-book: <b>Tencent +1.90%</b> to HK$438.80 led HK; SMIC bleed slowed to -0.90% (HK$60.75, 6th down day); Xiaomi -2.43%; STI -1.39%.</li><li><b>The one thing:</b> FOMC decides TONIGHT — statement ~2:00am SGT Thu, Warsh presser ~2:30am. CME FedWatch <b>95% priced</b> for +25bp to 3.75-4.00% (first hike since Jul 2023, first under Warsh). 10y closed ~5.00% after touching <b>5.041% — highest since 2007</b>. The rate is priced; the fight is guidance (money markets price &gt;90bp of hikes over 12m).</li></ul><h3>Watcher flags: 3 critical — all stale-baseline artifacts (4th day running)</h3><ul><li>Verified Tuesday vs flags: SMIC <b>-0.90%</b> (flag -7.0%), SILJ $29.25 <b>+0.24%</b> (flag -7.5%), SLVP Monday $37.61 -3.84% (flag -7.6%, Tue unverified). Flags compare vs ~Sep 4-8 baselines, not Tuesday. Real cumulative drift: SMIC ~-20% from Aug 18 pivot, SILJ ~-8% from Sep 4, CDL ~-9% from Sep 4.</li><li>FX: USDSGD 1.2732; implied USDCNY ~6.70. priceErrors: L46.SI feed still down (4th session). navHistory reconciles +0.05% (10,345,833 → 10,350,927); watcher restated yesterday's Sep 15 NAV — standing quirk.</li></ul><h3>Insider trades (SGX/HK, 7d)</h3><ul><li><b>None found</b> for held names Sep 9-16 (SGX Form 1/3 hits — Metrocon, AsiaPhos — are not held names; HKEX checks on Tencent/SMIC/Xiaomi clean). Color: <b>Singtel's daily S$2bn buy-back</b> continued (filings Sep 11, 14) — issuer demand, not insider dealing. US holdings are ETFs — no insider reports exist.</li></ul><h3>Congress trades (filings Sep 10-15)</h3><ul><li>House Dem (NJ-5): <b>MSFT options ~$1M two-sided</b> (bought AND sold $250K-500K and $500K-1M, Aug 14, filed Sep 15) + small QSR/AMAT/RSG buys. House Dem (WA-1): bought $15-50K NYC muni bond.</li><li>Sen. King (I-ME): sold EA $15-50K (filed Sep 14). Rep. Kean (R-NJ-7): sold MSFT $15-50K + GOOGL/AMCR/JNJ small; bought LIN/MTZ (filed Sep 14).</li><li>Sen. Republican (AR): sold <b>Constellation Energy</b> $1-15K (nuclear/AI-power name), bought Otis/small-caps/2x SPY (filed Sep 11). Rep. Cisneros (D-CA-31): ~45-trade August batch — sold NVDA/TSLA/META/COIN, bought MSFT/GS/ETN/PWR (filed Sep 11). <a href=\"https://unusualwhales.com/politics\">Source</a> · <a href=\"https://www.beltwayiq.com/report/2026-w38\">BeltwayIQ w38 (still 0 — grouping lag)</a></li></ul><h3>Policy watch</h3><ul><li><b>FOMC tonight:</b> 95% priced for +25bp to 3.75-4.00%, statement Thu 2:00am SGT; money markets price &gt;90bp of hikes over 12m (LSEG); DB sees 'baby cycle'; Jefferies/First Abu Dhabi Bank urge 'keep powder dry'. Vote split + presser tone = the tradable surprise. <a href=\"https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09152026-12122054\">Source</a></li><li><b>Bessent testimony:</b> defended record, blamed rising bond yields on global issues — fiscal pushback as the 10y prints 19-year highs. <a href=\"https://www.marketwatch.com/livecoverage\">Source</a></li><li><b>Iran war:</b> fresh Houthi strikes on Saudi Tuesday — WTI +4.2% $105.70, Brent $108.55; East-West pipeline still shut (3-5 wk repair est.). Oil is the Fed's wildcard. <a href=\"https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09152026-12122054\">Source</a></li><li><b>Canada:</b> Section 338 product additions/removals effective YESTERDAY Sep 15; import bans Sep 29. <a href=\"https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-responds-to-canadas-retaliation/\">Source</a></li><li><b>Critical minerals:</b> no new 48h action — Jan 14 Section 232 track (uranium, rare earths, silver; price floors; negotiations) remains the live channel; Jul 13 checkpoint passed without tariffs. KL truce to Nov 10 unchanged. <a href=\"https://www.whitecase.com/insight-alert/president-trump-orders-critical-minerals-trade-negotiations-section-232-action\">Source</a></li></ul><h3>Risk</h3><ul><li><b>Event risk (tonight):</b> 95% priced = rate is a formality; a surprise hold = violent relief rally (HK tech, miners, SGX property); hike + cycle guidance (&gt;90bp priced) extends the de-rating. Guidance coin-flip — don't pre-position.</li><li><b>Margin:</b> IBKR silver line 1,777 oz x ~$63.2 x 1.2732 ≈ S$143.0k vs ~S$56.2k loan (~1.5x; equity ~S$86.8k). Silver held $63-64 all week; hawkish-surprise flush &lt;$60 is the level that matters.</li><li><b>Concentration/FX:</b> ~62% of liquid book idle cash; ~35% of net worth non-SGD (USD bid on oil/hike combo).</li></ul><h3>Alpha (signals, not advice)</h3><ul><li><b>Defense sleeve (15% vs ~0%):</b> 10y ~5.00% close, 5.041% intraday (highest since 2007); TIPS 10y real 2.60%. Post-statement ≥5% holds = start tranche build; surprise hold = stand down.</li><li><b>Silver/SLVP/SILJ (20% vs ~4%):</b> spot $63-64 all week, miners stabilized Tue — sell-rumor-buy-news: hike + $62-64 holds = reload zone; clean break &lt;$60 = wait.</li><li><b>HK AI (Tencent/SMIC/Xiaomi):</b> Tencent +1.9% front-running a one-and-done read; SMIC bleed slowed; US semis stabilized. One-and-done guidance = snapback (Tencent is the tell); hawkish cycle = final leg down to buy. Stagger only after the statement.</li></ul>",
   "insiderTrades": [],
   "congressTrades": [
     {
-      "member": "John Rose",
+      "member": "House Democrat (NJ-5; name not printed in feed)",
       "chamber": "House",
-      "ticker": "AMCPX",
-      "type": "Sell",
-      "range": "$500K-$1M",
-      "date": "2026-09-14",
-      "url": "https://www.capitoltrades.com/"
+      "ticker": "MSFT (options)",
+      "type": "Buy",
+      "range": "$250K-$500K",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "John Rose",
+      "member": "House Democrat (NJ-5; name not printed in feed)",
       "chamber": "House",
-      "ticker": "GOOGL",
+      "ticker": "MSFT (options)",
+      "type": "Buy",
+      "range": "$500K-$1M",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (NJ-5; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "MSFT (options)",
       "type": "Sell",
       "range": "$250K-$500K",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (NJ-5; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "MSFT (options)",
+      "type": "Sell",
+      "range": "$500K-$1M",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (NJ-5)",
+      "chamber": "House",
+      "ticker": "QSR / AMAT / RSG",
+      "type": "Buy",
+      "range": "$1K-$15K each",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (WA-1)",
+      "chamber": "House",
+      "ticker": "NYC TFA muni bond 5% 2037",
+      "type": "Buy",
+      "range": "$15K-$50K",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Angus King",
+      "chamber": "Senate",
+      "ticker": "EA",
+      "type": "Sell",
+      "range": "$15K-$50K",
       "date": "2026-09-14",
-      "url": "https://www.capitoltrades.com/"
+      "url": "https://unusualwhales.com/politics"
     },
     {
       "member": "Thomas Kean Jr",
       "chamber": "House",
-      "ticker": "GOOGL",
+      "ticker": "MSFT",
       "type": "Sell",
-      "range": "$1K-$15K",
+      "range": "$15K-$50K",
       "date": "2026-09-14",
-      "url": "https://www.capitoltrades.com/"
+      "url": "https://unusualwhales.com/politics"
     },
     {
       "member": "Thomas Kean Jr",
       "chamber": "House",
-      "ticker": "AMCR",
+      "ticker": "GOOGL / AMCR / JNJ",
       "type": "Sell",
-      "range": "$1K-$15K",
+      "range": "$1K-$15K each",
       "date": "2026-09-14",
-      "url": "https://www.capitoltrades.com/"
+      "url": "https://unusualwhales.com/politics"
     },
     {
       "member": "Thomas Kean Jr",
       "chamber": "House",
-      "ticker": "JNJ",
+      "ticker": "LIN / MTZ",
+      "type": "Buy",
+      "range": "$1K-$15K each",
+      "date": "2026-09-14",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Senate Republican (AR)",
+      "chamber": "Senate",
+      "ticker": "CEG",
       "type": "Sell",
       "range": "$1K-$15K",
-      "date": "2026-09-14",
-      "url": "https://www.capitoltrades.com/"
+      "date": "2026-09-11",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Senate Republican (AR)",
+      "chamber": "Senate",
+      "ticker": "Otis / IJR / 2x SPY ETF",
+      "type": "Buy",
+      "range": "$1K-$50K",
+      "date": "2026-09-11",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Gil Cisneros",
+      "chamber": "House",
+      "ticker": "NVDA / TSLA / META / COIN / DASH",
+      "type": "Sell",
+      "range": "$1K-$50K (batch)",
+      "date": "2026-09-11",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Gil Cisneros",
+      "chamber": "House",
+      "ticker": "MSFT / GS / ETN / PWR / IBM / INTU",
+      "type": "Buy",
+      "range": "$1K-$50K (batch)",
+      "date": "2026-09-11",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (TX-11)",
+      "chamber": "House",
+      "ticker": "CHTR / LBRDK",
+      "type": "Exchange (merger)",
+      "range": "$1K-$15K",
+      "date": "2026-09-15",
+      "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "Trump rejects AI-slowdown push: 'SICK conspiracy… WHOEVER WINS AI, WINS!'",
-      "detail": "Amodei's Saturday essay ('we must slow the pace at which we improve the capabilities of AI models') was backed by Altman, Musk and Hassabis; Trump answered Monday on Truth Social defending AI and data centers vs China. VP Vance called the industry push 'a little bit of a Trojan Horse'. Xi separately proposed a China-led AI ecosystem at the BRICS summit. Net: administration defends the data-center buildout — hardware demand intact, regulatory risk shifts to the model layer.",
-      "url": "https://finance.yahoo.com/technology/article/trump-dismisses-calls-to-slow-ai-development-blames-conspiracy-against-ai-and-data-centers-153021111.html"
+      "title": "FOMC decides tonight (Thu 2:00am SGT) — 95% priced hike; guidance is the fight",
+      "detail": "CME FedWatch 95% for +25bp to 3.75-4.00% (first hike since Jul 2023, first under Chair Warsh; presser 2:30am SGT). 10y closed ~5.00% Tuesday after touching 5.041% — highest since 2007. Money markets price >90bp of hikes over the next 12 months (LSEG); Deutsche Bank expects a 'baby cycle'; Jefferies and First Abu Dhabi Bank argue the Fed should keep its powder dry against geopolitically-fuelled inflation. Vote split and presser tone are the tradable surprise.",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09152026-12122054"
     },
     {
-      "title": "FOMC decision Thu 2:00am SGT — 93% priced hike, first since Jul 2023",
-      "detail": "CME FedWatch: 93% for +25bp to 3.75-4.00% (first hike since July 2023; first under Chair Warsh; presser 2:30am SGT). August CPI matched expectations Friday. 10y UST breached 5.01% intraday Monday (first >5% since Oct 2023), settled ~4.99%. Deutsche Bank: hiking cycles add ~+1.14pp to the 10y over 12m on average but expects a 'baby cycle'. BOJ decides Friday.",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09142026-12120379"
+      "title": "Bessent defends record to Congress, blames rising yields on global issues",
+      "detail": "Treasury Secretary Scott Bessent testified Tuesday as the 10y printed 19-year highs into the Fed's first hike since 2023 — the fiscal authority publicly pushing back on the bond market's verdict while Treasury buybacks of off-the-run debt run at double the usual pace.",
+      "url": "https://www.marketwatch.com/livecoverage"
     },
     {
-      "title": "Iran war: Saudi East-West pipeline shut 3-5 weeks; Hormuz vessel struck",
-      "detail": "Saudi Arabia shut the 1,200km East-West pipeline (4-5m bpd, ~4% of global supply, the Hormuz bypass) on Sep 11 after drone attacks launched from Iraq's Maysan province; estimates say 3-5 weeks largely out of service. A vessel was struck in the Strait of Hormuz Sunday; Houthis hit Jazan. US slapped sanctions on a Russian bank; Vance confirmed direct US-Houthi talks over Mayyun (Perim) Island. Brent ~$106-108 (touched $110), WTI ~$101-102.",
-      "url": "https://www.news18.com/world/us-iran-war-live-updates-houthis-red-sea-saudi-oil-pipeline-attack-trump-vessels-strait-of-hormuz-oil-prices-hike-latest-news-liveblog-10327800.html"
+      "title": "Iran war: fresh Houthi strikes on Saudi — WTI +4.2% to $105.70",
+      "detail": "New Houthi strikes against Saudi Arabia Tuesday drove WTI +4.2% to $105.70 and Brent +2.7% to $108.55. The East-West pipeline (~4% of global supply, the Hormuz bypass) remains shut with 3-5-week repair estimates. Oil is now the Fed's wildcard — every $5 on crude hardens the hiking-cycle scenario.",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-09152026-12122054"
     },
     {
-      "title": "Canada trade war: Section 338 product additions/removals effective today (Sep 15)",
-      "detail": "White House fact sheet (Sep 9): product additions and removals under the Section 338 proclamations take effect Sep 15, 2026; import bans follow Sep 29. A second supply-side price impulse landing in FOMC week. Kuala Lumpur Joint Arrangement still holds: China rare-earth export-control elimination and the US-China reciprocal-tariff truce run to Nov 10, 2026.",
-      "url": "https://ballotpedia.org/Donald_Trump%27s_executive_orders_and_actions_on_trade_and_tariffs,_2025-2026"
+      "title": "Canada trade war: Section 338 product additions/removals now live (Sep 15)",
+      "detail": "White House fact sheet: product additions and removals under the Section 338 proclamations took effect Sep 15, 2026; import bans follow Sep 29. Second supply-side price impulse now active. Kuala Lumpur Joint Arrangement unchanged: China rare-earth export-control elimination and the US-China reciprocal-tariff suspension run to Nov 10, 2026.",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-responds-to-canadas-retaliation/"
+    },
+    {
+      "title": "Critical minerals: Section 232 negotiation track unchanged (no new 48h action)",
+      "detail": "The Jan 14 proclamation on processed critical minerals and derivative products (covers uranium, rare earths, silver and 60 USGS-listed minerals) keeps Commerce/USTR negotiating agreements with price floors and trade-restricting measures on the table; the 180-day checkpoint (Jul 13) passed without tariffs. No new executive action in the last 48 hours — status quo for the rare-earths/uranium themes.",
+      "url": "https://www.whitecase.com/insight-alert/president-trump-orders-critical-minerals-trade-negotiations-section-232-action"
     }
   ],
   "opportunities": [
     {
       "ticker": "US 10y / TIPS (Defense sleeve)",
-      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled. The 10y hit 5.01% intraday Monday — highest since Oct 2023 — printing yesterday's 'post-FOMC ≥5.0%' trigger a day early, pre-decision. 93% priced hike; Deutsche Bank sees a 'baby cycle' (+1.14pp avg to 10y over 12m). Peak-cycle duration insurance at its cheapest on a 2-3y view.",
-      "signal": "If the 10y holds ≥5% after Thursday's statement, start the tranche build; a surprise hold = stand down. Signals, not advice."
+      "thesis": "Defense (duration/TIPS) target 15% vs ~0% filled. 10y closed ~5.00% Tuesday, printed 5.041% intraday — highest since 2007; TIPS 10y real yield 2.60%. Money markets price >90bp of hikes over 12m vs Deutsche Bank's 'baby cycle' — peak-cycle duration insurance at 19-year-cheap levels.",
+      "signal": "If the 10y holds ≥5% after tonight's statement (Thu 2:00am SGT), start the tranche build; a surprise hold = stand down and enjoy the relief rally elsewhere. Signals, not advice."
     },
     {
       "ticker": "Silver / SLVP / SILJ",
-      "thesis": "Real assets target 20% vs ~4% filled. Silver held ~$63-64 through the entire hike repricing and gold's -1.8% Monday — relative strength while miners overshot down on stale-flag optics (SILJ -3.8% Monday vs -7.3% flag). Structural deficit + war-driven inflation hedge intact.",
-      "signal": "Classic sell-rumor-buy-news: if the hike lands and silver holds $62-64, the flush is done = reload zone; clean break of $60 = wait. Leveraged IBKR line means no urgency. Signals, not advice."
+      "thesis": "Real assets target 20% vs ~4% filled. Spot held $63-64 through the entire repricing week (-0.13% Tuesday morning) while miners stabilized (SILJ +0.24% Tuesday) — the watcher's 'crash' flags are stale-baseline optics. WTI $105+ keeps the inflation-hedge bid alive; structural deficit intact.",
+      "signal": "Sell-rumor-buy-news: hike lands + silver holds $62-64 post-statement = reload zone; clean break of $60 = wait. Leveraged IBKR line means no urgency. Signals, not advice."
     },
     {
-      "ticker": "0981.HK / 0700.HK / 1810.HK",
-      "thesis": "Asia barbell 10% vs ~3%; AI bottlenecks 15% vs ~1%. Monday's US semis rout was an essay-driven sentiment shock, not a capex cut — hyperscaler capex (~US$733bn) intact and software (IGV +5%) ripped the same day. HK already diverging: Xiaomi +3.0%, Tencent +0.5% Monday while SMIC (-19% from Aug 18 pivot vs ~HK$94 consensus target) absorbed the rates de-rating. Huawei-backed Yuliangsheng DUV tools (12 machines targeted by end-2026) in SMIC testing = domestic-tool substitution tailwind.",
-      "signal": "Post-FOMC stabilization in SMIC = staggered small tranches; one more hawkish leg down = the better entry. Signals, not advice."
+      "ticker": "0700.HK / 0981.HK / 1810.HK",
+      "thesis": "Asia barbell 10% vs ~3%; AI bottlenecks 15% vs ~1%. Tencent +1.9% to HK$438.80 led HK Tuesday — front-running a one-and-done read; SMIC's bleed slowed to -0.9% (HK$60.75, ~-20% from Aug 18 vs ~HK$94 consensus target); US semis stabilized (SWKS +12%, DRAM/SOXX upticked). Hyperscaler capex (~US$733bn) intact; Dreamforce Altman-Benioff keynote today.",
+      "signal": "A one-and-done guided hike likely snaps HK tech back — Tencent is the tell; hawkish cycle guidance = one more leg down to buy. Stagger small tranches only after the statement. Signals, not advice."
     }
   ]
 }
