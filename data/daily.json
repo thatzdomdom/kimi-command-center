@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-23",
-  "navSgd": 10400970.0,
-  "navChgPct": 0.361,
-  "listedChgPct": 1.953,
+  "date": "2026-09-24",
+  "navSgd": 10381495.0,
+  "navChgPct": 0.1,
+  "listedChgPct": 0.542,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.275,
-    "CNY": 0.190592,
-    "HKD": 0.162569,
-    "MYR": 0.313268
+    "USD": 1.2802,
+    "CNY": 0.19102,
+    "HKD": 0.163239,
+    "MYR": 0.314005
   },
   "riskFlags": [],
   "navHistory": [
@@ -66,27 +66,76 @@
     },
     {
       "date": "2026-09-23",
-      "nav": 10400970.0
+      "nav": 10380501.0
+    },
+    {
+      "date": "2026-09-24",
+      "nav": 10381495.0
     }
   ],
-  "snapshotAt": "2026-09-23T07:40:17+08:00",
+  "snapshotAt": "2026-09-24T07:40:07+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,400,970 — back above S$10.4M for the first time since Sep 4 · watcher +0.361% (≈+0.16% vs restated Sep 22 base) · listed flag +1.953% · zero riskFlags (3rd consecutive clean day)</h3><ul><li><b>Biggest mover: Tencent.</b> <b>+5.02% to HK$451.60</b> on 2.6× average volume (day range 442.00–463.40) — smashed through the ~439 SMA20 confirmation tell. Close behind: <b>miners ripped in New York</b> — SILJ +4.36% to $31.09, GDX +3.60% to $97.83, GDXJ +4.31%, SIL +3.89%, silver ~+1.8% (SLV proxy) toward ~$67. US indices flat-to-mixed (S&P 7,764.64 flat, Nasdaq 27,244.28 +0.45% another record, Dow −0.36%) — the action was all summit-eve rotation.</li><li><b>The one thing:</b> <b>Xi-Trump summit TOMORROW (Sep 24–25, Washington)</b> — pre-positioning turned decisively constructive: Bessent–He Lifeng formalized <b>USA-China AI dialogues</b> (incident hotline + AI-danger protocols; next round in China in 2 months), critical minerals on the table, and Trump's UNGA Iran-deal talk broke oil — <b>WTI −$1.85 to $90.52</b>. Your book pre-rallied (Tencent +5%, STI +0.86% near 52-wk high, miners +4%). Failure scripts: MOFCOM opposition, chip-controls letter, China's silence on critical-mineral exports.</li></ul><h3>Risk flags — none</h3><ul><li>riskFlags empty, third consecutive day · L46.SI Yahoo 404, 9th session · SLVP/Nikkei/KOSPI Tuesday closes not captured (data gaps, not signals)</li></ul><h3>Position moves (verified Tuesday closes)</h3><ul><li>US ETFs: <b>SILJ $31.09 +4.36%</b> · <b>GDX $97.83 +3.60%</b> · GDXJ +4.31% · SIL +3.89% · SLVP not captured</li><li>Metals (ETF-proxy estimates): silver ~$67 (+~1.8%) · gold ~$4,385–4,400 (+~0.4%)</li><li>HK: <b>Tencent HK$451.60 +5.02%</b> · SMIC HK$64.30 −1.98% · Xiaomi HK$27.20 −1.38% · Alibaba +1.95% · HSI 25,087.75 +0.18% (3rd straight gain)</li><li>SGX: <b>STI 5,723.76 +0.86%</b> (52-wk high 5,828.50; Monday close recovered: 5,675.23) · DBS S$77.80 +0.57% · OCBC +1.48%</li><li>Asia: SSE +0.06% · Taiwan +0.17% · KLCI +0.99% · Vietnam +0.96% · Jakarta −1.69% · Nikkei/KOSPI not captured</li><li>US Tue: S&P 7,764.64 flat · Nasdaq 27,244.28 +0.45% RECORD · Dow −0.36% · VIX 14.72 −1.01% (Cboe) · 10y 4.97% +0.01 · 30y 5.30% · WTI −$1.85 to $90.52 · Brent $95.41</li><li>Fed: Collins hawkish (inflation notably &gt;2% risk) · Barkin '1990s mid-cycle' · Goolsbee supply shocks · Musalem: more increases may be needed — ≥1 more hike expected this year</li></ul><h3>Insider trades (7 days)</h3><ul><li><b>Wing Tai (W05.SI):</b> pause holds — still no filing after Sep 18 (quiet Mon + Tue). September's 12 director-dealing filings (7 straight business days, run dating to Aug 26) have now paused two straight days. Sep 14 Form 1 names Chairman & MD Cheng Wai Keung; counts in PDFs, not machine-verified. <a href=\"https://links.sgx.com/1.0.0/corporate-announcements/HJ0LV555EZBVGTKX/ae34c9306b3d6a4e6d7c2dcd3148c0227a6d7503ee209461af882e83518c101f\">SGX announcement</a> · None found for other held SGX/HK names; US holdings are ETFs</li></ul><h3>Congress trades (window Sep 19–23)</h3><ul><li><b>NEW — CA-50 (House Dem):</b> huge bond-portfolio reshuffle filed Sep 22 — T-bills mixed ($50K–$500K ×6), muni buys incl UNIV CA PUB EDUC <b>$500K–$1M</b> + Petaluma $500K–$1M + West VY Mission $250–500K + Irvine Ranch/Kent Street $100–250K each + Smash Capital Fund II, muni sells Energy Northwest $500K–$1M + Enterprise CA $500K–$1M + NYC COMB TX $500K–$1M + Palmdale. Size above the $50K flag threshold, zero equity signal</li><li><b>NEW — TX-17 (House Rep):</b> SOLD ABBV and GOOGL $15K–$50K each (traded Sep 14, filed Sep 21) — echoes FL-18's megacap-tech trimming into records</li><li>Carried (filed Sep 18): FL-18 sells JPM/GOOG×2/AAPL + buys MCD/NVO/PEP×2/ACN×2 + LSYIX bond-fund buy; OH-2 buys PG — all $1K–$15K. FL-19 batch aged out. Nothing in your tickers. <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li></ul><h3>Trump / policy — summit eve</h3><ul><li><b>Bessent–He Lifeng formalized USA-China AI dialogues</b> (Sun, JPMorgan HQ): incident hotline + AI-danger protocols; next round in China in 2 months; critical minerals discussed — China silent on export position</li><li><b>Trump UNGA:</b> Iran deal 'right after the midterms'; 'more oil flowing than at any point since the war began… prices will plummet'; Western-Hemisphere warning; Cuban delegation walked out ('Cuba will fall'); Fars: 'Iran ready for all existing scenarios'</li><li><b>Oil breaks:</b> WTI −$1.85 to $90.52, Brent $95.41 on US/Iran diplomacy hopes</li><li><b>Trump on AI:</b> threat warnings 'a hoax' — 'I will only encourage AI or, SI (SUPER INTELLIGENCE)!'</li><li>Lavrov–Rubio phone call; Canada restricts Israeli settlement goods + $71M Palestine aid; Honda halts Canada EV plant</li><li>Today: global flash PMIs + SARB; UN: Trump–Sharif, Pezeshkian address. Tomorrow: Xi-Trump + Norges/Riksbank/SNB/Banxico</li></ul><h3>Risk</h3><ul><li>Summit binary lands TOMORROW — good news partly priced (Nasdaq record, HSI &gt;25k, STI near 52-wk high, VIX 14.72 complacent); failure scripts: chip controls, critical-mineral silence, MOFCOM escalation; Friday China holiday thins the post-summit tape</li><li>Silver line: 1,777 oz × ~$67 × 1.2750 ≈ <b>S$151.8k vs S$56.24k loan ≈ 1.59x</b> → equity ≈ S$95.6k (est), recovering from Monday's S$93.4k; −6.7% silver day ≈ −10% equity</li><li>Rates: 10y 4.97% drifting toward 5% (30y 5.30%); Fed hawks louder than doves; flash PMIs today + 4 central banks tomorrow inside the summit window</li><li>Oil regime shift: WTI $90.52 vs $100 — a real Iran deal compresses metals' war premium even as equity beta celebrates</li><li>FX ~35% non-SGD · USDSGD 1.2750 · USDCNY ≈ 6.69 — CNY strength additive</li><li>~62% idle cash while NAV prints its best since Sep 4 — Tuesday's +1.953% listed day is the measurable cost of sitting out</li></ul><h3>Alpha — signals, not advice</h3><ul><li><b>HK AI barbell (Asia 10% vs ~3%; AI 15% vs ~1%):</b> the 439 tell FIRED — Tencent +5.02% through it on 2.6× volume, summit AI track institutionalized; SMIC −1.98% is the laggard catch-up. Confirmation condition met; tranche into strength with binary-day sizing</li><li><b>Silver / miners (real assets 20% vs ~4%):</b> Monday's dip confirmed as digestion — SILJ +4.36%, silver ~$67, Sprott 'high beta, short supply'; oil at $90 removes rate pressure. Add on dips toward $64–65, don't chase +4% days</li><li><b>Defense sleeve (15% vs ~0%):</b> dual de-escalation + oil $90 softens the geopolitical bid exactly as the 10y sits at 4.97% — the planned entry window; use summit-week calm to start the first duration/TIPS tranche; Nov 10 marker stands</li></ul>",
+  "briefHtml": "<h3>NAV S$10,381,495 — flat day (watcher +0.100%; ≈+0.01% vs the restated Sep 23 base) · listed flag +0.542% · zero riskFlags (4th consecutive clean day) · Sep 23 restated −S$20.5k, largest restatement yet</h3><ul><li><b>Biggest mover: silver −4.2%</b> (SLV −4.23% to $58.16; spot est ~$64.3) — the config's −4% silver-day rule tripped in spirit (watcher proxies stayed quiet). Miners smashed: <b>SILJ −5.44% to $29.40, GDX −4.36% to $93.56</b>, GDXJ −5.23%, SIL −5.33%; gold −1.8% (GLD proxy, est ~$4,300–4,320). Driver: <b>UST 10y +15bp to 5.12% — highest since 2007</b> on hot flash PMIs, hawkish Iran comments, AI supply and a 3.1bp 5yr tail. US equities fell (S&P 7,706.03 −0.75%, Nasdaq 26,936.04 −1.13%); HK trimmed (HSI −1.57% below 25k; Tencent −2.35% but held the ~439 tell at its 438.60 low).</li><li><b>The one thing: summit day.</b> Xi landed at Joint Base Andrews ~6pm ET and <b>Trump personally greeted him at the airport — a ~60-year protocol break</b>. Main meetings today, state dinner tonight with the US tech-CEO bench (Huang, Cook, Musk, Zuckerberg, Altman, Nadella, Pichai, Bezos, Dimon, Fraser, Dell) and <b>no Chinese CEOs</b>. Core deliverable: truce extension (expires Nov 10); rare earths, AI, Taiwan red lines, Iran. Expectations managed to incremental progress — and the market de-risked <b>before</b> the binary, lowering the bar for a relief rally.</li></ul><h3>Risk flags — none (manual silver note)</h3><ul><li>riskFlags empty, 4th day · manual: silver −4.2% ≈ the config's −4% silverDayDropPct trip; silver-line equity est ~S$90.0k (−5.9% day, below the −10% equity flag) · L46.SI Yahoo 404, 10th session · SLVP/Nikkei/KOSPI closes not captured</li></ul><h3>Position moves (verified Wednesday closes)</h3><ul><li>US ETFs: <b>SILJ $29.40 −5.44%</b> · <b>GDX $93.56 −4.36%</b> · GDXJ −5.23% · SIL −5.33% · PSLV −4.25% · SLVP not captured</li><li>Metals (ETF-proxy estimates): silver ~$64.3 (−4.2%) — back at the top of the $62–64 reload zone · gold ~$4,300–4,320 (GLD −1.80%)</li><li>HK: Tencent HK$441.00 −2.35% (low 438.60 held the 439 tell) · SMIC HK$63.80 −0.78% · Xiaomi HK$26.18 −3.75% · Alibaba −4.36% · HSI 24,694 −1.57%</li><li>SGX: STI 5,709.91 −0.24% · DBS S$77.69 −0.14% · OCBC −1.52%</li><li>US: S&P 7,706.03 −0.75% · Nasdaq 26,936.04 −1.13% · Dow 51,511.59 −0.68% · VIX 14.92 +5.00% · <b>10y 5.12% +15bp, highest since 2007</b> · 30y 5.40%</li></ul><h3>Insider (7d) — Wing Tai filings RESUMED</h3><ul><li><b>Wing Tai (W05.SI):</b> Sep 22 AND Sep 23 director-interest filings now posted (Sep 22 arrived after yesterday's fetch — page lag; only Sep 21 was filing-free) — <b>14 filings in September</b>; Sep 14 Form 1 names Chairman and MD Cheng Wai Keung; counts in PDFs, not machine-verified. <a href=\"https://links.sgx.com/1.0.0/corporate-announcements/HJ0LV555EZBVGTKX/ae34c9306b3d6a4e6d7c2dcd3148c0227a6d7503ee209461af882e83518c101f\">SGX</a> · <a href=\"https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/\">IR</a></li><li>HK names: none found (no fresh HKEX sweep). US = ETFs.</li></ul><h3>Congress (window Sep 20–24)</h3><ul><li><b>White House Office filer — ~90-line reshuffle</b> (traded Jul 23, filed Sep 22): OUT of ORCL/IBM/MCD/NFLX/META ($100–250K each), INTO defense (NOC/RTX/PLTR), pharma (REGN/VRTX/LLY/GILD), select tech (GOOGL/AAPL/AMZN) — pre-dated the autumn escalation</li><li>GA-12 (House): sell ROL $15–50K; buy AVGO and TSM $1–15K each (filed Sep 23) — AI-bottleneck buys</li><li>SC-3 (House): Bank of Nova Scotia bond swap $500K–$1M; Blackstone life-sci LP and Apollo BDC buys (filed Sep 23)</li><li>Carried: CA-50 bond reshuffle ×3 (Sep 22); TX-17 ABBV/GOOGL sells (Sep 21). FL-18/OH-2 aged out. Nothing in your tickers.</li></ul><h3>Trump / policy watch — summit day</h3><ul><li>Xi arrival + Trump airport greeting (protocol break); agenda: truce extension (Nov 10 expiry), rare earths, AI, Taiwan red lines, Iran; US CEO bench attends, Xi brought none. <a href=\"https://en.bloomingbit.io/feed/news/120952\">Bloomingbit</a> · <a href=\"https://www.straitstimes.com/asia/east-asia/chinas-xi-unlikely-to-bring-ceos-to-summit-where-trump-is-seeking-deals-says-us-official\">ST</a></li><li>10y 5.12% highest since 2007 — hot PMIs, hawkish Iran comments, supply, 5yr tail. <a href=\"https://tradingeconomics.com/united-states/government-bond-yield\">TE</a></li><li>Metals washout: SLV −4.23%, GLD −1.80% — Fed hike bets firm. <a href=\"https://stockanalysis.com/etf/slv/\">StockAnalysis</a></li><li>US–Iran delegations met 3h at UNGA — Trump: very constructive, more contacts soon; Zelensky ready for energy truce with Russia. <a href=\"https://www.ilsole24ore.com/art/borsa-l-andamento-titoli-mercoledi-23-settembre-2026-AJ5ZDuLB\">Il Sole 24 ORE</a></li><li>Today: Xi-Trump meetings + state dinner; Riksbank/SNB/Norges/Banxico; Japan flash PMI; German IFO; US claims. <a href=\"https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---24th-september-2026\">Newsquawk</a></li></ul><h3>Alpha (signals, not advice)</h3><ul><li><b>Silver/miners reload</b> — real assets 20% vs ~4%: 4th test of the $62–64 zone is live; driver is rates not thesis — stagger, watch 10y toward 5.25%</li><li><b>Defense sleeve (duration/TIPS)</b> — 15% vs ~0%: 5.12% is above the plan's 5% trigger; strongest tranche-start case all week; stage it (5yr tail = fragile demand)</li><li><b>HK AI barbell</b> — Asia 10% vs ~3%, AI 15% vs ~1%: Tencent's 439 tell intact; no pre-binary chasing — confirmation entry after the communique (mainland holiday Friday thins flows)</li></ul>",
   "insiderTrades": [
     {
       "ticker": "W05.SI",
       "insider": "Cheng Wai Keung",
       "role": "Chairman & Managing Director, Wing Tai Holdings",
-      "type": "Change in interest (Form 1); 12 September filings through Sep 18 (7 straight business days; run dating to Aug 26), now quiet two straight business days (none Sep 21-22 as of this morning); direction/quantum in PDF attachments, not machine-verified",
+      "type": "Change in interest (Form 1); filings RESUMED — Sep 22 and Sep 23 posted (Sep 22 arrived after yesterday's fetch; only Sep 21 was filing-free); 14 September filings total, latest Sep 23; direction/quantum in PDF attachments, not machine-verified",
       "shares": null,
       "value": null,
-      "date": "2026-09-18",
+      "date": "2026-09-23",
       "url": "https://links.sgx.com/1.0.0/corporate-announcements/HJ0LV555EZBVGTKX/ae34c9306b3d6a4e6d7c2dcd3148c0227a6d7503ee209461af882e83518c101f"
     }
   ],
   "congressTrades": [
+    {
+      "member": "White House Office filer (name/office not printed in feed)",
+      "chamber": "Executive",
+      "ticker": "~90-line reshuffle — sells: ORCL, IBM, MCD, NFLX, META, PEP, ISRG, COST ($100-250K each); ACN, PSKY, AMT, MA, JCI, CME, ORLY, BSX, NKE ($50-100K); TSLA, PFE, VZ, DIS, CCI, NEM et al ($15-50K)",
+      "type": "Sell",
+      "range": "$15K-$250K per line",
+      "date": "2026-09-22",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "White House Office filer",
+      "chamber": "Executive",
+      "ticker": "Buys: REGN, AZO, ABNB, CIEN, HCA, TEL",
+      "type": "Buy",
+      "range": "$50K-$100K each",
+      "date": "2026-09-22",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "White House Office filer",
+      "chamber": "Executive",
+      "ticker": "Buys: PH, ITW, GOOGL, EA, JPM, LLY, CHD, VRTX, NOC, HSY, CBRE, CVNA, ADM, GILD, ADSK ($15-50K); PLTR, RTX, AAPL, AMZN, EQT, UPS et al ($1-15K)",
+      "type": "Buy",
+      "range": "$1K-$50K per line",
+      "date": "2026-09-22",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (GA-12; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "ROL (sell) / AVGO, TSM (buy)",
+      "type": "Buy & Sell (mixed)",
+      "range": "ROL $15K-$50K; AVGO/TSM $1K-$15K each",
+      "date": "2026-09-23",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (SC-3; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "Bank of Nova Scotia bond (sell+buy swap); Alphakeys Blackstone Life Sciences VI LP; Apollo Debt Solutions BDC",
+      "type": "Buy & Sell (mixed)",
+      "range": "Bond $500K-$1M each side; LP buys $1K-$15K each",
+      "date": "2026-09-23",
+      "url": "https://unusualwhales.com/politics"
+    },
     {
       "member": "House Democrat (CA-50; name not printed in feed)",
       "chamber": "House",
@@ -122,91 +171,55 @@
       "range": "$15,001-$50,000 each",
       "date": "2026-09-21",
       "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (FL-18; name not printed in feed)",
-      "chamber": "House",
-      "ticker": "JPM / GOOG (x2) / AAPL",
-      "type": "Sell",
-      "range": "$1K-$15K each",
-      "date": "2026-09-18",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (FL-18)",
-      "chamber": "House",
-      "ticker": "MCD / NVO / PEP (x2) / ACN (x2)",
-      "type": "Buy",
-      "range": "$1K-$15K each",
-      "date": "2026-09-18",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (FL-18)",
-      "chamber": "House",
-      "ticker": "LSYIX (Lord Abbett short-duration HY bond fund)",
-      "type": "Buy",
-      "range": "$1K-$15K",
-      "date": "2026-09-18",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (OH-2; name not printed in feed)",
-      "chamber": "House",
-      "ticker": "PG",
-      "type": "Buy",
-      "range": "$1K-$15K",
-      "date": "2026-09-18",
-      "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "Summit eve: Bessent-He Lifeng formalize 'USA-China AI dialogues'; critical minerals on the table",
-      "detail": "Sunday's meeting at JPMorgan HQ in New York produced a formal AI track: an incident hotline plus agreed protocols on leading AI dangers (uncontrollable agents, non-state cyber/bio actors); next round in China in two months. Critical-mineral supply chains discussed; Chinese officials did not clarify their export position — a live failure script. Xi-Trump summit runs Sep 24-25 in Washington.",
-      "url": "https://foxchattanooga.com/news/nation-world/treasury-secretary-confirms-ai-talks-with-china-are-underway-ahead-of-trump-xi-summit-artificial-intelligence-scott-bessent"
+      "title": "SUMMIT DAY: Xi lands at Andrews; Trump personally greets him at the airport — ~60-year protocol break",
+      "detail": "Xi arrived ~6pm ET Wednesday; visit runs Sep 23-25 with a full state arrival ceremony Thursday (479 troops), main meetings Thursday Sep 24 and the 'G2 Summit' state dinner tonight. US CEO bench attending: Huang, Cook, Musk, Zuckerberg, Altman, Nadella, Pichai, Bezos, Dimon, Fraser, Dell — Xi brought NO CEOs. US goods trade Jan-Jul 2026: exports $65.2bn, imports $156.4bn.",
+      "url": "https://en.bloomingbit.io/feed/news/120952"
     },
     {
-      "title": "Trump at UNGA: Iran deal 'right after the midterms'; Cuba delegation walks out",
-      "detail": "Trump defended joining Israel's military action against Iran but said he believes the US reaches a deal with Iran right after the November midterms; 'more oil is flowing than at any point since the war began... prices will plummet once the conflict is over'; warned no threats to America will gain a foothold in the Western Hemisphere; the Cuban delegation walked out as he said 'Cuba will fall'. Iran's armed forces called the remarks 'tools of domestic propaganda'; Fars source: 'Iran is ready for all existing scenarios'.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---23rd-september-2026"
+      "title": "Agenda: truce extension is the core deliverable (expires Nov 10); rare earths, AI, Taiwan 'red lines', Iran",
+      "detail": "China wants a longer truce extension, the US prefers shorter; rare earths are China's leverage; Xi to ask Trump to stop Taiwan arms sales (ambassador Xie Feng: Taiwan and human rights are 'red lines'); US wants Chinese pressure on Tehran (Xi reluctant); ag purchases and aircraft sales also on the table. Officials: Lutnick, Bessent, Wright, Greer. Expectations deliberately managed to 'incremental progress'.",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-unlikely-to-bring-ceos-to-summit-where-trump-is-seeking-deals-says-us-official"
     },
     {
-      "title": "Oil breaks lower on US/Iran diplomacy: WTI settles -$1.85 at $90.52",
-      "detail": "Newsquawk crude wrap Tuesday: WTI (X6) settles $1.85 lower at $90.52/bbl, Brent (Z6) $0.83 lower at $95.41; US stocks opened with marginal gains 'as crude falls on US/Iran diplomacy hopes'. First sustained crack below the war-premium range — a different inflation input for rates and metals.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---23rd-september-2026"
+      "title": "Rates shock: UST 10y +15bp to 5.12% — highest since 2007",
+      "detail": "Hot S&P Global flash PMIs (fastest private-sector expansion in 5+ years, inflation pressures accelerating on both sides), hawkish Iranian-leader comments dimming diplomacy hopes, heavy corporate supply (AI issuers over $1.5T YTD) and a 3.1bp tail in the 5yr auction. 30y at 5.40%. The Wednesday rate shock is the summit day's master variable.",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
-      "title": "Trump on AI: threat warnings 'a hoax' — 'I will only encourage AI or, SI (SUPER INTELLIGENCE)!'",
-      "detail": "Monday Truth Social post locks in the anti-regulation posture ahead of the summit's AI track: 'We are leading now over China, and everyone else, and I'm going to keep it that way!... I will only encourage AI or, SI (SUPER INTELLIGENCE)!' Administration officials signal openness to AI-safety involvement only if Beijing matches it.",
-      "url": "https://foxchattanooga.com/news/nation-world/treasury-secretary-confirms-ai-talks-with-china-are-underway-ahead-of-trump-xi-summit-artificial-intelligence-scott-bessent"
+      "title": "Metals washout: SLV -4.23% to $58.16, GLD -1.80% — 'Fed hike bets firm'",
+      "detail": "Kitco AM (Wed): 'Gold, silver slide as dollar rallies and Fed hike bets firm'; FXEmpire: 'Gold Drops Below $4300 As Traders Bet On Hawkish Fed'. Miners hit harder: SILJ -5.44%, GDX -4.36%, GDXJ -5.23%. Tuesday's 'silver leads metals higher' reversed in one session; silver spot est ~$64.3 — back at the top of the $62-64 reload zone.",
+      "url": "https://stockanalysis.com/etf/slv/"
     },
     {
-      "title": "Fed cross-currents: Collins hawkish vs Barkin 'mid-cycle'; markets expect at least one more hike",
-      "detail": "Collins (2028 voter) reiterates support for last week's hike, sees increased likelihood inflation stays notably above 2%; Barkin (2027) hopes for a '1990s mid-cycle adjustment', labor not overheated; Goolsbee: can't overlook persistent supply shocks; Musalem: further increases may be needed. $69bn 2yr auction Tuesday; 10y at 4.97%.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---23rd-september-2026"
+      "title": "US-Iran: delegations met 3 hours on UNGA sidelines — Trump: 'very constructive'; Zelensky ready for energy truce with Russia",
+      "detail": "Trump described the 3-hour US-Iran meeting as 'very constructive' with more contacts soon; separately Zelensky signalled readiness for an energy truce with Russia after talks with Trump. Diplomacy tracks continue in parallel with the summit.",
+      "url": "https://www.ilsole24ore.com/art/borsa-l-andamento-titoli-mercoledi-23-settembre-2026-AJ5ZDuLB"
     },
     {
-      "title": "Elsewhere: Lavrov-Rubio call; Canada targets Israeli settlement goods; Honda halts Canada EV plant",
-      "detail": "Lavrov and Rubio held a phone call Tuesday (RIA) ahead of the summit; Canada announced restrictions on Israeli settlement goods plus $71M Palestine aid (Carney); Honda put its Canada EV-factory plans on hold. Wednesday's slate: global flash PMIs, SARB decision, Trump-Sharif meeting and Pezeshkian's UNGA address; Thursday: Xi-Trump plus Norges/Riksbank/SNB/Banxico.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---23rd-september-2026"
+      "title": "Today's slate: Xi-Trump main meetings + state dinner; Riksbank/SNB/Norges/Banxico; Japan flash PMI; German IFO; US claims",
+      "detail": "Newsquawk flags the Chinese president's state visit as 'the higher-beta item' among four central-bank decisions, Japan's flash PMI, German IFO and US initial jobless claims. Mainland China is on Mid-Autumn holiday Friday — HK trades but southbound flows shut.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---24th-september-2026"
     }
   ],
   "opportunities": [
     {
-      "ticker": "HK AI barbell (Tencent / SMIC / Xiaomi)",
-      "thesis": "Asia 10% vs ~3%; AI bottlenecks 15% vs ~1%. Monday's confirmation tell FIRED: Tencent +5.02% to HK$451.60 through the ~439 SMA20 on 2.6x volume, one day before the Xi-Trump summit — and the summit's AI track is now institutionalized (formal USA-China AI dialogues; Trump: 'I will only encourage AI'). SMIC -1.98% is the laggard of the trio — catch-up candidate if the summit lands.",
-      "signal": "Confirmation condition met. If deploying into the Asia/AI targets, use tranche discipline into strength with the binary 24 hours out: a successful summit extends the runway toward the Nov 10 truce marker; failure re-opens Tencent's 425 support test."
-    },
-    {
       "ticker": "Silver / SLVP / SILJ / GDX",
-      "thesis": "Real assets 20% vs ~4%. Monday's dip is confirmed as digestion: SILJ +4.36%, GDX +3.60%, GDXJ +4.31%, silver back toward ~$67 (+1.8% SLV proxy) with Sprott framing 'high beta, short supply'. Oil's break to $90.52 removes rate pressure while the physical deficit and India silver imports (+127% y/y) compound.",
-      "signal": "The $62-64 reload playbook has now worked three times — keep adding on dips toward $64-65 rather than chasing +4% days. Leveraged IBKR line equity est. ~S$95.6k — rides; no urgency either way."
+      "thesis": "Real assets 20% vs ~4%. The $62-64 zone is being re-tested for the fourth time (spot est ~$64.3 after Wednesday's -4.2% washout; SILJ -5.44%, GDX -4.36%). Each prior test held and produced +3-5% miner days. The driver this time is rates (10y 5.12%, highest since 2007), not thesis — the physical deficit, India imports (+127% y/y) and CME 24/7 story are intact.",
+      "signal": "Reload zone is LIVE, but respect the rate tape: if the 10y extends toward 5.25% miners can overshoot below the zone — stagger entries rather than catching the first knife. Leveraged IBKR line equity est ~S$90.0k (-5.9% day) — rides, no urgency either way."
     },
     {
       "ticker": "Defense sleeve (duration/TIPS)",
-      "thesis": "Target 15% vs ~0% filled. Dual de-escalation (Gulf diplomacy + China summit) plus WTI at $90.52 softens the geopolitical bid exactly as the 10y sits at 4.97% — the entry window the plan was written for. The Fed's hawkish chorus (Collins, Musalem, Goolsbee; markets expect >=1 more hike) is the known counter-pressure.",
-      "signal": "Use summit-week calm to start the first duration/TIPS tranche. If a deal-driven yield dip follows, the tranche is already working; Nov 10 truce-expiry remains the medium-term marker. Stage it."
+      "thesis": "Target 15% vs ~0% filled. The entry zone just improved violently: 10y at 5.12% — highest since 2007 and above the plan's 5% trigger — on a hot flash-PMI print that may prove peaky, with a summit truce extension and continuing US-Iran contacts as potential mean-reversion catalysts for yields.",
+      "signal": "Strongest tranche-start case all week. Staging still applies — the 3.1bp 5yr-auction tail says long-end demand is fragile. Nov 10 truce-expiry remains the medium-term marker."
+    },
+    {
+      "ticker": "HK AI barbell (Tencent / SMIC / Xiaomi)",
+      "thesis": "Asia 10% vs ~3%; AI bottlenecks 15% vs ~1%. Summit day itself: Tencent -2.35% to HK$441.00 but held the ~439 SMA20 tell at its 438.60 low on below-average volume — the tell is intact, but the complex is hostage to tonight's dinner headlines.",
+      "signal": "No pre-binary chasing. If the truce extension lands and an AI-dialogue communique prints, Friday/Monday's Asia session is the confirmation entry (mainland China on holiday Friday — southbound flows shut); failure re-opens Tencent's 425 support test."
     }
   ]
 }
