@@ -1,50 +1,50 @@
 {
-  "date": "2026-09-30",
-  "navSgd": 10330166.0,
-  "navChgPct": -0.624,
-  "listedChgPct": -3.33,
+  "date": "2026-10-01",
+  "navSgd": 10314449.0,
+  "navChgPct": -0.574,
+  "listedChgPct": -3.093,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2779,
-    "CNY": 0.190768,
-    "HKD": 0.162875,
-    "MYR": 0.313441
+    "USD": 1.2775,
+    "CNY": 0.190709,
+    "HKD": 0.16283,
+    "MYR": 0.313574
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "SMIC -5.1% in a day",
+      "title": "VanEck Gold Miners -6.2% in a day",
       "detail": "Position is 1.1% of NW."
     },
     {
       "level": "critical",
-      "title": "Xiaomi Corp -7.4% in a day",
-      "detail": "Position is 1.1% of NW."
+      "title": "ETFMG Jr Silver Miners -7.2% in a day",
+      "detail": "Position is 0.8% of NW."
     },
     {
       "level": "critical",
-      "title": "VanEck Gold Miners -9.0% in a day",
-      "detail": "Position is 1.1% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "ETFMG Jr Silver Miners -11.0% in a day",
+      "title": "iShares Global Silver Miners -6.7% in a day",
       "detail": "Position is 0.9% of NW."
     },
     {
       "level": "critical",
-      "title": "iShares Global Silver Miners -9.8% in a day",
-      "detail": "Position is 0.9% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "City Developments -8.5% in a day",
+      "title": "City Developments -12.2% in a day",
       "detail": "Position is 0.6% of NW."
     },
     {
       "level": "critical",
-      "title": "Listed book -3.33% today",
+      "title": "Silver — unallocated (IBKR) -5.6% in a day",
+      "detail": "Position is 1.3% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Listed book -3.09% today",
       "detail": "All listed securities combined."
+    },
+    {
+      "level": "critical",
+      "title": "Silver -5.6% — leveraged IBKR line",
+      "detail": "~1.5x leverage implies account equity ~-8.4%."
     }
   ],
   "navHistory": [
@@ -122,74 +122,106 @@
     },
     {
       "date": "2026-09-30",
-      "nav": 10330166.0
+      "nav": 10319026.0
+    },
+    {
+      "date": "2026-10-01",
+      "nav": 10314449.0
     }
   ],
-  "snapshotAt": "2026-09-30T07:40:23+08:00",
+  "snapshotAt": "2026-10-01T07:40:12+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,330,166 — oil broke on the SPR release (watcher −0.624%; ≈flat +0.01% vs the restated Sep 29 base) · listed flag −3.33% (trips the −3% rule — but see glitch) · SEVEN critical riskFlags, 2nd day · Sep 29 restated −S$3.6k (five nights: ~S$76.5k cumulative)</h3><ul><li><b>Biggest mover: oil broke — WTI −4.19% to $88.72.</b> The US ordered an <b>SPR exchange release of up to 40M barrels</b> (loan repaid with interest; ~200M bbl returned over the next year; SPR to its lowest since 1982), the Saudi East-West pipeline is ~half restored, and <b>US and Iranian officials held separate indirect talks with Qatari mediators Monday</b>. Metals/miners <b>bounced</b>: SLV +0.96% (spot est ~$61.4), GLD +1.32%, GDX +1.34% to $89.07, SILJ +0.22%. US indices flat-to-down (S and P 7,670.84 −0.17%; VIX 16.04); SOX +1.32%. <b>HK faded — HSI −0.48% and Tencent −1.77% to 432.00: the 439 reclaim lasted one session.</b></li><li><b>The one thing: the watcher is misfiring — two days running.</b> Seven critical flags this morning, but verified Tuesday closes show SILJ +0.22% (flag −11.0%), GDX +1.34% (flag −9.0%), SMIC flat (flag −5.1%), Xiaomi −2.55% (flag −7.4%), CDL −2.11% (flag −8.5%) — overstated 5–11pp, wrong signs on the miners. The listed-book −3.33% trip is built on the same bad math (real Tuesday ≈ −1%). <b>Audit the watcher's baseline logic before trusting any single-name flag.</b> On policy: Trump posted the Axios sanctions-relief story is untrue — \"I offered them NOTHING!\" — even as the Qatar shuttle runs; and the <b>RBA hiked 25bp to 4.60% (unanimous)</b>, citing energy and <b>AI-demand tech-goods inflation</b>.</li></ul><h3>Risk flags — SEVEN critical, second day (glitch confirmed)</h3><ul><li>Flags: SMIC −5.1% · Xiaomi −7.4% · GDX −9.0% · SILJ −11.0% · SLVP −9.8% · CDL −8.5% · Listed book −3.33%. Verified closes contradict every one (wrong sign on GDX/SILJ). Treat magnitudes as noise until the watcher is fixed.</li><li><b>Leveraged silver line:</b> 1,777 oz × ~$61.4 × 1.2779 ≈ S$139.4k vs S$56,240 loan ≈ 1.68x → equity ≈ S$83.2k, +1.7% day-recovery. The −10% equity flag was not approached Tuesday.</li><li><b>Rates:</b> 10y 5.25% / 30y 5.59% (2002 level); swaps price nearly a full 1pp of hikes over the coming year — but JOLTS and consumer confidence both missed Tuesday. PCE tonight (8:30pm SGT) is the decider.</li><li><b>Tencent tell re-broken</b> (432.00 vs 439 tell; failure line 425); mainland China shuts tomorrow for Golden Week. <b>CDL −10% over two sessions</b> on the GET+ review (0.6% of NW). ~35% of net worth non-SGD; USDSGD 1.2779.</li></ul><h3>Alpha — signals, not advice (~62% cash undeployed)</h3><ul><li><b>Defense sleeve (15% vs ~0%):</b> oil broke, JOLTS/confidence missed, 10y stalled at 5.25% — the first de-escalation-in-data combination. Signal: soft PCE = first-tranche entry on the reaction; hot PCE with 30y at 5.59% = wait for deeper levels.</li><li><b>HK AI barbell (Asia 10% vs ~3%; AI 15% vs ~1%):</b> 439 reclaim failed in one session; Golden Week starts tomorrow; RBA made AI inflation a tightening input. Signal: stand down pre-PCE; next clean window is post-Golden-Week; 425 the line, 439 reclaim with volume the trigger.</li><li><b>Silver/miners (real assets 20% vs ~4%):</b> bounce held ~$61.4 under the broken zone; miners outperformed the metal Tuesday (GDX +1.34% vs SLV +0.96%) — first relative-strength flicker since the break. Signal: suspended below $62; watch a $62 reclaim.</li></ul>",
+  "briefHtml": "<h3>NAV S$10,314,449 — soft PCE halved October odds to ~40%, but the 30y closed 5.638%, highest since 2002 (watcher −0.574%; ≈flat −0.04% vs the restated Sep 30 base) · listed flag −3.09% (trips the −3% rule, 3rd day on corrupted math) · SEVEN critical flags, all contradicted again · Sep 30 restated −S$11.1k (six nights: ~S$87.6k)</h3><ul><li><b>Biggest mover: the October repricing vs the long end's refusal.</b> August PCE was soft across the board (headline 3.4% y/y vs 3.7% exp; core 3.0% vs 3.3%), Williams said \"no need for urgency,\" and <b>October-hike odds fell from ~70% to ~35–40%</b>. Nasdaq +0.2%, S and P −0.2% to 7,656, Dow −0.86%. <b>But the 30y closed 5.638% (+4.4bp) — highest since June 7, 2002 — and the 10y printed 5.29%:</b> a bear steepening straight through the soft print. After the bell <b>Micron blew out Q4: EPS $33.42 vs $31.83, revenue $54.23bn vs $51.49bn, next-Q guide $60–63bn vs $56.77bn</b>.</li><li><b>The one thing: the watcher is wrong three days running</b> — all seven flags (GDX −6.2%, SILJ −7.2%, SLVP −6.7%, CDL −12.2%, silver −5.6%, line −8.4%, listed −3.09%) contradict verified Wednesday closes (GDX −1.43%, silver ~−1.7%, CDL ~−0.3%). Audit the baseline logic before acting on any flag. Macro: Fed-path relief is real but the long end trades term premium, not the Fed. Policy: <b>Trump announced South Korea-funded US nuclear power plants</b> (uranium/grid catalyst) and a <b>US Hormuz proposal reached Tehran</b> — even as the Houthis hit Abqaiq and an LNG tanker was struck Sep 29.</li></ul><h3>Risk flags — SEVEN critical, third day (glitch systematic)</h3><ul><li>Flags: GDX −6.2% · SILJ −7.2% · SLVP −6.7% · CDL −12.2% · silver −5.6% · leveraged line equity −8.4% · listed −3.09%. Verified: GDX −1.43%, SILJ ~−0.7%, silver ~−1.7%, CDL ~−0.3%, line est ~−2.8%. Real listed Wednesday ≈ −1%. Treat flags as unusable until the watcher is fixed.</li><li><b>Leveraged silver line:</b> 1,777 oz × ~$60.4 × 1.2775 ≈ S$137.2k vs S$56,240 loan ≈ 1.66x → equity ≈ S$80.9k, −2.8% d/d. Third session below the broken $62–64 zone; the −10% equity flag was not approached.</li><li><b>Long end decoupled:</b> soft PCE should have rallied bonds; instead the 30y bear-steepened to 5.638% (~+24bp in a week). NFP Friday (cons 100k; ADP 90k) is the next gate. <b>Tencent 431.00</b> — 439 tell still broken, 425 failure line; HK closed today, reopens Friday; mainland shut through Oct 7. ~35% of net worth non-SGD; USDSGD 1.2775.</li></ul><h3>Alpha — signals, not advice (~62% cash undeployed)</h3><ul><li><b>Defense sleeve (15% vs ~0%):</b> the soft-PCE trigger fired but the response was adverse (30y 5.638%). Signal: half-signal — hold fire into NFP Friday; first tranche needs the 30y to stall below ~5.65% post-NFP; over 5.75% means deeper levels coming.</li><li><b>HK AI barbell (Asia 10% vs ~3%; AI 15% vs ~1%):</b> China PMI back to expansion (50.1) + State Council aid flagged + Micron blowout tilt mildly positive; but the 439 tell is broken and HK is a holiday skeleton this week. Signal: 425 the line, 439 reclaim with volume the trigger; do not chase a holiday session.</li><li><b>Uranium/grid:</b> Trump announced South Korea-funded US nuclear plants — first concrete new-build funding headline of the cycle, alongside Escondida strike risk and Chile's copper output drop. Signal: headline-only so far; track capacity/sites/EPC structure before treating as an entry.</li></ul>",
   "insiderTrades": [
     {
       "ticker": "W05.SI",
       "insider": "Cheng Wai Keung",
       "role": "Chairman & Managing Director, Wing Tai Holdings",
-      "type": "Change in interest (Form 1); 17 September filings total (Sep 1,2,3,4,7,10,11,14,15,16,17,18,22,23,24,25,28); latest Sep 28; none Sep 29 as of this morning; run dating to Aug 26; direction/quantum in PDF attachments, not machine-verified",
+      "type": "Change in interest (Form 1); 18 September director-interest filings total (Sep 1,2,3,4,7,10,11,14,15,16,17,18,22,23,24,25,28,29); latest Sep 29; run dating to Aug 26. Separately on Sep 30 Wing Tai posted a Special Dividend, Final Dividend, Addendum, Annual Report 2026, Proxy Form and Notice of 62nd AGM; amounts/direction in PDF attachments, not machine-verified",
       "shares": null,
       "value": null,
-      "date": "2026-09-28",
-      "url": "https://links.sgx.com/1.0.0/corporate-announcements/HJ0LV555EZBVGTKX/ae34c9306b3d6a4e6d7c2dcd3148c0227a6d7503ee209461af882e83518c101f"
+      "date": "2026-09-29",
+      "url": "https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/"
     }
   ],
-  "congressTrades": [],
+  "congressTrades": [
+    {
+      "member": "Senate Democrat (CT; name not printed in feed)",
+      "chamber": "Senate",
+      "ticker": "Private LLC vehicles: MH Built to Last LLC, Days Between LLC, Not Fade Away LLC",
+      "type": "Buy & Sell (mixed)",
+      "range": "Sells $1K-$500K tiers (Aug 19); buys incl. Days Between $250K-$500K and Not Fade Away $250K-$500K x2 (Aug 24/27, Sep 11)",
+      "date": "2026-09-28",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (OK-1; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "Wholesale equity sell-down, dozens of names: LMT x2, XOM ($100K-$250K), DVN x4, HD x5, ITW x4, PTC x2 ($50K-$100K), ROK x3, EMR x2, NEE x2, LIN x2, NVO x2, MRSH ($100K-$250K), OKE (incl. $500K-$1M exchange), STX, IQV x3, HON, WMT, F, LOW, CL, CSX x2, BSX, ORLY x2, PBA, PRGS, VUZI x2, Virtus AI fund x2; buys: Oklahoma municipal bonds x4",
+      "type": "Sell (predominantly)",
+      "range": "$1K-$1M per line",
+      "date": "2026-09-28",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (OH-7; name not printed in feed)",
+      "chamber": "House",
+      "ticker": "Mercato Partners Traverse IV QP, LP",
+      "type": "Buy",
+      "range": "$1K-$15K",
+      "date": "2026-09-28",
+      "url": "https://unusualwhales.com/politics"
+    }
+  ],
   "trumpWatch": [
     {
-      "title": "SPR exchange release breaks oil: WTI −4.19% to $88.72; up to 40M bbl loaned, ~200M bbl to return over the next year",
-      "detail": "The US ordered a Strategic Petroleum Reserve exchange release of up to 40 million barrels — structured as a loan repaid with interest; the program returns ~200M bbl to the reserve over the next year (~20% more than released); bids due Oct 6. Energy Secretary Wright signaled another drawdown is unlikely; the SPR is projected to fall to its lowest level since 1982. Brent came off a $106.77 intraday high. Additional trims: Saudi East-West pipeline ~half restored; covert Hormuz transits continuing (1 transit Sep 27 vs an 85/day baseline; a Kuwaiti KOTC tanker was struck).",
-      "url": "https://tradingeconomics.com/commodity/crude-oil"
+      "title": "PCE soft, October-hike odds collapse ~70% to ~35-40% — but the 30y closed 5.638%, highest since June 2002",
+      "detail": "August PCE: headline +0.3% m/m / 3.4% y/y (exp 3.7%), core +0.2% m/m / 3.0% y/y (exp 3.3%) — all four below expectations, partly clouded by BEA methodology changes. NY Fed's Williams had said \"no need for urgency\"; money markets cut October-hike odds from ~70% to ~40%; December hike still largely expected. Q2 GDP final revised up to 2.2%; ADP +90k vs +70k exp; Chicago PMI 58.8 vs 51.2. Yet the long end bear-steepened through the print: 30y +4.4bp to 5.638% (highest close since June 7, 2002), 10y 5.29% (touched ~5.31%, 2007 high). Kashkari: inflation \"still too high\"; Cook: \"too high for too long.\" The bond market is trading term premium, not the Fed's next meeting.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---1st-october-2026"
     },
     {
-      "title": "Trump: the Axios sanctions-relief story is untrue — \"I offered them NOTHING!\"; Qatar shuttle talks ran Monday",
-      "detail": "Overnight Trump posted that the Axios report claiming he offered Iran sanctions relief and a frozen-funds release is \"untrue… I offered them NOTHING!\" — cutting near-term deal odds. Yet per Reuters, US and Iranian officials held separate INDIRECT talks with Qatari mediators Monday in New York; Araghchi says Iran awaits the US response via Qatar and the Supreme Leader's conditions must be met to reopen Hormuz. Iran's 7-point plan: end hostilities in Iran AND Lebanon, lift the naval blockade, unfreeze assets, end oil sanctions → phased Hormuz reopening within 7 days. Trump in the Oval Office: \"We're going to win… it's going to go pretty quickly.\" Rubio met the Saudi FM Sep 28 on Yemen/Houthi maritime risk.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---29th-september-2026"
+      "title": "Iran: a US proposal reached Tehran; Trump: \"things happening very soon\" — Houthis hit Abqaiq, LNG tanker struck",
+      "detail": "Araghchi presented President Pezeshkian with a US proposal including discussion of Iran's Hormuz-reopening conditions (IRNA). Trump: \"we will see things happening very soon regarding Iran,\" citing \"historic flows of oil out of Hormuz in the last three days\" and \"almost total control\" of the strait. The White House is tempering breakthrough expectations (Semafor: bar \"raised very high\") while a deputy assistant says a deal remains possible imminently (Jerusalem Post). Against that: Houthis attacked Abqaiq oil city Wednesday afternoon; an LNG tanker was struck by an unknown projectile Sep 29 (UKMTO); Iran raised readiness at 46 facilities; IRGC claims confrontations in the strait every 24 hours. WTI Nov +1.1% to ~$90.3, Brent Dec +1.8%; OPEC+ expected to hold targets Sunday.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---1st-october-2026"
     },
     {
-      "title": "RBA HIKED 25bp to 4.60% (unanimous) — 4th hike of 2026, highest since late 2011; cites energy AND AI tech-goods inflation",
-      "detail": "The RBA raised the cash rate to 4.60%, its 4th hike of 2026 (Feb/Mar/May/Sep). Statement: \"Inflation remains elevated and some of the upside risks flagged in August are materialising\" — citing energy (Middle East conflict broadening), technology (AI demand pushing tech-goods prices up globally — a direct read-through to the AI-bottleneck theme), and domestic capacity. Housing prices falling in most capitals; door open to further increases. Markets fully price another hike by Feb 2027; ANZ tips November (4.85%). Australia Aug CPI lands today 09:30 SGT.",
-      "url": "https://au.finance.yahoo.com/news/rba-hikes-interest-rates-to-46-per-cent-as-aussies-cop-120-a-month-hit-to-fight-inflation-043053354.html"
+      "title": "Trump announces South Korea-funded US nuclear power plants — uranium/grid catalyst; 10 more trade deals coming",
+      "detail": "Trump announced a deal for nuclear power plants in the US to be funded by South Korea, part of Seoul's investment pledge that got auto tariffs cut from 25% to 15% — the first concrete new-build nuclear funding headline of this cycle. USTR Greer said 10 more trade deals are on the way and the door is open to Canada. Modi and Trump had a productive call covering trade, defence, energy and critical technologies. Trump also announced the last American forces are leaving Iraq. The Fed finalized stress-test transparency changes (~50% less capital-requirement volatility).",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---1st-october-2026"
     },
     {
-      "title": "Rates: 10y 5.25%, 30y 5.59% (2002 level); nearly 1pp of hikes priced over a year — but JOLTS and consumer confidence missed",
-      "detail": "TE daily print: 10y +1bp to 5.25% (intraday narrative: climb toward 5.28%, 2007 highs); 30y ^TYX +0.59% to 5.59%, surpassing 5.6% — a 2002/dot-com-bust level. Swaps now price nearly a full percentage point of Fed hikes over the coming year. But Tuesday brought the first data cracks: JOLTS and Conference Board consumer confidence both surprised on the downside. PCE tonight (8:30pm SGT) is the decider; NFP Friday (cons 100k).",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+      "title": "Micron blowout after the bell: EPS $33.42 vs $31.83 est; revenue $54.23bn vs $51.49bn; Q1 guide $60-63bn vs $56.77bn",
+      "detail": "Micron's fiscal Q4 beat top and bottom lines and guided next-quarter revenue to $60-63bn vs $56.77bn expected (year-ago quarter: EPS $3.03 on $11.31bn revenue). HBM/DRAM shortage economics intact — direct read-through to Samsung/SK Hynix and the AI-bottleneck theme. The goods trade deficit widened in August on capital-goods imports amid strong AI-related demand.",
+      "url": "https://finance.yahoo.com/technology/article/micron-to-report-q4-earnings-as-memory-boom-powers-on-153230577.html"
     },
     {
-      "title": "CDL GET+ strategic review fallout: −8.1% Monday, −2.11% Tuesday to S$7.43 — six-week low at ~0.73x P/B",
-      "detail": "CDL unveiled its GET+ review Monday (\"3,4,5,6\": FY2027–29; 4 sectors; S$5bn new investments; S$6bn divestments; ≥35% payout; net gearing 75% to ~55%; >S$1bn PATMI from divestment gains; AUM S$5bn to S$10bn). The market underwhelmed: the divestment target came in below expectations and capital is recycled, not returned. Monday −8.1% to S$7.59 (worst STI performer; Friday close S$8.26 per CDL IR), Tuesday −2.11% to S$7.43. ~10% over two sessions on a 0.6%-of-NW position.",
-      "url": "https://growbeansprout.com/cdl-strategic-review-sep-2026"
+      "title": "China Sep NBS PMI back to expansion (50.1); State Council flags incremental aid; Australia CPI 4.0% as expected",
+      "detail": "NBS manufacturing PMI 50.1 in September vs 49.8 (in line; ends two months of contraction); non-manufacturing 50.2 vs 49.3 exp; composite 50.7. A State Council meeting chaired by Li Qiang flagged incremental measures on property, employment and incomes. Australia August CPI 4.0% y/y as expected (from 3.5%) — validates the RBA's hike to 4.60%; AUD at a two-month low ~0.6968. Mainland China shut Oct 1-7; HK closed today, reopens Friday.",
+      "url": "https://www.fxstreet.com/news/chinas-september-nbs-manufacturing-pmi-rises-to-501-non-manufacturing-pmi-jumps-to-502-202609300133"
     },
     {
-      "title": "Today's slate: China NBS PMI + Australia CPI this morning; US PCE 8:30pm SGT; Golden Week starts tomorrow; NFP Friday",
-      "detail": "Wed: China NBS PMI (Sep) ~09:30 SGT, Australia Aug CPI 09:30 SGT, US ADP, US GDP final Q2, US PCE (Aug) 8:30pm SGT. Thu: Japan Tankan Q3, US ISM Mfg (exp 55.0); mainland China shuts for Golden Week (Oct 1–7). Fri: EZ CPI flash, US NFP (cons 100k vs 162k prev). India shut Friday (Gandhi Jayanti). AI-theme color: OpenAI scrapped the GPT-6.1 \"Astra\" release over safety concerns (WSJ).",
-      "url": "https://www.newsquawk.com/headlines/week-in-focus-28th-sept-2nd-oct-us-nfp-pce-and-ism-manufacturing-pmi-rba-and-ez-cpi-"
+      "title": "Slate: BoJ Tankan + regional PMIs + RBA Financial Stability Review today; US NFP Friday (cons 100k; ADP 90k)",
+      "detail": "Thursday: BoJ Tankan Q3, BoJ September meeting summary of opinions, regional manufacturing PMIs, South Korea trade data, Australia trade data, RBA Financial Stability Review. Friday: EZ CPI flash (German Sep prel printed 3.3%, French 3.0%, Italian 4.2% — all hot), US NFP (consensus 100k vs 162k prev; ADP printed 90k). India shut Friday (Gandhi Jayanti). September final: Dow -4.3% (snaps 5-month win streak), S and P -0.5%, Nasdaq +1.9%; Q3: Nasdaq +2.5%, S and P +2%, Dow -2.7%.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---1st-october-2026"
     }
   ],
   "opportunities": [
     {
       "ticker": "Defense sleeve (duration/TIPS)",
-      "thesis": "Target 15% vs ~0% filled. Oil broke −4.19% on the SPR release, JOLTS and consumer confidence missed on the downside, and the 10y stalled at 5.25% after the sprint — the first tentative de-escalation-in-data combination since the spike began. The 30y offers 5.59%, a 2002 level, with nearly 1pp of hikes priced over the coming year.",
-      "signal": "PCE tonight (8:30pm SGT) is the trigger either way — a soft print = first-tranche entry on the reaction; a hot print with the 30y at 5.59% = deeper levels coming, wait."
+      "thesis": "Target 15% vs ~0% filled. The stated trigger fired — PCE soft, October odds halved to ~40%, Williams dovish — but the market response was adverse: the 30y closed 5.638% (+4.4bp, highest since June 2002) in a bear steepening; the long end is trading term premium and fiscal supply, not the Fed.",
+      "signal": "Half-signal: hold fire into NFP Friday; a first tranche needs the 30y to stall below ~5.65% after NFP; a break over 5.75% means deeper levels are coming. Do not mistake the Fed-path relief for a long-end top."
     },
     {
       "ticker": "HK AI barbell (Tencent / SMIC / Xiaomi)",
-      "thesis": "Asia 10% vs ~3%; AI bottlenecks 15% vs ~1%. Tencent's 439 reclaim lasted exactly one session (−1.77% to 432.00); SMIC flat, Xiaomi −2.55%. The mainland shuts tomorrow for Golden Week (Oct 1–7), and the RBA just made AI-driven tech-goods inflation a G10 tightening input.",
-      "signal": "Stand down pre-PCE; the next clean window is post-Golden-Week; 425 is the failure line, a 439 reclaim with volume is the trigger — neither is in play today."
+      "thesis": "Asia 10% vs ~3%; AI bottlenecks 15% vs ~1%. Inputs improved: China NBS PMI back to expansion (50.1), State Council aid flagged, Micron's blowout reconfirms the AI-memory cycle, Xiaomi buying back stock. Against: Tencent's 439 tell still broken (431.00), HK closed today (National Day), southbound flow gone until Oct 8.",
+      "signal": "No tape today; the post-holiday window starts with Friday's thin HK session — 425 the failure line, a 439 reclaim with volume the trigger; Micron + PMI tilt mildly positive but do not chase a holiday session."
     },
     {
-      "ticker": "Silver / SLVP / SILJ / GDX",
-      "thesis": "Real assets 20% vs ~4%. The bounce day held silver ~$61.4 (SLV +0.96%), just under the broken $62–64 zone. SPR release + Qatar shuttle talks are direct oil/yield relief levers, but Trump's \"NOTHING\" post cuts near-term deal odds. Leveraged IBKR line equity est ~S$83.2k (+1.7% day-recovery, ~1.68x).",
-      "signal": "Reload playbook still suspended below $62 — but miners outperformed the metal Tuesday (GDX +1.34% vs SLV +0.96%), the first relative-strength flicker since the break; watch a $62 reclaim."
+      "ticker": "Uranium / grid (nuclear new-build)",
+      "thesis": "Asymmetry/real-assets adjacency. Trump announced South Korea-funded US nuclear power plants as part of the tariff-reduction investment pledge — the first concrete new-build funding headline of this cycle — while Escondida's union rejected a contract (strike risk) and Chile's August copper output fell to 369.5kt from 403.4kt.",
+      "signal": "New policy catalyst, headline-only so far — track for capacity, sites and EPC structure (KEPCO/Westinghouse) before treating as an entry; watch uranium miners and Korean nuclear EPC names for follow-through volume."
     }
   ]
 }
