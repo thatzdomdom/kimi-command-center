@@ -1,35 +1,50 @@
 {
-  "date": "2026-10-02",
-  "navSgd": 10314194.0,
-  "navChgPct": -0.507,
-  "listedChgPct": -2.749,
+  "date": "2026-10-05",
+  "navSgd": 10298236.0,
+  "navChgPct": -0.637,
+  "listedChgPct": -3.45,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2803,
-    "CNY": 0.191127,
-    "HKD": 0.163193,
-    "MYR": 0.313645
+    "USD": 1.2793,
+    "CNY": 0.190826,
+    "HKD": 0.163026,
+    "MYR": 0.313477
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "VanEck Gold Miners -6.1% in a day",
+      "title": "SMIC -5.6% in a day",
+      "detail": "Position is 1.0% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Xiaomi Corp -8.8% in a day",
+      "detail": "Position is 1.0% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "VanEck Gold Miners -5.5% in a day",
       "detail": "Position is 1.1% of NW."
     },
     {
       "level": "critical",
-      "title": "ETFMG Jr Silver Miners -6.3% in a day",
+      "title": "ETFMG Jr Silver Miners -6.8% in a day",
       "detail": "Position is 0.8% of NW."
     },
     {
       "level": "critical",
-      "title": "iShares Global Silver Miners -5.6% in a day",
+      "title": "iShares Global Silver Miners -5.8% in a day",
       "detail": "Position is 0.9% of NW."
     },
     {
       "level": "critical",
-      "title": "City Developments -13.4% in a day",
-      "detail": "Position is 0.6% of NW."
+      "title": "City Developments -14.8% in a day",
+      "detail": "Position is 0.5% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Listed book -3.45% today",
+      "detail": "All listed securities combined."
     }
   ],
   "navHistory": [
@@ -115,102 +130,124 @@
     },
     {
       "date": "2026-10-02",
-      "nav": 10314194.0
+      "nav": 10294769.0
+    },
+    {
+      "date": "2026-10-05",
+      "nav": 10298236.0
     }
   ],
-  "snapshotAt": "2026-10-02T07:40:08+08:00",
+  "snapshotAt": "2026-10-05T07:40:05+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV S$10,314,194 \u2014 oil re-spikes on the Iran rejection cycle (WTI +2.8% $92.87, Brent +5.8% ~$102); 10y eases off 5.342% (highest since 2002) to 5.25% into tonight's NFP (watcher \u22120.507%; \u2248flat \u22120.02% vs restated base) \u00b7 listed flag \u22122.749% (no rule trip) \u00b7 4 critical flags: 3 false (day 4), 1 REAL \u2014 CDL \u00b7 Oct 1 restated UP +S$1.4k</h3><ul><li><b>Biggest mover: oil \u2014 and in the book, CDL.</b> Trump rejected Iran's latest offer (\u201csimply not enough\u201d; the reported offer was IAEA access for sanctions relief, denied by IRNA), told Time that bombing could ramp up after the midterms and that Iran must sign \u201cor it will no longer exist\u201d; <b>WSJ: a third carrier strike group plus up to 10,000 troops by end-November, and Trump expects to resume bombing in November</b>. WTI +2.8% to $92.87, Brent +5.8% to ~$102.31; a supertanker burned off Oman. In the book: <b>CDL \u22123.5% to ~S$7.12 on 3.5x volume \u2014 a fourth straight down day since GET+ (8.26 \u2192 ~7.12 = \u221213.8%)</b>.</li><li><b>The one thing: the flag glitch finally caught a real one.</b> Three of four flags are wrong a fourth day (verified Thursday: GDX \u22121.21%, SILJ \u22120.62%, SLVP \u22120.34% vs flags of \u22126.1%/\u22126.3%/\u22125.6%), but the CDL flag (\u221213.4%) is the post-GET+ cumulative break measured off a stale baseline \u2014 real, and near the 52-week low (6.87). Verify before acting, and before dismissing. Macro: <b>the long end blinked \u2014 the 10y printed 5.342% intraday (highest since April 2002) then eased to 5.25%</b> as Jefferson (\u201cmay need more time\u201d) and Bowman (\u201cno urgent need\u201d) pushed back; NFP tonight 8:30pm SGT (cons ~90\u2013100k) is the gate, with ISM prices at 77.9 and Brent at $102 arguing the other way.</li></ul><h3>Risk flags \u2014 4 critical: three false (day 4), one real</h3><ul><li>Flags: GDX \u22126.1% \u00b7 SILJ \u22126.3% \u00b7 SLVP \u22125.6% \u00b7 CDL \u221213.4%. Verified Thursday: GDX $86.74 \u22121.21% \u00b7 SILJ $27.11 \u22120.62% \u00b7 SLVP $34.85 \u22120.34% (first capture in ~6 sessions) \u00b7 <b>CDL ~S$7.12 \u22123.5% on the day, \u221213.8% over four sessions from S$8.26 \u2014 REAL</b> (GET+ strategic review voted down: S$5B invest / S$6B divest FY27\u201329, gearing 75%\u219255%, S$7.8B fund-management target, up-to-S$1.12 special dividend; brokers still 'buy' at ~31% NAV discount).</li><li>Listed-book flag \u22122.749% \u2014 below the \u22123% rule, no trip; flag math still unverified.</li></ul><h3>Position moves (verified Thursday)</h3><ul><li>US ETFs: GDX $86.74 \u22121.21% \u00b7 GDXJ \u22121.31% \u00b7 SILJ $27.11 \u22120.62% \u00b7 SLVP $34.85 \u22120.34% \u00b7 SIL \u22120.44% \u00b7 NEM \u22120.58% \u00b7 SLV $55.02 +0.94% \u00b7 GLD $382.76 +0.50%. Spot gold +0.4% ~$4,183; spot silver ~$60.7 holding above $60; USAGOLD: physical silver demand doubling.</li><li>HK closed Thursday (National Day), reopens today; mainland shut until Oct 8. Last closes Wed: Tencent 431.00 (tell 439 broken, line 425) \u00b7 SMIC 60.65 \u00b7 Xiaomi 25.24.</li><li>SGX Thursday: STI 5,667.67 \u22120.14% \u00b7 CDL ~7.12 \u22123.5% (3.5x volume) \u00b7 UOL 8.20 +0.49% \u00b7 Keppel 11.16 \u22121.06% \u00b7 Sembcorp +1.73% \u00b7 SGX \u22120.18% \u00b7 STE +0.64%. Singapore home prices accelerating (Bloomberg) \u2014 CDL is company-specific.</li><li>US Thursday: S and P 7,666 +0.19% \u00b7 NDX +0.31% \u00b7 Dow 50,932 +0.04% \u00b7 VIX 16.39 \u00b7 10y 5.25% (intraday 5.342%, highest since Apr 2002) \u00b7 DXY 102.00 +0.5%. Software led (Accenture beat, Synopsys raised guidance on OpenAI deal); Micron +3%; Alphabet +2% (new Gemini); Anthropic eyeing IPO as soon as mid-Nov (Bloomberg).</li></ul><h3>Insider / Congress</h3><ul><li><a href=\"https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/\">Wing Tai (W05.SI)</a>: director-interest run holds at 18 September filings (latest Sep 29; none Sep 30\u2013Oct 1); Sep 30 brought Special + Final Dividend notices, Annual Report 2026 and the 62nd AGM notice. No dealings found for other held SGX names or HK names (Tencent/SMIC/Xiaomi).</li><li><a href=\"https://unusualwhales.com/politics\">Congress</a>: no new STOCK Act filings since the Sep 28 batch \u2014 CT Senate Democrat private-LLC churn (MH Built to Last / Days Between / Not Fade Away, mixed buys and sells), OK-1 House Republican wholesale equity sell-down into Oklahoma muni bonds (dozens of names incl. LMT, XOM, HD), OH-7 House Republican Mercato Partners LP buy $1K\u2013$15K. Nothing in held tickers.</li></ul><h3>Trump / policy watch</h3><ul><li><b>Iran rejected, escalation dated:</b> offer rejected as \u201csimply not enough\u201d; \u201csign a deal or it will no longer exist\u201d; WSJ \u2014 third carrier group + up to 10k troops by end-Nov, bombing expected to resume in November; supertanker burning off Oman. WTI +2.8% $92.87, Brent +5.8% ~$102.31.</li><li><b>Long end blinked:</b> 10y 5.342% intraday (highest since Apr 2002) \u2192 5.25%; Jefferson \u201cmay need more time\u201d, Bowman \u201cno urgent need\u201d; Kashkari open-minded on October; Trump: rising rates \u201cpretty bad\u201d, \u201cwants Warsh to vote the way he wants\u201d.</li><li><b>ISM prices surge:</b> headline 54.5 missed, but Prices Paid 77.9 (exp 72.3); claims 197k; NFP tonight cons ~90\u2013100k.</li><li><b>Energy security:</b> US warned France/Germany to release emergency diesel stocks or face possible export ban; EU taskforce meets today; SPR to be filled with Venezuelan oil; Gulf exports \u221226% y/y during the conflict, prices +44% YTD.</li><li><b>China trade:</b> US moving to use China's dependence on US aviation suppliers as leverage; Greer \u2014 unconditional MFN tariffs \u201cwarrant reform\u201d.</li><li><b>AI tape:</b> software-led (Accenture, Synopsys/OpenAI guidance raise); Micron +3%; Alphabet +2% (Gemini); Anthropic IPO chatter for mid-Nov.</li></ul><h3>Risk</h3><ul><li>Flag glitch day 4: 3 false, 1 real (CDL) \u2014 stale-baseline pattern; verify all flags. L46.SI price error 16th session.</li><li>Silver line: 1,777 oz \u00d7 ~$60.71 \u00d7 1.2803 \u2248 S$138.1k vs ~S$56.24k loan \u2192 equity \u2248 S$81.9k \u2248 1.69x; a \u22125.9% silver day \u2248 \u221210% equity.</li><li>Long end paused not peaked: 30y ~5.66%; NFP tonight is the gate; Brent $102 re-opens the October hike on a hot print.</li><li>Iran escalation calendar: carriers + troops by end-Nov, bombing expected to resume in November.</li><li>HK reopens today on holiday-thin tape; mainland shut until Oct 8; Tencent 431 with tell 439 broken.</li><li>FX: ~35% NW non-SGD; USDSGD 1.2803 (softer SGD); DXY 102.00; USDCNY \u2248 6.70.</li><li>~62% of the liquid book idle cash; Oct 1 restated UP +S$1.4k (first up-night; cumulative \u2248 \u2212S$86k).</li></ul><h3>Alpha \u2014 signals, not advice</h3><ul><li><b>Defense sleeve (15% vs ~0%):</b> first long-end pause (5.342% \u2192 5.25% on Jefferson/Bowman). NFP tonight is the second gate: a print at/below ~70k with the 10y holding under ~5.25% = first-tranche entry; hot print or 10y back over 5.34% = wait; Brent $102 is the wild card.</li><li><b>HK AI barbell (Asia 10% vs ~3%; AI 15% vs ~1%):</b> HK reopens today; US AI tape improved (Micron +3%, Gemini, Synopsys/OpenAI, Anthropic IPO). Watch reopen direction; no volume confirmation until Oct 8; 439 reclaim with southbound the trigger, 425 the line.</li><li><b>Silver/miners (real assets 20%):</b> flags wrong day 4; SLV +0.94%, spot ~$60.7 holding above $60; physical demand doubling; ISM prices 77.9 + Brent $102 = inflation tailwind vs DXY 102 headwind. Suspension below $62 stands; $62 reclaim with a stalling dollar re-arms the sleeve.</li></ul>",
+  "briefHtml": "<h3>Portfolio Brief \u2014 2026-10-05 (SGT)</h3>\n<ul>\n<li><b>NAV S$10,298,236 (-0.64%)</b>; listed book flagged -3.45% (overstated \u2014 real listed Friday about -1%; Oct 2 base was restated down S$19.4k overnight, night 7, cumulative about -S$105.7k; vs restated base the day was roughly flat +0.03%).</li>\n<li><b>Biggest mover:</b> HK reopen after National Day \u2014 HSI -2.60% to 23,972, Tencent 421.20 -2.27% (below the 425 line), Xiaomi -3.96% (corporate buyback 4.1M B shares Oct 2), mainland property routed (Sunac -17%).</li>\n<li><b>The one thing:</b> Friday NFP shock +29K vs +84-90K consensus (July revised to -10K, net revisions -60K) and the long end ignored it \u2014 10y closed UP at 5.28%. Second straight soft print the bond market refused to buy. Term-premium regime confirmed; defense-sleeve gate now requires a rally-and-hold, not just a soft print.</li>\n</ul>\n<h3>Flag integrity \u2014 day 5 of the stale-baseline glitch</h3>\n<ul>\n<li>7 critical flags, same signature: SMIC -5.6% false (actual -0.66%), Xiaomi -8.8% direction-real 2.2x overstated (actual -3.96%), GDX -5.5% false (actual +1.20%), SILJ -6.8% false (actual +0.44%), SLVP -5.8% unverifiable (peers +0.4 to +1.0%), listed-book -3.45% overstated.</li>\n<li><b>CDL -14.8% is EXACTLY right and real</b> \u2014 fifth straight down day, S$7.04, cumulative 8.26 to 7.04 = -14.77%. Largest real drawdown in the book.</li>\n<li>priceErrors: L46.SI Yahoo 404, 17th session.</li>\n</ul>\n<h3>Insider (last 7 days)</h3>\n<ul>\n<li>Wing Tai: September filing run holds at 18, latest Sep 29 (director dealings); no October filings on IR page as of Oct 5. <a href=\"https://www.wingtaiasia.com.sg/investor-relations\">source</a></li>\n<li>No other substantial-shareholder/director filings found for held SGX or HK names.</li>\n</ul>\n<h3>Congress (window Oct 1-5)</h3>\n<ul>\n<li>Senate Dem (RI): SOLD JPM x2, Visa x2, Analog Devices; traded Sep 4, filed Oct 1.</li>\n<li>House Dem (WA-1): muni rotation 4 tickets at $250-500K each (Boulder CO schools buy; CA Community Choice sell; Central Valley Energy buy; San Joaquin Clean Energy buy+sell); filed Oct 1.</li>\n<li>House Dem (VA-8): munis $15-100K (Univ Missouri buy, Indiana ST buy, Ohio GO sell); filed Oct 2.</li>\n<li>House Rep (OH-2): AMGN buy, HD buy x2, MPC sell x2 ($1-15K); filed Oct 2.</li>\n<li>House Dem (LA-6): GOOG, AAPL, MSFT x2, NFLX all buys ($1-15K); filed Oct 2.</li>\n<li>Nothing in held tickers. <a href=\"https://unusualwhales.com/politics\">source</a></li>\n</ul>\n<h3>Trump / policy watch (24-48h)</h3>\n<ul>\n<li>NFP +29K shock; Goolsbee (2027 voter) refuses to rule out any decision.</li>\n<li>Iran decision point: Camp David secret meeting Friday; Trump \u2014 easy way or hard way; B-1s pulled from RAF Fairford; tanker struck in Hormuz Sunday; Houthis hit Aramco facility in Riyadh; Iran oil minister resigned.</li>\n<li>G7 agreed up to 100M bbl diesel+crude emergency release (4-month pace per Macron); no diesel export ban; OPEC+ held Nov quotas. WTI -1.7%.</li>\n<li>Fed independence pressure: Hassett urged Powell to leave the board; Bessent downplayed yields and called AI bubble talk alarmist; ~$100 checks to 20M+ seniors; White House AI task force (czar Clayton).</li>\n<li>Trade: China anti-dumping probe on EU chemicals; Trump warns Korea on Alaska pipeline; first Belarus potash shipment in 4 years.</li>\n<li>Joint US-Japan FX intervention announced (USDJPY ~158); SoftBank Son flags AI safety worries; NK hypersonic IRBM test.</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>All 7 daily.json flags restated above; 5 false, 1 direction-real, 1 exact (CDL).</li>\n<li>Concentration: SG property cluster (CDL, UOL, Wing Tai, Yanlord, Ho Bee) under simultaneous drawdown; CDL -14.8% cumulative.</li>\n<li>FX: about 35% of net worth non-SGD; USD 1.2793, USDCNY about 6.70, USDHKD about 7.847.</li>\n<li>Silver line: 1,777 oz at about $60.42 futures x 1.2793 = about S$137.3k vs S$56,240 loan \u2014 equity about S$81.1k, about 1.69x. A -5.9% silver day = -10% equity. $60 close-below is the active watch line.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Defense sleeve hold-fire:</b> 10y must rally-and-hold sub about 5.15% on soft data, or 30y capitulation above 5.75%, before deploying. NFP +29K was the soft print and 5.28% close was the refusal \u2014 gate not met.</li>\n<li><b>HK barbell:</b> Tencent 425 line broke Friday on 18% average volume (provisional); mainland returns Oct 8 to confirm. Xiaomi corporate is buying the dip (HK$99.2M Oct 2).</li>\n<li><b>Silver/miners:</b> $62 add suspension stands; $60 is the new line. Deutsche Bank flags silver oversupply; Heraeus calls $60 the key test. Miners (GDX +1.2%, SILJ +0.4%) diverging up from spot \u2014 watch for confirmation.</li>\n</ul>\n<h3>Market context (Friday close)</h3>\n<ul>\n<li>SPX 7,723 +0.73%, NDX 30,808 +1.00%, DJI 51,182 +0.49%, RUT 2,833 +0.94%; VIX 15.31 -6.59%.</li>\n<li>10y 5.28% (up on soft NFP), DXY 101.92, WTI -1.7%, Brent +0.5%, spot gold +0.2%, BTC +1.3%.</li>\n<li>GDX $87.78 +1.20%, SILJ $27.23 +0.44%, SLVP not captured (Thu $34.85); silver Dec futures about $60.42 -1.24%.</li>\n<li>STI 5,634.82 -0.58%; SGX (S68.SI, not held) -7.16% on 4.5x volume \u2014 board-lot reduction announced (100 to 10 shares, effective today, incl DBS/Keppel), no confirmed fundamental driver.</li>\n<li>USDSGD 1.2793, USDCNY about 6.70.</li>\n</ul>",
   "insiderTrades": [
     {
-      "ticker": "W05.SI",
-      "insider": "Cheng Wai Keung",
-      "role": "Chairman & Managing Director, Wing Tai Holdings",
-      "type": "Change in interest (Form 1); 18 September director-interest filings total (Sep 1,2,3,4,7,10,11,14,15,16,17,18,22,23,24,25,28,29); latest Sep 29; none Sep 30-Oct 1; run dating to Aug 26. Sep 30 package: Special Dividend, Final Dividend, Addendum, Annual Report 2026, Proxy Form, Notice of 62nd AGM; amounts/direction in PDF attachments, not machine-verified",
-      "shares": null,
-      "value": null,
+      "ticker": "Wing Tai (SGX: W05)",
+      "insider": "Wing Tai directors (September filing run, 18 filings)",
+      "role": "Directors / substantial shareholders",
+      "type": "Buy",
+      "shares": "see filings",
+      "value": "see filings",
       "date": "2026-09-29",
-      "url": "https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/"
+      "url": "https://www.wingtaiasia.com.sg/investor-relations"
     }
   ],
   "congressTrades": [
     {
-      "member": "Senate Democrat (CT; name not printed in feed)",
+      "member": "Senate Dem (RI)",
       "chamber": "Senate",
-      "ticker": "Private LLC vehicles: MH Built to Last LLC, Days Between LLC, Not Fade Away LLC",
-      "type": "Buy & Sell (mixed)",
-      "range": "Sells $1K-$500K tiers (Aug 19); buys incl. Days Between $250K-$500K and Not Fade Away $250K-$500K x2 (Aug 24/27, Sep 11)",
-      "date": "2026-09-28",
+      "ticker": "JPM, V, ADI",
+      "type": "Sell",
+      "range": "$1K-$50K (JPM x2 $15-50K, V x2, ADI $1-15K)",
+      "date": "2026-10-01",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OK-1; name not printed in feed)",
+      "member": "House Dem (WA-1)",
       "chamber": "House",
-      "ticker": "Wholesale equity sell-down, dozens of names: LMT x2, XOM ($100K-$250K), DVN x4, HD x5, ITW x4, PTC x2 ($50K-$100K), ROK x3, EMR x2, NEE x2, LIN x2, NVO x2, MRSH ($100K-$250K), OKE (incl. $500K-$1M exchange), STX, IQV x3, HON, WMT, F, LOW, CL, CSX x2, BSX, ORLY x2, PBA, PRGS, VUZI x2, Virtus AI fund x2; buys: Oklahoma municipal bonds x4",
-      "type": "Sell (predominantly)",
-      "range": "$1K-$1M per line",
-      "date": "2026-09-28",
+      "ticker": "Munis: Boulder CO schools / CA Community Choice / Central Valley Energy / San Joaquin Clean Energy",
+      "type": "Buy/Sell",
+      "range": "$250K-$500K x4",
+      "date": "2026-10-01",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OH-7; name not printed in feed)",
+      "member": "House Dem (VA-8)",
       "chamber": "House",
-      "ticker": "Mercato Partners Traverse IV QP, LP",
+      "ticker": "Munis: Univ Missouri / Indiana ST / Ohio GO",
+      "type": "Buy/Sell",
+      "range": "$15K-$100K",
+      "date": "2026-10-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Rep (OH-2)",
+      "chamber": "House",
+      "ticker": "AMGN, HD, MPC",
+      "type": "Buy/Sell",
+      "range": "$1K-$15K (AMGN buy, HD buy x2, MPC sell x2)",
+      "date": "2026-10-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Dem (LA-6)",
+      "chamber": "House",
+      "ticker": "GOOG, AAPL, MSFT, NFLX",
       "type": "Buy",
-      "range": "$1K-$15K",
-      "date": "2026-09-28",
+      "range": "$1K-$15K each (MSFT x2)",
+      "date": "2026-10-02",
       "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "Iran offer rejected (\"simply not enough\"); WSJ: third carrier group + up to 10k troops by end-November, bombing expected to resume in November \u2014 oil re-spikes",
-      "detail": "Trump rejected Iran's latest offer \u2014 reported by Bloomberg as restored IAEA inspector access to bombed facilities in exchange for sanctions relief (IRNA denies) \u2014 calling it \"simply not enough\" (US press, Oct 2 SGT). To Time Magazine: bombing could ramp up after the midterms; Iran must sign \"or it will no longer exist.\" WSJ: third carrier strike group + additional Marine ships + up to 10,000 troops, arrival by end-November; Trump told aides he expects to resume bombing in November; Roosevelt crew preparing extended deployment. A 2.5M-bbl supertanker was reported hit and burning 8km off Oman (Fars). Pezeshkian: Tehran \"will never shy away from dialogue.\" Oil: WTI +2.8% to $92.87, Brent +5.8% to ~$102.31.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "NFP shock: +29K vs +84-90K consensus",
+      "detail": "September payrolls +29K, u3 4.2% (participation 61.8%), AHE +0.1%/3.0%; July revised to -10K, net revisions -60K. Dovish pop pared \u2014 10y closed UP at 5.28%, second straight soft print the long end ignored. Goolsbee (2027 voter) won't rule out any decision.",
+      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
     },
     {
-      "title": "Long end blinks: 10y prints 5.342% intraday (highest since April 2002), then eases to 5.25% on Jefferson/Bowman; Trump leans on Warsh",
-      "detail": "Treasuries bull-steepened: Jefferson (voter) said the Fed \"may need more time before deciding its next rate move\" and that bond yields show markets reassessing the outlook; Bowman (voter) sees \"no urgent need\" for more moves this year; Kashkari is open-minded on an October hike (one more pencilled this year, another in 2027); Cook: \"AI is causing pockets of inflation\"; Schmid: rising long-term rates \"beginning to affect more parts of the economy.\" Treasury liquidity buyback accepted $6.0B of $46.4B offered. Trump: rising rates are \"pretty bad,\" high rates hurt more than inflation, \"certain levels of inflation help pay off debt,\" and he \"wants Warsh to vote the way he wants.\"",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "Iran at decision point",
+      "detail": "Secret Camp David meeting Friday; Trump: decision pending, 'easy way or the hard way'; B-1s pulled from RAF Fairford; tanker struck in Hormuz Sunday (UKMTO); Houthis hit Aramco facility in Riyadh; Iran oil minister Paknejad resigned; IRGC threatens vessels/bases if ground attack.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---5th-october-2026"
     },
     {
-      "title": "ISM September: headline misses at 54.5 (exp 55.0) but Prices Paid surges to 77.9 (exp 72.3) \u2014 NFP tonight, cons ~90-100k",
-      "detail": "ISM manufacturing 54.5 vs 55.0 expected (prev 54.6); Prices Paid 77.9 vs 72.3 expected (prev 71.1) \u2014 a supply-shock signature with oil re-spiking; new orders 55.3 and employment 52.7 both improved; S and P Global final 55.9 (exp 57.0). Jobless claims 197K; continuing claims 1,701K; Challenger layoffs 43.3K (from 52.9K); Revelio September payrolls +56.9k. NFP Friday 8:30pm SGT: consensus ~90-100k vs 162k prior (ADP printed 90k Wednesday).",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "G7 emergency oil release; OPEC+ holds",
+      "detail": "G7 agreed up to 100M bbl diesel+crude release (Macron: 4-month pace); Trump rules out diesel export ban, SPR fill 'soon'; OPEC+ held November quotas. WTI -1.7% Friday.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---5th-october-2026"
     },
     {
-      "title": "Energy security: US warns France/Germany to release emergency diesel stocks or face possible export ban; SPR to be filled with Venezuelan oil",
-      "detail": "The US told France and Germany to release emergency diesel stocks or face a possible export ban; Energy Secretary Wright is \"highly confident\" Europe will help and said gasoline/diesel prices \"will be lower by the election\"; Bessent pressed European partners to accelerate deliveries; the EU Energy Union Taskforce meets Friday on coordinated releases. Trump: the US will fill the SPR with Venezuelan oil \"at very little cost\" (Venezuela September exports 1.08M bpd, 629k to the US). Gulf producers exported 26% fewer barrels during the conflict while prices rose 44% YTD (Tanker Trackers); Saudi East-West pipeline back to ~5.5M bpd (Argus).",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "Fed independence pressure builds",
+      "detail": "Hassett urged Powell to leave the Fed board (HQ renovation report); Bessent downplayed yields and called AI bubble talk 'alarmist'; Trump ~$100 checks to 20M+ seniors via Medicare Part B; White House AI task force (czar Clayton) to report on AI risks.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---5th-october-2026"
     },
     {
-      "title": "China trade: US moves to use Beijing's dependence on US aviation suppliers as leverage; Greer: unconditional MFN tariffs \"warrant reform\"",
-      "detail": "The administration is taking steps to use China's dependence on US aviation suppliers as leverage in trade negotiations \u2014 a pressure point aimed at the aviation supply chain, relevant to the China/HK tech theme. USTR Greer: the US is on track for record goods trade exports this year, the concept of unconditional most-favoured-nation tariffs \"warrants reform,\" and the US is open to a Canada deal \"although gaps remain.\"",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "Trade tit-for-tat",
+      "detail": "China anti-dumping probe on EU chemicals; Trump warns Korea he will 'charge South Korea more' on Alaska pipeline; first Belarus potash shipment in 4 years.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---5th-october-2026"
     },
     {
-      "title": "AI tape: software leads (Accenture beat, Synopsys raises guidance on OpenAI deal); Micron +3%; Alphabet +2% on new Gemini; Anthropic eyeing IPO as soon as mid-November",
-      "detail": "NDX +0.31% led Thursday: Accenture's strong earnings lifted software, Synopsys gained after raising guidance following its deal with OpenAI, Micron rose ~3% in follow-through to Wednesday's blowout, Alphabet +2% on the newest Gemini model, NVDA +1.1%. Bloomberg: Anthropic is eyeing an IPO as soon as mid-November. Read-through to the AI-bottleneck theme, the memory complex (Samsung/SK Hynix) and HK tech reopening Friday.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---2nd-october-2026"
+      "title": "Joint FX intervention; NK missile",
+      "detail": "US-Japan joint FX intervention announced (FinMin Katayama: 'FX trend has changed somewhat'; USDJPY ~158); SoftBank's Son flags AI safety worries; North Korea hypersonic IRBM test.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---5th-october-2026"
     }
   ],
   "opportunities": [
     {
-      "ticker": "Defense sleeve (duration/TIPS)",
-      "thesis": "Target 15% vs ~0% filled. First genuine long-end pause since the spike: the 10y backed off 5.342% intraday (highest since April 2002) to 5.25% on Jefferson (\"more time\") and Bowman (\"no urgent need\"), bull-steepening, with a $6B liquidity buyback absorbed.",
-      "signal": "NFP tonight (8:30pm SGT) is the second gate \u2014 consensus ~90-100k (ADP 90k, Revelio +56.9k). A print at/below ~70k with the 10y holding under ~5.25% = first-tranche entry; a hot print or the 10y back over 5.34% = wait, the 30y at ~5.66% says deeper levels remain possible. Wild card: Brent at $102 works against the pause via the inflation channel (ISM prices 77.9)."
+      "ticker": "Defense sleeve (ITA/XAR watch)",
+      "thesis": "Term-premium regime confirmed: NFP +29K (softest in years) and 10y still closed up at 5.28%. Long-duration defense names stay hostage to the long end until the bond market actually believes soft data.",
+      "signal": "Hold fire. Deploy only on rally-and-hold sub ~5.15% on soft data, or 30y capitulation above 5.75%. Gate not met Friday."
     },
     {
-      "ticker": "HK AI barbell (Tencent / SMIC / Xiaomi)",
-      "thesis": "Asia 10% vs ~3%; AI bottlenecks 15% vs ~1%. HK reopens today after National Day with the mainland shut until Oct 8 (thin tape, no southbound); the US AI tape improved overnight (Micron +3%, Alphabet +2% on Gemini, Synopsys raised guidance on OpenAI, Anthropic IPO chatter). Last closes Wednesday: Tencent 431.00 (tell 439 broken, line 425), SMIC 60.65, Xiaomi 25.24.",
-      "signal": "Watch today's reopen for direction but expect no volume confirmation until the mainland returns Oct 8 \u2014 levels unchanged: a 439 reclaim with southbound back is the trigger, 425 the failure line; do not chase a holiday session."
+      "ticker": "0700.HK / 1810.HK (HK barbell)",
+      "thesis": "HSI -2.60% reopen broke 24,000; Tencent below the 425 line but on 18% of average volume (provisional break); Xiaomi corporate bought back HK$99.2M on Oct 2 \u2014 insider alignment at the dip; mainland desks return Oct 8 to confirm or fade.",
+      "signal": "Watch Oct 8-9 mainland participation before adding; 425 reclaim on volume = all-clear, failure = tranche-2 entry lower."
     },
     {
-      "ticker": "Silver / miners (GDX / SILJ / SLVP)",
-      "thesis": "Real assets 20%; silver sleeve suspended below $62. Flags wrong a fourth day \u2014 verified Thursday: SLV +0.94% ($55.02), GLD +0.50% ($382.76), GDX -1.21%, SILJ -0.62%, SLVP -0.34%: basing, not breaking. Spot silver ~$60.7 holds above $60; USAGOLD reports physical silver demand doubling; ISM prices 77.9 and Brent $102 are a fresh inflation impulse (tailwind), DXY 102.00 the headwind.",
-      "signal": "Suspension rule stands \u2014 no adds below $62 \u2014 but the base is holding above $60; a $62 reclaim with a stalling dollar re-arms the miners sleeve. The leveraged line's equity (~S$81.9k, 1.69x) is rebuilding on its own."
+      "ticker": "Silver / SILJ / SLVP",
+      "thesis": "Silver Dec futures ~$60.42, sitting on Heraeus's 'key test near $60'; Deutsche Bank flags oversupply; but miners diverged up Friday (GDX +1.2%, SILJ +0.4%) \u2014 equity market not confirming spot weakness yet.",
+      "signal": "$62 add suspension stands; $60 is the new line. Leveraged line at ~1.69x \u2014 a close below $60 forces de-risk review; miners holding up = no panic signal yet."
     }
   ]
 }
