@@ -1,25 +1,35 @@
 {
-  "date": "2026-10-14",
-  "navSgd": 10270894.0,
-  "navChgPct": -0.339,
-  "listedChgPct": -1.887,
+  "date": "2026-10-15",
+  "navSgd": 10255679.0,
+  "navChgPct": -0.469,
+  "listedChgPct": -2.626,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2796,
-    "CNY": 0.191508,
-    "HKD": 0.163044,
-    "MYR": 0.31332
+    "USD": 1.2841,
+    "CNY": 0.192012,
+    "HKD": 0.163623,
+    "MYR": 0.314653
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "DBS Group -5.2% in a day",
-      "detail": "Position is 2.2% of NW."
+      "title": "SMIC -10.8% in a day",
+      "detail": "Position is 1.0% of NW."
     },
     {
       "level": "critical",
-      "title": "SMIC -9.7% in a day",
-      "detail": "Position is 1.0% of NW."
+      "title": "ETFMG Jr Silver Miners -5.8% in a day",
+      "detail": "Position is 0.8% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Silver — unallocated (IBKR) -8.1% in a day",
+      "detail": "Position is 1.2% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Silver -8.1% — leveraged IBKR line",
+      "detail": "~1.5x leverage implies account equity ~-12.1%."
     }
   ],
   "navHistory": [
@@ -137,14 +147,18 @@
     },
     {
       "date": "2026-10-14",
-      "nav": 10270894.0
+      "nav": 10265307.0
+    },
+    {
+      "date": "2026-10-15",
+      "nav": 10255679.0
     }
   ],
-  "snapshotAt": "2026-10-14T07:40:16+08:00",
+  "snapshotAt": "2026-10-15T07:40:21+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3><b>NAV S$10,270,894 — reported -0.34% (approx -0.04% real vs restated Tuesday base).</b> Biggest verified mover among holdings: Xiaomi +2.12% to HK$25.04 Tuesday, bouncing while the memory complex crashed (KOSPI -6.2%, DRAM ETF -3%+ again). One thing: tonight's US CPI (8:30pm SGT; consensus 3.7% y/y vs 3.4% prior — last print before the Oct 27-28 FOMC) lands after NY Fed's Williams said one more 2026 hike then likely done, and after a fresh Hormuz escalation — container ship struck by a projectile, booms near Aramco's Dhahran HQ, Saudi-led strikes on Houthi oil facilities. MAS policy review + Singapore Q3 GDP this morning.</h3><h3>State</h3><ul><li><b>NAV S$10,270,894</b>; reported -0.339%; listed sleeve printed -1.887% but that is contaminated by stale flag references. Oct 13 restated to 10,274,593 (from 10,278,439). NAV level authoritative.</li><li>FX: USD/SGD 1.2796, CNY/SGD 0.191508 (USDCNY ~6.682), HKD/SGD 0.163044, MYR/SGD 0.31332.</li><li>priceErrors: L46.SI Yahoo 404 — 24th consecutive session.</li></ul><h3>Flag integrity — both critical flags STALE</h3><ul><li>\"DBS Group -5.2% in a day\" (2.2% NW): <b>false as a day move</b> — DBS closed Tuesday at S$74.47, +0.72%. The flag echoes the Oct 8 bank rout (DBS -4.7% that day).</li><li>\"SMIC -9.7% in a day\" (1.0% NW): <b>false as a day move</b> — SMIC closed Tuesday at HK$55.55, -1.16%. The -9.7% is the cumulative five-session slide from Oct 6's 61.55; SMIC is ~40% below its 52-week high (93.00) — a real drawdown, not a one-day event.</li></ul><h3>Position moves (Tue Oct 13)</h3><ul><li>SGX second up day: STI 5,430.50 +0.28%. DBS +0.72%, OCBC +0.48%, UOB +1.06%; Singtel -0.95%.</li><li>HK resilient amid regional chip crash: HSI ~24,230 -0.2% while KOSPI -6.2%, Nikkei -2.0%, Taiwan -1.8%. <b>Xiaomi 25.04 +2.12%</b>; Tencent 425.20 -0.14%; SMIC 55.55 -1.16%.</li><li>US bank-earnings day: SPX 7,806 flat; Dow 51,671 -0.35%; Nasdaq -0.2%; NDX 30,569 -0.31%; <b>VIX 15.27 +0.39%</b>; <b>UST 10y 5.21%</b> (down from 5.24% — haven bid + dovish Williams); DXY 102.20 -0.4%.</li><li>Banks mixed, all fell: JPM rare miss, WFC mixed, GS massive revenue beat, C — JPM/GS/WFC/C/JNJ all closed lower; UNH beat. Energy top sector again (+1.75%); Healthcare worst (-1.26%).</li><li>Memory rout leg 3: DRAM ETF -3%+ again; NVDA -1.3%, AMD -2.3% early.</li><li>Metals steady: gold ~$4,182 (spot -0.3%); silver ~$60.0-60.2, drifting toward ~$59 overnight. Oil choppy: WTI +1.1%, Brent -0.5% (~$105-106); diesel futures at YTD highs; SPR 283M bbls — lowest since Oct 1982. OPEC trimmed 2026 demand growth to +0.2M bpd.</li></ul><h3>Insider (7d)</h3><ul><li>Wing Tai (W05.SI): two new in-window items — Change in Interest of Director on Oct 12 (with same-day Notice of Transfer of Treasury Shares; award-related acquisition) and Oct 9. Buy-equivalents; counts not disclosed in summaries.</li><li>None found for other held SGX names (Singtel's latest change-of-interest filings are Sep 1 — outside window). No director dealings found for Tencent/SMIC/Xiaomi; Xiaomi bought back 2M B-shares Oct 5 (buyback, not insider dealing, just outside window). US holdings are ETFs — n/a.</li></ul><h3>Congress (Oct 9-14)</h3><ul><li>No new STOCK Act filings appeared Oct 9-13. Most recent on file: Oct 8 batch — House Dem NJ-5 sold AMAT + MCD ($1-15K each); House Republican broad rebalance (sold SPCX/GS/C/MSFT/CSCO/MRK et al., bought SNOW/META/OKTA/GLW/CVX — sold GS and C three weeks before Tuesday's bank earnings); PA Senate Dem 2x Dell 5.6% 2033 bond buys (filed Oct 7).</li></ul><h3>Policy watch</h3><ul><li>CPI eve: Williams (voter) — one more 2026 hike appropriate, none in 2027, no broad price pressure outside AI and energy; Goolsbee — \"AI is an inflation problem\", inflation far too high. US CPI tonight 8:30pm SGT (cons 3.7% vs 3.4% prior); Warsh at IMF Friday; ASML/BAC/MS earnings Wed.</li><li>Hormuz escalation: container ship struck by projectile Oct 13 (UKMTO); AIS-off tanker fire; booms near Aramco HQ Dhahran; Houthis warn Aramco workers to evacuate; Saudi-led coalition hit Houthi oil facilities (Ras Issa, Bajil, Dhamar); IRGC \"counting down the days\" to sink US ships.</li><li>Trump: Iran decision \"very soon\"; \"I might\" ask Turkey to join Yemen response; Axios — Netanyahu/Trump discussed joint strike on Iranian military/nuclear targets before elections, \"go ahead and get ready\", no firm commitment.</li><li>Russia-Ukraine: Trump working with both sides, says Russia \"releasing diesel to the world\"; Putin-UAE call on diesel deal; next Russia-US consultations possible before year-end.</li><li>Trade: Bessent call with South Korea DPM; Jaishankar — India-US trade deal being finalised.</li><li>Asia today: Singapore Q3 GDP + MAS policy review this morning; China inflation + trade data; BoJ leans against back-to-back Oct hike (December possible).</li></ul><h3>Risk</h3><ul><li>Both watcher flags stale (DBS actual +0.72%; SMIC actual -1.16%) — but SMIC's five-session -9.7% slide and -40% drawdown from the 52-wk high are real.</li><li>Tonight's CPI is the week's binary: cons 3.7% vs 3.4% prior, 10y at 5.21%. Williams verbally capped the cycle — a hot print forces a rethink; Asia reacts first tomorrow.</li><li>Hormuz tail risk rising with SPR at a 44-year low; Brent ~$105-106, diesel at YTD highs.</li><li>Silver line: 1,777 oz at ~$60 ~ S$136.4k collateral vs S$56,240 loan; equity ~S$80.2k ~ 1.70x (~1.66x at $59.1). A -4% silver day ~ -6.7% equity.</li><li>FX: ~35% of NW non-SGD; USD/SGD 1.2796, dollar softening. MAS review this morning could move SGD. Cash ~62% of liquid book. L46.SI unpriced (24th session).</li></ul><h3>Alpha (signals, not advice)</h3><ul><li>SMIC relative strength vs memory crash: fell only 1.16% Tuesday while KOSPI -6.2%; UBS/Goldman upgrades fresh; 93.7% util, 26-28% Q3 GM guide. Signal: stabilization above ~HK$55 through CPI = re-entry trigger for Asia semis leg.</li><li>Xiaomi divergence confirms BOM-relief thesis: +2.12% bounce while memory complex crashed on CXMT; Oct 5 buyback shows the company buying the dip. Signal: holding ~HK$24-25 while memory makes new lows = accumulation zone.</li><li>Energy/security: Hormuz premium underpriced (ship strike, Aramco booms, SPR 44-yr low, diesel YTD highs); Energy top SPX sector two sessions running. Duration gate CLOSED but closer — 10y 5.21%; a sub-5.20% hold after CPI arms rally-and-hold for the Defense sleeve.</li></ul>",
+  "briefHtml": "<h3><b>NAV S$10,255,679 — reported -0.47% (approx -0.09% real; Oct 14 base restated down to 10,265,307).</b> Biggest mover: silver -~8% toward $56 after hot US core CPI — the watcher's silver/SILJ flags are REAL; the leveraged IBKR silver line lost ~11% of account equity in a day (now ~1.78x). Bright spot: Xiaomi +5.35% to HK$26.38 on ~1.8x volume. One thing: core CPI 2.6% y/y vs 2.5% exp doubled October hike odds to a coin flip and smashed metals — yet the 10y reversed to close LOWER at 5.19% and Treasury announced a $6bn buyback. The bond market is flinching at its own hawkishness; PPI + retail sales tonight is the next test.</h3><h3>State (fresh snapshot 07:40 SGT)</h3><ul><li><b>NAV S$10,255,679</b>; reported -0.469%; listed sleeve -2.626% (contaminated by the stale SMIC flag). Oct 14 restated to 10,265,307. NAV level authoritative.</li><li>FX: USD/SGD 1.2841 (firmer post-CPI), CNY/SGD 0.192012 (USDCNY ~6.687), HKD/SGD 0.163623, MYR/SGD 0.314653.</li><li>priceErrors: L46.SI Yahoo 404 — 25th consecutive session.</li></ul><h3>Flag integrity — 1 stale, 3 real</h3><ul><li>SMIC -10.8% in a day (1.0% NW): <b>stale</b> — actual Wednesday close HK$54.30, -2.25%; -10.8% is the cumulative slide from Oct 7's 60.90.</li><li>SILJ -5.8% (0.8% NW): <b>real</b> — consistent with the post-CPI silver crash.</li><li>Silver IBKR -8.1% (1.2% NW): <b>real</b> — silver fell from ~$60.2 Asia morning to $56.23 (-4.68%) post-CPI.</li><li>Leveraged line equity ~-12.1%: <b>real</b> — collateral/equity now ~1.78x (from 1.70x).</li></ul><h3>Position moves</h3><ul><li>Asia Wed (pre-CPI): STI 5,423.33 -0.13%; HSI 24,314.17 -0.13%; <b>Xiaomi 26.38 +5.35%</b> on ~1.8x volume; SMIC 54.30 -2.25%; Tencent 423.40 -0.42%; DBS ~74.34 -0.17% (indicative).</li><li>US Wed (post-CPI): SPX 7,718.94 -1.11%; Nasdaq -1.88%; Dow -0.09%; VIX 16.87 +10.5%; 10y 5.19% (-3bp, full reversal of the spike); DXY 102.55 +0.3%. SOX -4.5% despite ASML's record quarter; Oracle -8.8%.</li><li><b>AI-credit scare: CoreWeave bond yield above 15%</b> (distress levels); stock -15.5%.</li><li>Metals crash: gold below $4,100 ($4,093.87 -1.48%); silver $56.23 -4.68%; gold-silver ratio ~70.3. Oil: WTI ~$94.90 +1.1%.</li></ul><h3>Insider trades (7d)</h3><ul><li>Wing Tai (W05.SI): director change-of-interest filings Oct 12 (Buy-equivalent; same-day treasury-share transfer notice) and Oct 9 remain the latest in-window items; counts not disclosed.</li><li>Nothing new Oct 13-14; none for other SGX/HKEX held names. US holdings are ETFs — no insider filings exist.</li></ul><h3>Congress trades (filed Oct 13-14)</h3><ul><li>PA-9 (R): SOLD NVDA $1-15K (trade 8/31) — before the chip rout deepened.</li><li>OK-1 (R): big rotation out of equities into Oklahoma munis — sold NEE, ROK, SBUX, Virtus AI ETF, LMT x4, MRSH x2, CVX, DVN x2, EMR, HD, LIN.</li><li>CA-31 (D): ~60-line reshuffle; bought TSM, NXPI x2, ON Semi; sold AVGO, MCHP, MTSI x2, WDC, SMTC.</li><li>MI-9 (R): bought OLN, RIG, CACI, CAT, MSFT, Novagold (NG); SOLD STX $15-50K on 9/30 — days before the memory crash.</li><li>WA-2 (D): sold FDX, HD ($1-15K each); bought WSM.</li></ul><h3>Trump / policy watch (24-48h)</h3><ul><li><b>Hot core CPI 2.6% vs 2.5% exp</b> (headline 3.7%; gasoline +9.1%); October hike odds ~doubled to ~43-50%, December ~95%. Fed split (Bowman calm, Goolsbee 'discouraging'). Treasury announced a $6bn buyback of 10-20y coupons. PPI + retail sales tonight; Warsh at IMF Friday.</li><li><b>Hormuz escalation — ships sinking:</b> IRGC says a 2,500-container ship sank after hitting a mine; second vessel sank in ~24h; Houthi ballistic missile hit Riyadh airport; Aramco's Jeddah North station targeted. Netanyahu now opposes a pre-election Iran strike; Tehran in 'atmosphere of war'.</li><li>Russia-Ukraine: White House discusses cutting intel-sharing with Ukraine; Zelensky 'betrayed' by Trump's diesel deal; Novak touts 3.5M t/month diesel exports by year-end.</li><li>IEA October OMR: 2026 oil demand to fall 2.6M bpd (war disruption + prices), supply -5.8M bpd — stark divergence vs OPEC's +0.2M bpd growth view. SPR at 44-year low.</li><li><b>MAS HELD</b> the S$NEER slope (Barclays had expected steepening); Singapore Q3 GDP +5.4% y/y with AI orders a key driver. China September credit strong: loans 1,080B, TSF 3,550B.</li><li>Trade: Germany pushing EU caps on Chinese imports; PBoC-BoJ meeting at IMF Bangkok; US troops to Latin America.</li></ul><h3>Risk</h3><ul><li><b>Silver line is the dominant risk:</b> 1,777 oz x $56.2 x 1.2841 = ~S$128.3k collateral vs S$56,240 loan; equity ~S$72.0k (-~11% in a day); collateral/equity ~1.78x. A further -4% silver day = ~-7% equity. Hostage to tonight's PPI.</li><li>October hike now a coin flip; December ~95% priced — but 10y reversed lower and Treasury's buyback signals official discomfort at these yields.</li><li>AI-credit contagion risk: CoreWeave at 15% yields could de-rate the AI-bottleneck theme regardless of fundamentals.</li><li>FX: ~35% of NW non-SGD; USD/SGD firmed to 1.2841 — mild translation drag. Concentration: DBS ~2.2% NW. L46.SI feed down 25th session.</li></ul><h3>Alpha (signals, not advice; ~62% of liquid book still idle cash)</h3><ul><li><b>Real Assets (target 20%):</b> silver flush was rates-driven, not thesis-breaking (Hormuz sinkings, SPR 44-yr low intact). Signal: silver stabilizing $55-56 while gold holds ~$4,100 = scale-in window; let line equity recover above ~1.8x before adding.</li><li><b>Xiaomi 1810.HK:</b> +5.35% on 1.8x volume while SOX -4.5% and Congress dumped STX/WDC — BOM-relief divergence working; CXMT LPDDR6 for the foldable is the direct link. Signal: hold/build above ~HK$25.</li><li><b>Asia semis (SMIC/TSM) vs US AI-credit stress:</b> CA-31 bought TSM into the rout; CoreWeave distress is a US-financing story, not Asia wafer utilization (SMIC 93.7%). Signal: SMIC holding ~HK$54 (Wed low 53.75) = semis-leg entry. Duration gate CLOSED — 10y 5.19% at, not below, 5.20% into PPI.</li></ul>",
   "insiderTrades": [
     {
       "ticker": "W05.SI",
@@ -169,80 +183,98 @@
   ],
   "congressTrades": [
     {
-      "member": "House Democrat (NJ-5)",
+      "member": "House Republican (PA-9)",
       "chamber": "House",
-      "ticker": "AMAT, MCD",
+      "ticker": "NVDA",
       "type": "Sell",
-      "range": "$1,001–$15,000 each",
-      "date": "2026-10-08",
+      "range": "$1,001–$15,000",
+      "date": "2026-10-14",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (district not shown)",
+      "member": "House Republican (OK-1)",
       "chamber": "House",
-      "ticker": "SPCX, UNH, GS, C, MSFT, META, CRM, SNOW, MRNA, OKTA, DDOG, FDX, GE, HON, MRVL, CSCO, BA, BIIB, BEP, CB, BRK.B, PTON, RH, URI, MRK, IBM (sells); SNOW, META, OKTA, GLW, CVX (buys)",
-      "type": "Mixed rebalance",
-      "range": "mostly $1,001–$15,000; one CSCO and one SNOW lot $15,001–$50,000",
-      "date": "2026-10-08",
+      "ticker": "NEE, ROK, SBUX, Virtus AI ETF, LMT x4, MRSH x2, CVX, DVN x2, EMR, HD, LIN (sells); Oklahoma muni bonds (buys)",
+      "type": "Sell equities / Buy munis (rotation)",
+      "range": "$1,001–$100,000 bands (LMT $15,001–$50,000 each; MRSH $50,001–$100,000 each)",
+      "date": "2026-10-14",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "Senate Democrat (PA)",
-      "chamber": "Senate",
-      "ticker": "Dell Intl 5.6% 2033 bonds",
-      "type": "Buy",
-      "range": "$1,001–$15,000 each (two purchases)",
-      "date": "2026-10-07",
+      "member": "House Democrat (CA-31)",
+      "chamber": "House",
+      "ticker": "TSM, NXPI x2, ON, ALGM, AEIS (buys); AVGO, MCHP, MTSI x2, WDC, SMTC (sells)",
+      "type": "Mixed rebalance (semis rotation)",
+      "range": "mostly $1,001–$15,000; ON and one NXPI lot $15,001–$50,000",
+      "date": "2026-10-13",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (MI-9)",
+      "chamber": "House",
+      "ticker": "OLN, RIG, CACI, CAT, MSFT, NG (buys); STX (sell, trade 9/30)",
+      "type": "Mixed",
+      "range": "OLN/RIG/CACI/STX $15,001–$50,000; others $1,001–$15,000",
+      "date": "2026-10-13",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (WA-2)",
+      "chamber": "House",
+      "ticker": "FDX, HD (sells); WSM (buy)",
+      "type": "Mixed",
+      "range": "$1,001–$15,000 each",
+      "date": "2026-10-13",
       "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "CPI eve: Williams caps the cycle verbally, Goolsbee pushes back",
-      "detail": "NY Fed Williams (voter): one more hike appropriate in 2026, none needed in 2027 at this time; no broad price pressure outside AI and energy — bonds rallied. Goolsbee: \"AI is an inflation problem\", inflation far too high. Waller: higher yields could do some of the Fed's work. US CPI tonight 8:30pm SGT (cons 3.7% y/y vs 3.4% prior); Warsh at IMF Friday; ASML/BAC/MS earnings Wednesday.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "Hot core CPI doubles October hike odds to a coin flip; Treasury announces $6bn buyback",
+      "detail": "Core CPI 2.6% y/y vs 2.5% exp (headline 3.7% vs 3.6%; energy +5.2%, gasoline +9.1%; real hourly earnings -0.7% y/y). October hike odds ~43-50% (from ~20-22%); December ~95% priced. Fed split: Bowman no urgency; Barkin 'higher than hoped'; Goolsbee 'discouraging'; Hassett blamed energy. Beige Book: little/no employment change. Treasury: preliminary $6bn liquidity-support buyback of 10-20y coupons. 10y reversed to close 5.19% (-3bp). PPI + retail sales Thursday; Warsh at IMF Bangkok Friday.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---15th-october-2026"
     },
     {
-      "title": "Hormuz escalation: container ship struck, booms near Aramco HQ",
-      "detail": "UKMTO: container ship struck by unknown projectile in the Strait of Hormuz Oct 13; AIS-off tanker caught fire in eastern strait; loud booms in Dhahran near Aramco HQ; Houthis warned Aramco-facility workers to evacuate (\"legitimate targets\"); Saudi-led coalition struck Houthi oil facilities at Ras Issa, Bajil and Dhamar; IRGC Navy \"counting down the days\" to sink US ships; Iraq at highest combat readiness.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "Hormuz escalation: container ship sinks after mine strike; missiles on Riyadh and Jeddah",
+      "detail": "IRGC Navy: a 2,500-container ship sank south of Hormuz after hitting a naval mine; second commercial vessel sank near Hormuz in ~24h. Houthis hit Riyadh's King Khalid Int'l Airport with a ballistic missile; explosions in Jeddah as Aramco's Jeddah North distribution station was targeted. Netanyahu now opposes a pre-emptive Iran strike before elections; senior Iranian officials 'certain the US will attack' — 'atmosphere of war in Tehran'.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---15th-october-2026"
     },
     {
-      "title": "Trump: Iran decision \"very soon\"; Axios reports pre-election strike talks",
-      "detail": "Trump spoke with the Saudi Crown Prince; \"I might\" ask Turkey to join the Yemen response. US official: Washington would strike Iranian ships in retaliation for any attack on a US vessel. Axios: Netanyahu and Trump discussed a major joint operation against Iranian military/nuclear targets before the elections; Trump said \"go ahead and get ready\" with no firm commitment; the call predated Trump's statement he would not strike Iran before the midterms.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "Russia-Ukraine: White House weighs cutting intel-sharing; Zelensky 'betrayed' by diesel deal",
+      "detail": "Semafor: White House discussing cutting off intelligence-sharing with Ukraine; Ukraine hit two Russian refineries; Zelensky felt 'betrayed' by Trump's diesel deal with Russia; Novak: Russia could raise diesel exports to 3.5M t/month (~10% market share) by year-end.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---15th-october-2026"
     },
     {
-      "title": "Russia-Ukraine: Trump says Russia \"releasing diesel to the world\"",
-      "detail": "Trump working with both sides to end the war; will update on whether Russia broke the ceasefire. Putin-UAE call covered the diesel deal. Ryabkov: next Russia-US consultations could take place before year-end.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "IEA vs OPEC: record divergence on 2026 oil demand",
+      "detail": "IEA October OMR: global oil demand to FALL 2.6M bpd in 2026 on Iran-war disruption and high prices; supply to fall 5.8M bpd to 100.7M bpd. OPEC's October MOMR sees +0.2M bpd demand growth. US SPR unchanged at 283M bbls — lowest since 1982.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---15th-october-2026"
     },
     {
-      "title": "Trade: Bessent-South Korea call; India-US deal \"being finalised\"",
-      "detail": "Treasury Secretary Bessent held a call with South Korea's Deputy PM on shared economic priorities; Indian FM Jaishankar said India-US trade talks are heading in the right direction and a deal is being finalised.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "MAS holds S$NEER slope; Singapore Q3 GDP +5.4% on AI orders; China credit strong",
+      "detail": "MAS maintained the S$NEER appreciation rate, width and center unchanged (Barclays had expected a 25bp steepening). Q3 GDP +5.4% y/y (vs +6.2% Q2), +1.1% q/q SA; MAS sees core inflation slightly above 2%, easing discernibly from mid-2027. China September: new loans 1,080B vs 975B exp; TSF 3,550B vs 3,270B; M2 +7.2%.",
+      "url": "https://www.mas.gov.sg"
     },
     {
-      "title": "Asia day ahead: Singapore GDP + MAS review, China inflation/trade; BoJ pushback",
-      "detail": "Singapore Q3 GDP and MAS policy review land Wednesday morning SGT; China inflation and trade data due. BoJ leans against back-to-back October hikes (December possible; may shift 2% target language to \"approx. 2%\"). OPEC October MOMR trimmed 2026 demand growth to +0.2M bpd (2027 raised to ~2.6M bpd); US SPR unchanged at 283M bbls — lowest since Oct 1982.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---14th-october-2026"
+      "title": "Trade/geopolitics: Germany pushes EU caps on Chinese imports; PBoC-BoJ to meet at IMF",
+      "detail": "Germany pushing the EU to cap additional Chinese imports; PBoC governor to meet BoJ counterpart at IMF Bangkok (Warsh speaks Friday); US sending several hundred Army soldiers to Latin America (NYT). Thursday data: Japan machinery orders, Korea trade, Australia jobs; US PPI + retail sales (survey +0.3% m/m vs +1.2% prior).",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---15th-october-2026"
     }
   ],
   "opportunities": [
     {
-      "ticker": "0981.HK (SMIC)",
-      "thesis": "Relative strength vs the memory crash: fell only 1.16% Tuesday while KOSPI dropped 6.2% and DRAM ETFs fell 3%+ for a second day. UBS (Buy, TP 96.20) and Goldman (Buy, TP 153) upgrades are fresh; 2Q26 printed 93.7% utilization with Q3 GM guided 26-28%. Stock ~40% below its 93.00 52-week high.",
-      "signal": "Continued stabilization above ~HK$55 through tonight's CPI = re-entry trigger for the Asia-barbell semis leg."
+      "ticker": "Real Assets sleeve (silver/gold)",
+      "thesis": "Post-CPI flush took silver -~8% to $56 on a rates story while the physical/war-premium story is intact (Hormuz ships sinking, SPR at 44-yr low, gold-silver ratio ~70). Rates-driven liquidation, not thesis break. Target: Real Assets 20% of book; ~62% of liquid book still idle cash.",
+      "signal": "Silver stabilizing in the $55-56 zone while gold holds ~$4,100 = scale-in window. Leveraged-line discipline: let collateral/equity recover above ~1.8x (now ~1.78x) before adding — do not average into a margin squeeze ahead of tonight's PPI."
     },
     {
       "ticker": "1810.HK (Xiaomi)",
-      "thesis": "Divergence confirms BOM-relief thesis: +2.12% bounce Tuesday while the global memory complex crashed on CXMT's denser-cell progress (server memory by end-2026 = input-cost relief). Company repurchased 2M B-shares Oct 5 — buying its own dip.",
-      "signal": "Holding the ~HK$24-25 base while memory names make new lows = accumulation zone."
+      "thesis": "Memory rout = BOM relief, round 2: +5.35% on ~1.8x volume Wednesday WHILE SOX fell 4.5% and Congress members dumped STX/WDC (MI-9 sold STX 9/30, CA-31 sold WDC). CXMT confirmed as LPDDR6 supplier for Xiaomi's foldable — the direct input-cost link. IDC's China Q3 smartphone -15.4% is the bear case already in the price near HK$25.",
+      "signal": "Hold/build above ~HK$25; a close back below 24.66 (Wednesday low) invalidates this leg."
     },
     {
-      "ticker": "Energy/security sleeve (oil services, defense infra)",
-      "thesis": "Hormuz risk premium underpriced: container-ship projectile strike, booms near Aramco HQ, Saudi strikes on Houthi oil sites, diesel futures at YTD highs, SPR at 44-year low (283M bbls). Energy was the top S&P sector two sessions running (+1.49%, +1.75%).",
-      "signal": "Defense/energy-infrastructure bid persists; duration gate CLOSED but closer — 10y fell to 5.21%; a sub-5.20% hold after CPI arms rally-and-hold for the Defense sleeve (target 15%)."
+      "ticker": "Asia-barbell semis: 0981.HK (SMIC) / TSM",
+      "thesis": "US AI-credit stress (CoreWeave bond yield above 15%, distress levels) is a financing-chain story, not an Asia wafer-utilization story: SMIC 2Q26 printed 93.7% utilization and MAS explicitly cited AI orders behind Singapore's +5.4% Q3 GDP. CA-31 bought TSM into the rout — the same divergence.",
+      "signal": "SMIC holding ~HK$54 (Wednesday low 53.75) + TSM resilience = semis-leg entry. Duration gate for the Defense sleeve (target 15%) remains CLOSED — 10y at 5.19% is at, not below, 5.20% into PPI."
     }
   ]
 }
