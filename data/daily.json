@@ -1,27 +1,16 @@
 {
-  "date": "2026-10-16",
-  "navSgd": 10251546.0,
-  "navChgPct": -0.211,
-  "listedChgPct": -1.195,
+  "date": "2026-11-06",
+  "navSgd": 10242155.0,
+  "navChgPct": 0.538,
+  "listedChgPct": 3.181,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.282,
-    "CNY": 0.191879,
-    "HKD": 0.163377,
-    "MYR": 0.314216
+    "USD": 1.2781,
+    "CNY": 0.191956,
+    "HKD": 0.162998,
+    "MYR": 0.316048
   },
-  "riskFlags": [
-    {
-      "level": "critical",
-      "title": "SMIC -8.2% in a day",
-      "detail": "Position is 0.9% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Silver -4.7% — leveraged IBKR line",
-      "detail": "~1.5x leverage implies account equity ~-7.0%."
-    }
-  ],
+  "riskFlags": [],
   "navHistory": [
     {
       "date": "2026-09-01",
@@ -145,130 +134,191 @@
     },
     {
       "date": "2026-10-16",
-      "nav": 10251546.0
+      "nav": 10260735.0
+    },
+    {
+      "date": "2026-11-05",
+      "nav": 10246944.0
+    },
+    {
+      "date": "2026-11-06",
+      "nav": 10242155.0
     }
   ],
-  "snapshotAt": "2026-10-16T07:40:26+08:00",
+  "snapshotAt": "2026-11-06T07:40:20+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3><b>NAV S$10,251,546 — reported -0.21% (approx +0.06% real; Oct 15 base restated down to 10,245,143).</b> Biggest verified mover: Seatrium -4.6% to S$1.85, the STI's worst performer Thursday; Xiaomi rose again +2.65% to HK$27.08 (+8.1% in two days) while Korea's memory crash triggered a KOSPI circuit breaker. One thing: PPI came in double-hot (+1.3% m/m, 6.3% y/y) and retail sales doubled estimates — yet Treasury yields FELL a second day (10y -10bp to ~5.09%, settling ~5.06%), October hike odds round-tripped to ~30%, and Treasury executed its $6bn buyback. BTIG calls it a bond-market 'news failure': the 5.20% duration gate for the Defense sleeve is now cracked open. TSMC's blowout Q4 guide ($52.3-54.3bn) confirms the AI-hardware cycle even as memory crashes.</h3><h3>State (fresh snapshot 07:40 SGT)</h3><ul><li><b>NAV S$10,251,546</b>; reported -0.211%; listed sleeve -1.195% (contaminated by the stale SMIC flag). Oct 15 restated to 10,245,143. NAV level authoritative.</li><li>FX: USD/SGD 1.2820 (dollar eased post-PPI), CNY/SGD 0.191879 (USDCNY ~6.681), HKD/SGD 0.163377, MYR/SGD 0.314216.</li><li>priceErrors: L46.SI Yahoo 404 — 26th consecutive session.</li></ul><h3>Flag integrity — both partly stale</h3><ul><li>SMIC -8.2% in a day (0.9% NW): <b>exaggerated</b> — actual Thursday close HK$52.15, -3.96%. The real story is cumulative: -14.4% from Oct 7's 60.90. Thursday broke the 53.75 gate — semis re-entry NOT armed.</li><li>Silver -4.7% / line equity -7.0%: <b>stale by one session</b> — that was Wednesday's crash (settle $55.64, -5.98%). Thursday silver REBOUNDED +2.4% to ~$56.9-57; gold +1.5%.</li></ul><h3>Position moves (Thu Oct 15)</h3><ul><li>SGX: STI 5,403.50 -0.37% (intraday lowest since Jul 8). DBS 73.75 -0.79%. <b>Seatrium -4.6% to 1.85, worst STI performer</b>; YZJ -4.1% intraday.</li><li>HK: HSI 24,062.72 -1.03%. <b>Xiaomi 27.08 +2.65%</b>; Tencent ~417.9 -1.3%; SMIC 52.15 -3.96%. Lenovo -14.5%. Transsion's HK debut cited 'rising memory costs' — counter-nuance to the BOM-relief thesis.</li><li>Korea/Japan crash: <b>KOSPI -7.57%, circuit breaker (first since Jul 29); Samsung -9.5%, SK Hynix -11.1%; Nikkei -4.9%</b>.</li><li>US: Dow +1.1% (+~550 pts) / SPX +0.3% (7,745) / Nasdaq +0.1% / RUT +1.4% — rotation out of mega-cap tech; equal-weight +1%. VIX 16.46 -2.4% (faded from 18.01). <b>10y ~5.09% (-10bp, settled ~5.06%)</b>; DXY 102.00 -0.5%.</li><li>Metals rebounded: gold +1.5% (~$4,150-4,170), silver +2.4% (~$56.9-57); SILJ ~27.08 +1.2%. Oil: WTI settled +2.6% at $97.97 after an EIA -8.557M bbl draw; Brent $105.92.</li><li><b>TSMC Q3 blowout:</b> revenue $46.72bn (+41.2% y/y), GM 66.4%, EPS $4.60 beat; <b>Q4 guided $52.3-54.3bn (+14% q/q)</b>; capex $60-64bn.</li></ul><h3>Insider trades (7d)</h3><ul><li>Wing Tai (W05.SI): <b>NEW Oct 13 'Change in Interest of Director'</b> adds to Oct 12 (+ treasury-share transfer notice), Oct 9 (same pairing) and Oct 6 (+ share-award grant) — four director-interest filings in eight days atop a six-filing late-Sep cluster; Cheng concert group ~63%. Counts not disclosed; treasury-transfer pairings read as Buy-equivalents.</li><li>None found for other held SGX names or Tencent/SMIC/Xiaomi on HKEX in the window. US holdings are ETFs — no insider filings exist.</li></ul><h3>Congress trades (filed Oct 13-14; no new filings Oct 15-16 as of 07:45 SGT)</h3><ul><li>PA-9 (R): SOLD NVDA $1-15K (trade 8/31).</li><li>OK-1 (R): rotation out of equities into Oklahoma munis — sold NEE, ROK, SBUX, Virtus AI ETF, LMT x4, MRSH x2, CVX, DVN x2, EMR, HD, LIN, LOW, CB.</li><li>CA-31 (D): ~80-line reshuffle; bought TSM, NXPI x2, ON Semi; sold AVGO, MCHP, MTSI x2, WDC, SMTC.</li><li>MI-9 (R): bought OLN, RIG, CACI, CAT, MSFT, Novagold (NG); SOLD STX $15-50K on 9/30 — days before the memory crash.</li><li>WA-2 (D): sold FDX, HD; bought WSM. Pattern: members sold memory pre-crash, rotated into Asia semis, munis and a gold miner.</li></ul><h3>Trump / policy watch (24-48h)</h3><ul><li><b>PPI double-hot, bonds don't care:</b> PPI +1.3% m/m / 6.3% y/y (core 5.0% vs 4.4% exp); retail sales +0.8% (gasoline-led). Yet 10y -10bp, October hike odds back to ~30% from ~50%, Treasury bought back $6bn of 20-30y ($40.84bn offered). September PCE expectations revised UP. Warsh speaks at the IMF today.</li><li><b>Hormuz — a Singapore flag sinks:</b> CENTCOM says the Singapore-flagged M/V GFS Pride sank after an IRGC projectile (not a mine); Iran's Army Commander: Hormuz 'closed until rights respected'; Hezbollah told to prepare for war; Tehran weighs NPT withdrawal; 120 vessels blacklisted; fresh US Iran sanctions; Netanyahu-Rubio call.</li><li><b>Oil stockpile politics:</b> EIA crude -8.557M bbls; US wants +100M bbls added to the IEA emergency release; IEA completing 100M + seeking 20M diesel ASAP; SPR unchanged at 44-yr low.</li><li><b>Trade walls:</b> EU assessing more quota sectors on Chinese imports + a tool that could block China from the single market; UK may align with EU EV tariffs; India-US phase one finalised; China bought 10-13 US soybean cargoes.</li><li><b>AI demand confirmed at source:</b> TSMC Q4 guide +14% q/q on 2nm ramp; counterpoint — CoreWeave's 15% bond yield (financing-chain stress); Google quantum breakthrough; Tesla energy VP exits on AI pivot.</li><li><b>Today:</b> Singapore Sep non-oil exports, Korea unemployment, US import/export prices; Warsh (IMF), Bailey, Macklem speak. Next: Meta/Tesla Oct 21, FOMC Oct 27-28, GDP Oct 29.</li></ul><h3>Risk</h3><ul><li>Watcher flags: SMIC exaggerated (actual -3.96%); silver flag stale (rebounded +2.4%).</li><li><b>Silver line recovering but thin:</b> ~S$129.5k collateral vs S$56,240 loan; equity ~S$73.3k; ratio ~1.77x (vs 1.80x at Wednesday's settle, 1.70x pre-CPI). A renewed -4% silver day still cuts ~7% of equity.</li><li>'News failure' cuts both ways: yield relief is partly haven flow from the memory rout — a TSMC-led tech bounce could reverse it; FOMC Oct 27-28 looms (Oct ~30%, Dec near-certain).</li><li>Korea contagion: circuit breakers + Samsung/SK Hynix -9~-11% = forced deleveraging risk into HK semis (SMIC -14% from Oct 7).</li><li>War escalation: Singapore-flagged vessel sunk; Hormuz 'closed'; emergency-release politics signal supply-panic management — energy volatility bid.</li><li>Seatrium -4.6% (small, ~S$37k); FX ~35% non-SGD with USD/SGD easing to 1.2820; DBS -0.79%; L46.SI feed down 26th session.</li></ul><h3>Alpha (signals, not advice; ~62% of liquid book idle cash)</h3><ul><li><b>Defense sleeve (target 15%) — duration gate CRACKED OPEN:</b> 10y ~5.09%/5.06%, decisively below the 5.20% threshold, after TWO hot inflation prints. Signal: 10y holding sub-5.10% through Warsh's IMF speech and the weekend = first duration-entry trigger (TIPS/long duration); size small — the bid is partly haven flow.</li><li><b>Xiaomi 1810.HK — divergence keeps paying:</b> +2.65% Thursday (+8.1% in two days) while KOSPI circuit-broke and Lenovo -14.5%; TSMC's guide confirms the device cycle. Watch Transsion's 'rising memory costs' counter-signal. Signal: hold/build above ~HK$26.4.</li><li><b>Asia semis (SMIC/TSM) — rout is memory-specific:</b> TSMC blowout vs KOSPI crash = CXMT/DRAM, not foundry demand. SMIC broke the gate (52.15 under 53.75) — entry NOT armed. New signal: SMIC reclaiming ~HK$54 + TSM ADR green Friday = entry; below 51.05 = stay out. Silver reload stays on watch: $55-56 held, line ~1.77x — a second stabilizing session opens the scale-in window.</li></ul>",
+  "briefHtml": "<h3>Portfolio Brief - Fri 2026-11-06 (SGT)</h3>\n<ul>\n<li><b>NAV: S$10,242,155</b>, reported +0.54%; real day move approx -0.05% (S$-4,789 vs 10,246,944). First brief since 16 Oct - three-week gap; 16 Oct NAV restated up to 10,260,735.</li>\n<li><b>Biggest mover:</b> not in the book yet - US chips crashed Thursday after Asia closed (SOX -12%, NVDA -9%, SanDisk -22%, QCOM -19%). Asia digests it today.</li>\n<li><b>The one thing:</b> Democrats swept Tuesday's midterms (Congress + statehouses incl. Texas and Georgia); Thursday's crash prices slower data-center permitting and power approvals - a policy selloff, not a demand break. Oil war premium deflating on Qatar-mediated Iran diplomacy. 10y at 4.84%, 36bp through the 5.20% duration gate. NFP tonight 8:30pm SGT.</li>\n</ul>\n<h3>State and flags</h3>\n<ul>\n<li>riskFlags: ZERO - first clean day in weeks (pre-crash 07:40 snapshot).</li>\n<li>L46.SI (Lum Chang): Yahoo 404, 27th consecutive session.</li>\n<li>listedChgPct +3.18% unreliable - Asia closed before the US crash; expect give-back today. Nikkei -1.8% early Friday.</li>\n<li>FX: USDSGD 1.2781 (firmer SGD vs 1.2841 mid-Oct), USDCNY approx 6.657.</li>\n</ul>\n<h3>Position moves (Thu 5 Nov Asia closes)</h3>\n<ul>\n<li>STI 5,296.25 (+0.52%). HK ripped post-midterms: HSI 24,797 (+3.67%, intraday 22,518-24,872).</li>\n<li>Xiaomi 1810 HK$31.30 +8.83%; Tencent 0700 HK$430.40 +7.17%; SMIC 0981 HK$47.50 +2.28% (after +8.96% Wed; dipped to 41.06 Tuesday).</li>\n<li>US Thu: Nasdaq -5.5%, SPX -4.4%, Dow -3.4%; VIX +70% to 28.18; Tesla -11% on Musk-scrutiny fears.</li>\n<li>DBS Q3: profit -5% y/y S$2.81bn (missed); NIM 1.87% (-9bp); wealth fees +9%; markets trading income -65%; dividend 81c total. OCBC reports today.</li>\n</ul>\n<h3>Insider trades (7d)</h3>\n<ul>\n<li>Wing Tai (W05.SI): six consecutive Form 1 director-interest filings 28 Oct - 4 Nov for chairman Cheng Wai Keung; SGX's 2 Nov update flagged Wing Tai stake increases amid net institutional selling. <a href=\"https://a.siasset.com/news/news.html?source=regional_sgxnet&amp;nid=515670563\">SGXNet via ShareInvestor</a></li>\n<li>No other held SGX names; no HKEX items for Tencent/SMIC/Xiaomi found. US ETFs - none by construction.</li>\n</ul>\n<h3>US Congress filings (filed 1-4 Nov)</h3>\n<ul>\n<li>House Republican (AK): BOUGHT Micron x3 (24 Sep-1 Oct, $1k-15k each), sold AVGO - disclosed 1 Nov, days before Micron's -17% Thursday.</li>\n<li>House Republican (NJ-7): sold ABT/JNJ/MDLZ/SYK, bought ESAB/TXN (filed 2 Nov).</li>\n<li>House Republican (OH-5): bought FMAO (filed 4 Nov). House Republican (MO-2): sold bank CD $100k-250k (filed 3 Nov). House Democrat (VA-8): bought CA muni $15k-50k (filed 2 Nov). House Republican (WV-1): sold HONA (filed 2 Nov).</li>\n<li><a href=\"https://unusualwhales.com/politics\">Unusual Whales politics feed</a></li>\n</ul>\n<h3>Trump / policy watch</h3>\n<ul>\n<li>Blue wave - permitting and power-approval slowdown feared for AI build-out; Musk-linked names hit.</li>\n<li>FOMC held 3.75-4.00% (10-2, two dissents FOR a hike); all 100/100 Reuters-polled economists expect a Dec 8-9 hike; Warsh: rates \"get in the cracks\".</li>\n<li>Iran: Washington approved Qatar's draft MoU; feedback expected within ~36h; Tehran \"interested but without concessions\". WTI -8% Wed then +3% to $90.75; Brent approx $96-99 vs $116.72 on 23 Oct.</li>\n<li>Metals: gold approx $4,010-4,130; silver settled approx $51.4-51.9 (-15% m/m; ATH $121.58 Jan). BTC approx $76k.</li>\n<li>Singapore rates: DBS guides to \"more supportive rate environment\"; local funding costs drifting down.</li>\n<li>Tonight: NFP 8:30pm SGT; ISM PMIs, BoE, EZ CPI this week.</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li><b>IBKR silver line now the dominant risk:</b> at $51.5 silver, collateral approx S$116,960 vs S$56,240 loan - collateral/equity approx 1.93x (1.77x on 16 Oct). Cushion nearly halved in three weeks; each -4% silver day cuts line equity approx 7.7%.</li>\n<li>War-premium deflation removes the position's tailwind; reload window off the table until ratio below ~1.7x.</li>\n<li>FX: ~35% of net worth non-SGD with SGD firming - translation drag. DBS concentration post-miss. VIX 28.18 elevated; NFP gap risk tonight.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Defense/long-duration (TLT):</b> 10y 4.84% is 36bp through the 5.20% gate; Fed paused; gridlock relieves term premium. Signal: NFP not hot tonight - start staged deployment toward the 15% target. ~62% of liquid book still idle cash.</li>\n<li><b>Asia semis (SMIC 0981.HK):</b> US crash is politics, not demand (TSMC +14% q/q guide stands; QCOM cites memory SHORTAGE). Signal: SMIC holds 41.06 week's low through today's gap-down - staged entry.</li>\n<li><b>Silver (XAGUSD):</b> do NOT reload into leverage at 1.93x. Signal: ratio under ~1.7x AND spot above $55 before any Real-assets add.</li>\n</ul>",
   "insiderTrades": [
     {
       "ticker": "W05.SI",
-      "insider": "Wing Tai Holdings — director (Form 1, per SGX filing list)",
-      "role": "Director",
+      "insider": "Cheng Wai Keung",
+      "role": "Chairman (Form 1, director/substantial shareholder)",
       "type": "Buy",
-      "shares": "not disclosed in summary",
-      "value": "n/a (change in interest; fourth director filing in eight days — Oct 6/9/12/13 cluster)",
-      "date": "2026-10-13",
-      "url": "https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/"
-    },
-    {
-      "ticker": "W05.SI",
-      "insider": "Wing Tai Holdings — director (per SGX filing list)",
-      "role": "Director",
-      "type": "Buy",
-      "shares": "not disclosed in summary",
-      "value": "n/a (award/treasury-share transfer; same-day Notice of Transfer of Treasury Shares)",
-      "date": "2026-10-12",
-      "url": "https://www.wingtaiasia.com/investor-relations-media/media-centre/sgx-announcements/"
+      "shares": null,
+      "value": null,
+      "date": "2026-11-04",
+      "url": "https://a.siasset.com/news/news.html?source=regional_sgxnet&nid=515670563"
     }
   ],
   "congressTrades": [
     {
-      "member": "House Republican (PA-9)",
+      "member": "House Republican (OH-5)",
       "chamber": "House",
-      "ticker": "NVDA",
+      "ticker": "FMAO",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-04",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (MO-2)",
+      "chamber": "House",
+      "ticker": "American Expratl Bank CD",
       "type": "Sell",
-      "range": "$1,001–$15,000",
-      "date": "2026-10-14",
+      "range": "$100,001-$250,000",
+      "date": "2026-11-03",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OK-1)",
+      "member": "House Republican (NJ-7)",
       "chamber": "House",
-      "ticker": "NEE, ROK, SBUX, Virtus AI ETF, LMT x4, MRSH x2, CVX, DVN x2, EMR, HD, LIN, LOW, CB (sells); Oklahoma muni bonds (buys)",
-      "type": "Sell equities / Buy munis (rotation)",
-      "range": "$1,001–$100,000 bands (LMT $15,001–$50,000 each; MRSH $50,001–$100,000 each)",
-      "date": "2026-10-14",
+      "ticker": "ABT",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Democrat (CA-31)",
+      "member": "House Republican (NJ-7)",
       "chamber": "House",
-      "ticker": "TSM, NXPI x2, ON, ALGM, AEIS, BHE (buys); AVGO, MCHP, MTSI x2, WDC, SMTC (sells)",
-      "type": "Mixed rebalance (semis rotation)",
-      "range": "mostly $1,001–$15,000; ON and one NXPI lot $15,001–$50,000",
-      "date": "2026-10-13",
+      "ticker": "ESAB",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (MI-9)",
+      "member": "House Republican (NJ-7)",
       "chamber": "House",
-      "ticker": "OLN, RIG, CACI, CAT, MSFT, NG (buys); STX (sell, trade 9/30)",
-      "type": "Mixed",
-      "range": "OLN/RIG/CACI/STX $15,001–$50,000; others $1,001–$15,000",
-      "date": "2026-10-13",
+      "ticker": "JNJ",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Democrat (WA-2)",
+      "member": "House Republican (NJ-7)",
       "chamber": "House",
-      "ticker": "FDX, HD (sells); WSM (buy)",
-      "type": "Mixed",
-      "range": "$1,001–$15,000 each",
-      "date": "2026-10-13",
+      "ticker": "MDLZ",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (NJ-7)",
+      "chamber": "House",
+      "ticker": "SYK",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (NJ-7)",
+      "chamber": "House",
+      "ticker": "TXN",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (VA-8)",
+      "chamber": "House",
+      "ticker": "California municipal bond",
+      "type": "Buy",
+      "range": "$15,001-$50,000",
+      "date": "2026-11-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (WV-1)",
+      "chamber": "House",
+      "ticker": "HONA",
+      "type": "Sell",
+      "range": "$710.52",
+      "date": "2026-11-02",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (AK)",
+      "chamber": "House",
+      "ticker": "AVGO",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-01",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (AK)",
+      "chamber": "House",
+      "ticker": "MU",
+      "type": "Buy",
+      "range": "$1,001-$15,000 x3 (24 Sep-1 Oct trades)",
+      "date": "2026-11-01",
       "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "PPI double-hot, bonds shrug: yields fall again, October odds back to ~30%, $6bn buyback executed",
-      "detail": "September PPI +1.3% m/m and 6.3% y/y (core +0.7% m/m, 5.0% y/y vs 4.4% exp) — hotter than CPI; retail sales +0.8% m/m vs +0.3% exp (gasoline-station led; control group missed); claims 199K; NY Empire 25.5 beat, Philly Fed 20.9 missed. Yet the 10y fell ~10bp to ~5.09% (settled ~5.06%), October hike odds fell back to ~30% from ~50%, and Treasury's liquidity buyback accepted $6bn of $40.84bn offered in 20-30y. BTIG: bond-market 'news failure' — yields may have peaked. September PCE expectations revised up; Fed Chair Warsh speaks at the IMF Friday.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---16th-october-2026"
+      "title": "Democratic sweep reprices the AI trade",
+      "detail": "Democrats took Congress and statehouses incl. Texas and Georgia on 3 Nov. Thursday: Nasdaq -5.5%, SOX -12%, VIX +70% to 28.18 on fears of slower data-center permitting and power approvals; Tesla -11%, SpaceX -9% on Musk scrutiny. Wednesday's +1,600-pt Dow rally fully unwound.",
+      "url": "https://www.investopedia.com/stock-market-today-dow-sp500-nasdaq-november-5-2026-11842336"
     },
     {
-      "title": "Hormuz: Singapore-flagged M/V GFS Pride sank after IRGC projectile, says CENTCOM",
-      "detail": "CENTCOM rejected the IRGC's claim to control the strait and said the Singapore-flagged container ship was hit by an IRGC projectile (not a mine) and sank while under tow; it denied Iranian claims of hundreds of US deaths in Jordan. Iran's Army Commander: Hormuz 'will remain closed until the rights of the Iranian people are respected'. Iran warned Hezbollah to prepare for war (Jerusalem Post); Tehran considering NPT withdrawal (Tasnim); 120 vessels blacklisted; two more tankers reported on fire east of the strait; US issued fresh Iran-related sanctions; Netanyahu told Rubio military action is 'a realistic scenario' if Tehran does not come to its senses.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---16th-october-2026"
+      "title": "FOMC held 3.75-4.00% (10-2), December hike consensus",
+      "detail": "Cook and Hammack dissented FOR a hike on 28 Oct. Warsh: 'interest rates get in the cracks... affect almost everything' - rates now biting the AI complex. All 100/100 Reuters-polled economists expect a hike at the 8-9 Dec meeting.",
+      "url": "https://www.reuters.com/business/finance/"
     },
     {
-      "title": "Oil: huge EIA draw, US pushes IEA for +100M bbls more emergency release",
-      "detail": "EIA crude stocks fell 8.557M bbls (exp -0.3M) in the week to Oct 9; SPR unchanged at 283M bbls (44-yr low). US told IEA members it is unhappy with the planned emergency release and suggested supplementing it with a further 100M bbls; IEA agreed to complete the outstanding 100M release and is seeking a 20M-bbl diesel release ASAP. WTI settled +$2.88 at $97.97; Brent -$0.14 at $105.92.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---16th-october-2026"
+      "title": "Iran diplomacy deflates the oil war premium",
+      "detail": "Washington approved the Qatar-mediated draft MoU with Iran; feedback expected within ~36h; Tehran 'interested but without concessions' (Al Arabiya). Counter-signal: MS Now/Axios reported strikes could resume post-midterms. WTI -8% Wed, +3% Thu to $90.75; Brent ~$96-99 vs $116.72 on 23 Oct.",
+      "url": "https://www.newsquawk.com/daily"
     },
     {
-      "title": "Trade walls: EU weighs quotas and a tool that could block China from the single market",
-      "detail": "EU assessing additional sectors for potential trade quotas on Chinese imports and planning a trade instrument that could block China from the single market; UK could align with EU tariffs on Chinese EVs (Politico); France/Germany would include the UK in 'Made in Europe' if it aligns on China tariffs (FT); India-US phase-one deal finalised and in legal drafting; China's state trader bought 10-13 US soybean cargoes for Dec-Mar shipment.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---16th-october-2026"
+      "title": "NFP tonight, dense November calendar",
+      "detail": "US jobs report Fri 6 Nov 8:30pm SGT; ISM PMIs this week; BoE and EZ CPI. Later in Nov: FOMC minutes, US CPI/PCE, OPEC+ ministerial, US GDP 2nd estimate.",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---2nd-6th-november-2026"
     },
     {
-      "title": "TSMC blowout confirms AI demand: Q4 guided +14% q/q; capex $60-64bn",
-      "detail": "Q3 revenue $46.72bn (+41.2% y/y, above guidance top), gross margin 66.4% (in range), net income NT$763.06bn (+68.7%), EPS $4.60 vs $4.45 exp; Q4 revenue guided $52.3-54.3bn (+14% q/q) on leading-edge demand and the 2nm ramp; 7nm-and-below = 79% of wafer revenue; 2026 capex $60-64bn. Counterpoints: CoreWeave's 15% bond yield (AI financing-chain stress); Google published a quantum-computing breakthrough; Tesla's energy/charging VP departed as Tesla pivots to AI (WSJ).",
-      "url": "https://pr.tsmc.com/english/news/3346"
+      "title": "Metals: gold holds $4k shelf, silver still -15% m/m",
+      "detail": "Gold futures ~$4,010-4,130; silver settled ~$51.4-51.9 after +5% Wed (52-wk low $46.88; ATH $121.58 Jan 2026). BTC ~$76k.",
+      "url": "https://fortune.com/"
     },
     {
-      "title": "Regionals: KOSPI circuit breaker (-7.57%); Friday brings Singapore exports and Warsh at the IMF",
-      "detail": "KOSPI -7.57% with the first market-wide halt since Jul 29 (Samsung -9.5%, SK Hynix -11.1%); Nikkei -4.9%; Japan MoF monitoring markets closely; PBoC reiterates moderately loose policy. Friday: Singapore September non-oil exports, South Korea unemployment, US import/export prices; speakers: Fed Chair Warsh (IMF), BoE Bailey, BoC Macklem. Next week: Meta/Tesla earnings Oct 21; FOMC Oct 27-28; US GDP Oct 29.",
-      "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---16th-october-2026"
+      "title": "Singapore banks week: DBS misses, OCBC today",
+      "detail": "DBS Q3 profit -5% y/y to S$2.81bn (missed S$2.96bn); NIM 1.87% (-9bp); wealth fees +9%; markets trading income -65%; 81c total dividend; 9M record S$8.82bn. Management guides to a 'more supportive rate environment'.",
+      "url": "https://www.theedgesingapore.com/capital/results/dbs-3qfy2026-net-profit-down-5-y-o-y-unfavourable-equity-trading-conditions"
     }
   ],
   "opportunities": [
     {
-      "ticker": "Defense sleeve (duration/TIPS) — target 15%",
-      "thesis": "Duration gate cracked open: the 10y closed ~5.09% / settled ~5.06%, decisively below the 5.20% threshold — and it happened after TWO hot inflation prints (CPI Wednesday, PPI Thursday). BTIG 'news failure' says yields may have peaked; October hike odds back to ~30%; Treasury executed a $6bn buyback of 20-30y. With ~62% of the liquid book idle cash, the Defense sleeve is the most under-deployed target.",
-      "signal": "10y holding sub-5.10% through Warsh's IMF speech Friday and into the weekend = first duration-entry trigger (TIPS/long duration). Size small: part of the bid is haven flow from the memory rout, which could unwind on TSMC-led tech relief."
+      "ticker": "TLT",
+      "thesis": "Defense/long-duration sleeve: 10y at 4.84% is 36bp through the 5.20% gate; Fed paused with two hawkish dissents; midterm gridlock historically relieves term premium. ~62% of liquid book still idle cash - highest-conviction deployment window since the gate framework was set.",
+      "signal": "If tonight's NFP does not blow out hot, begin staged deployment toward the 15% Defense target (TIPS / long UST duration)."
     },
     {
-      "ticker": "1810.HK (Xiaomi)",
-      "thesis": "The divergence keeps paying: +2.65% Thursday to HK$27.08 (+8.1% in two days) while KOSPI circuit-broke (-7.57%), Samsung/SK Hynix fell 9-11%, and Lenovo -14.5%. TSMC's +14% q/q Q4 guide confirms the hardware/device cycle. Counter-signal to watch: Transsion's HK debut cited 'rising memory costs and margin pressures' — OEM contract relief lags the DRAM spot crash.",
-      "signal": "Hold/build above ~HK$26.4 (Wednesday's close). A close back below 26.4 ends the leg; above it, the BOM-relief + AI-device thesis compounds."
+      "ticker": "0981.HK",
+      "thesis": "Asia semis buy-the-policy-scare: Thursday's US crash was permitting politics, not demand (TSMC +14% q/q Q4 guide stands; QCOM cites ongoing memory SHORTAGE, contradicting the October glut-crash thesis). SMIC recovered to HK$47.50 after dipping to 41.06 Tuesday.",
+      "signal": "SMIC holding above this week's 41.06 low through today's gap-down = staged entry for the Asia-semis leg of the 15% AI-bottlenecks target."
     },
     {
-      "ticker": "Asia semis: 0981.HK (SMIC) / TSM",
-      "thesis": "The rout is memory-specific (CXMT DRAM progress), not logic/foundry: TSMC printed a blowout (7nm-and-below = 79% of wafer revenue) while memory names crashed. SMIC broke Thursday's gate (closed 52.15 under 53.75) so entry is NOT armed, but the washout is approaching the 49.32 52-week low with utilization at 93.7%.",
-      "signal": "SMIC reclaiming ~HK$54 + TSM ADR green on Friday's TSMC reaction = semis-leg entry; SMIC below 51.05 (Thursday low) = stay out. Silver reload (Real Assets 20%) stays on watch: $55-56 held Thursday, line ~1.77x — a second stabilizing session opens the scale-in window."
+      "ticker": "XAGUSD",
+      "thesis": "Silver: do NOT reload into leverage. IBKR line at ~1.93x collateral/equity (cushion nearly halved since mid-Oct) and the war premium is deflating on Iran diplomacy.",
+      "signal": "Line ratio back under ~1.7x AND spot reclaiming $55 before any Real-assets add; otherwise stand pat."
     }
   ]
 }
