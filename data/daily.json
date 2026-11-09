@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-09",
-  "navSgd": 10227030.0,
-  "navChgPct": 0.451,
-  "listedChgPct": 2.684,
+  "date": "2026-11-10",
+  "navSgd": 10234479.0,
+  "navChgPct": 0.418,
+  "listedChgPct": 2.464,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2826,
-    "CNY": 0.192444,
-    "HKD": 0.163618,
-    "MYR": 0.316223
+    "USD": 1.2787,
+    "CNY": 0.191934,
+    "HKD": 0.163043,
+    "MYR": 0.315261
   },
   "riskFlags": [],
   "navHistory": [
@@ -146,93 +146,61 @@
     },
     {
       "date": "2026-11-09",
-      "nav": 10227030.0
+      "nav": 10233815.0
+    },
+    {
+      "date": "2026-11-10",
+      "nav": 10234479.0
     }
   ],
-  "snapshotAt": "2026-11-09T07:40:20+08:00",
+  "snapshotAt": "2026-11-10T07:40:17+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>Portfolio Brief - Mon 2026-11-09 (SGT)</h3>\n<ul>\n<li><b>NAV: S$10,227,030</b>, reported +0.45%; real day move approx +0.09% (S$+9,315 vs Friday's 10,217,715). Friday's real move was -0.29% as Asia absorbed the US crash.</li>\n<li><b>Biggest mover in book:</b> SMIC -4.04% Friday (HK$45.58) on US-crash spillover - but held well above the week's HK$41.06 low.</li>\n<li><b>The one thing:</b> blockbuster NFP (+165k vs +65k exp, U-rate 4.1%) all but locked a December Fed hike, yet the 10y closed 4.859% - still 34bp below the 5.20% duration gate - and VIX fell back to 25.64. Weekend Iran diplomacy (Trump: war \"highly unlikely\"; Vance given \"a few days\") kept oil's war premium deflating, but Hormuz tanker incidents continued.</li>\n</ul>\n<h3>State and flags</h3>\n<ul>\n<li>riskFlags: ZERO - second consecutive clean snapshot.</li>\n<li>L46.SI (Lum Chang): Yahoo 404, 28th consecutive session.</li>\n<li>listedChgPct +2.68% is a pre-US-rebound snapshot quirk; Friday Asia actually fell (STI -2.21%, HSI -1.27%).</li>\n<li>FX: USDSGD 1.2826 (touch softer SGD), USDCNY approx 6.665.</li>\n</ul>\n<h3>Position moves (Fri 6 Nov)</h3>\n<ul>\n<li>Asia: STI 5,179.17 (-2.21%, now -7.65% in a month); HSI 24,481.86 (-1.27%, but +5.10% on the week). Xiaomi HK$30.38 (-2.94%); SMIC HK$45.58 (-4.04%); Tencent close not retrieved.</li>\n<li>US Friday rebound: SPX +0.31% to 7,376.86, Nasdaq +1.09%, Dow -0.46%; NVDA +2.78%. Still SPX's worst week since June; NVDA earnings 17 Nov is next test. BTC approx $75.7k after $1.25bn liquidations.</li>\n<li>NFP: +165k vs +65k exp; Aug/Sep revised +84k; wages +0.4% m/m. December hike effectively locked. 10y 4.859% (+2.2bp); VIX 25.64 (-9%).</li>\n<li>OCBC Q3 BEAT: +3% y/y to S$2.04bn; NII six-quarter high S$2.31bn; record WM AUM S$358bn; NPL 0.8%; 9M record S$6.24bn (+10%). Banks week: DBS missed, OCBC beat, UOB done 4 Nov.</li>\n</ul>\n<h3>Insider trades (7d)</h3>\n<ul>\n<li>Wing Tai (W05.SI): Cheng Wai Keung Form 1 cadence PAUSED - no new filings since 4 Nov (2/3/4 Nov items covered Friday).</li>\n<li>No other held SGX names; no HKEX items for Tencent/SMIC/Xiaomi. US ETFs - none by construction.</li>\n</ul>\n<h3>US Congress filings (filed 4-8 Nov)</h3>\n<ul>\n<li>Notable: a House Republican BOUGHT NVDA twice on 23 Oct ($1k-15k each), disclosed 5 Nov - took Thursday's -9% hit within a fortnight.</li>\n<li>House Democrat (NJ-5): bought AMAT (26 Oct) and BHE, sold TLK - filed 6 Nov.</li>\n<li>House Republican: sold CSCO, bought NVDA x2 and PG x2 (23 Oct trades) - filed 5 Nov.</li>\n<li>House Republican (PA-16): sold Fairfax VA GO bond $50k-100k, bought NC Housing bond $50k-100k - filed 5 Nov. House Republican (OH-5): bought FMAO - filed 4 Nov (in Friday's brief).</li>\n<li><a href=\"https://unusualwhales.com/politics\">Unusual Whales politics feed</a></li>\n</ul>\n<h3>Trump / policy watch</h3>\n<ul>\n<li>NFP blockbuster locks December hike; Hassett: labor demand \"skyrocketing\".</li>\n<li>Iran diplomacy's best weekend: Trump to CNN - renewed war \"highly unlikely\" on a \"very strong agreement\"; Vance has \"a few days\"; Iran's Doha proposal demands sanctions relief, frozen assets, reparations; Araghchi offers Hormuz reopening within two days.</li>\n<li>But kinetic tape continued: Qeshm/Bandar Abbas explosions, tanker mine strikes (UKMTO), US disabled M/V Huda in Gulf of Oman, third carrier group arrived. Oil can gap either way tonight.</li>\n<li>Week ahead: US CPI (the key gate input), China inflation, UK GDP, BoJ SOO, NZ elections.</li>\n<li>Singapore rates: OCBC says higher SORA net-positive for NII; US-rate rises pressure now, help as assets reprice.</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li><b>IBKR silver line:</b> at approx $51.9 silver, collateral approx S$118,285 vs S$56,240 loan - collateral/equity approx 1.91x (1.93x Fri). Improving but cushion still nearly halved vs mid-Oct.</li>\n<li>Hot-NFP regime risk: Friday's \"NFP not hot\" trigger did NOT fire - duration deployment waits for Wednesday's US CPI.</li>\n<li>Iran two-tail risk: deal gap-down or Hormuz gap-up both live for oil and silver.</li>\n<li>FX: ~35% of net worth non-SGD. Concentration: SGX banks mixed week into CPI tape. VIX 25.64 still above the 15-25 normal band.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Defense/long duration (TLT):</b> gate open at 4.859% but NFP was hot. Signal: first tranche only if Wednesday's US CPI does not accelerate; hot CPI = stay parked (~62% idle cash).</li>\n<li><b>Asia semis (SMIC 0981.HK):</b> Friday's condition MET (held far above 41.06). Signal: if SMIC holds HK$44-46 early this week, begin staged entry; size before NVDA earnings 17 Nov, not after.</li>\n<li><b>Silver (XAGUSD):</b> hands-off on leverage at 1.91x. Signal: ratio below ~1.7x AND spot above $55 before any add; a Hormuz spike above $55 at ratio above 1.9x is a deleveraging window, not an add window.</li>\n</ul>",
+  "briefHtml": "<h3>Portfolio Brief - Tue 2026-11-10 (SGT)</h3>\n<ul>\n<li><b>NAV: S$10,234,479</b>, reported +0.42%; real day move approx +0.01% (S$+664 vs Monday's restated 10,233,815). Monday 9 Nov NAV restated up from 10,227,030 - level is authoritative, day-change is not.</li>\n<li><b>Biggest mover on the tape:</b> NVDA -4.27% (US$178.67) - the lone red giant on a best-since-April day - after its board opened an independent probe into Chinese-intelligence targeting of Jensen Huang via ex-Megaspeed (Singapore) executive Alice Huang. In the book, silver +1.6-2.2% to ~US$53 was the biggest positive driver.</li>\n<li><b>The one thing:</b> the war premium is deflating fast - Brent settled -5.8% at US$92.57 (WTI -4.4% at US$86.85) after Trump called fresh Iran strikes \"highly unlikely\" and the war \"effectively over\" post-Qatar-PM meeting; SPX +2.35% (best day since April), VIX -22% to 19.92. US CPI tonight 8:30pm SGT is the last gate input before the December FOMC. SGX was closed Monday (Deepavali in-lieu) and reopens today with a catch-up tailwind.</li>\n</ul>\n<h3>State and flags</h3>\n<ul>\n<li>riskFlags: ZERO - third consecutive clean snapshot.</li>\n<li>L46.SI (Lum Chang): Yahoo 404, 29th consecutive session.</li>\n<li>listedChgPct +2.46% mixes Friday Asia closes with Monday's US/metals rebound across the SGX holiday - directionally risk-on, not a live number.</li>\n<li>FX: USDSGD 1.2787 (SGD firmest in weeks), USDCNY approx 6.66, HKDSGD 0.16304.</li>\n</ul>\n<h3>Position moves (Mon 9 Nov)</h3>\n<ul>\n<li>Singapore: CLOSED (Deepavali in-lieu). Last close Friday: STI 5,179.17 (-2.21%; -7.65% over the month).</li>\n<li>HK: HSI 24,448.95 (-0.13%). <b>SMIC HK$46.04 +1.01%</b> - second session holding the HK$44-46 zone; Q3 earnings Thu 12 Nov. Xiaomi HK$30.10 (-0.92%); Tencent approx HK$417.8 (-0.5%).</li>\n<li>US: SPX 7,549.94 +2.35%, Dow 52,389.75 +2.15% (+1,104), Nasdaq 25,253.14 +2.74%, Russell +3.15%; VIX 19.92 (-22.3%). SOX +6.9%: AMD +13.3%, AMAT +11.4%, LRCX +10.4%, AVGO +8.8%, MU +6.2%. NVDA -4.27% on the board probe; NVDA earnings 17 Nov.</li>\n<li>Oil: Brent -5.8% to US$92.57 (lowest since late Aug), WTI -4.4% to US$86.85. Metals: silver approx US$52.8-53.1 (+1.6-2.2%), gold approx US$4,118-4,126 (+1.2-1.5%). 10y approx 4.88%.</li>\n</ul>\n<h3>Insider trades (7d)</h3>\n<ul>\n<li>Wing Tai (W05.SI): no new Form 1s since 4 Nov, but SGX was shut Monday - the cadence pause is only two trading sessions (5-6 Nov). Watch this week's reopen.</li>\n<li>Other held SGX names (DBS, OCBC, UOB, Fraser and Neave, VICOM, Straits Trading, CDL, UOL, Yanlord, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT): none found. HK names (Tencent, SMIC, Xiaomi): none found. US ETFs (GDX, SILJ, SLVP, VNM): none by construction.</li>\n</ul>\n<h3>US Congress filings (new since yesterday)</h3>\n<ul>\n<li>House Republican (AK): SELL WDC $1k-15k (trade 15 Oct), filed 9 Nov - sold between the memory crash and Monday's +6% rebound.</li>\n<li>Senate Republican (WV), filed 4 Nov, surfaced only now: SELL AAPL, META, MSFT, ZTS ($1k-15k each, trades 21 Oct) - big-tech sales a fortnight before the AI crash.</li>\n<li>Yesterday's batch (NJ-5 AMAT/BHE/TLK; NVDA x2 + PG x2 buys + CSCO sell; PA-16 muni swap; OH-5 FMAO) covered in Monday's brief.</li>\n</ul>\n<h3>Trump / policy watch (24-48h)</h3>\n<ul>\n<li><b>Iran endgame:</b> Trump met Qatar's PM, said the war is \"effectively over\"; Iran's president says the Supreme Leader ordered an end to the neither-war-nor-peace state. Tanker incidents continued at the margins (Dana Gas UAE, Aramco office debris, UKMTO Hormuz strike, burning tanker off Khasab).</li>\n<li><b>NVDA probe:</b> independent directors plus outside counsel; Gang of Eight briefed; Trump (briefed about a year ago, did not act) calls Huang \"an honorable guy\". Megaspeed (Singapore-based) is under a US Justice Department criminal inquiry; Singapore police probe still open. Watch export-control tightening on SEA cloud intermediaries.</li>\n<li><b>Tonight:</b> US CPI 8:30pm SGT - last gate input before the 8-9 Dec FOMC. Also NFIB, NY Fed Household Debt; Schmid and Paulson speak. Thu: jobless claims, AMAT and CSCO earnings. Fri: PPI.</li>\n<li><b>Vol normalized:</b> VIX 19.92 back in the 15-25 band; SPX best day since 8 April; market has retraced roughly half of Thursday's crash.</li>\n<li><b>Metals firm despite hike pricing:</b> silver approx US$53 (+~2%), gold approx US$4,120 - softer dollar and the post-blue-wave bid. Read-through to GDX/SILJ/SLVP and the IBKR silver line.</li>\n<li><b>Singapore:</b> SGX reopens today with a catch-up tailwind (US +2.35%, metals up, oil down) for the banks/industrials-heavy STI.</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Watcher flags: none (3rd day).</li>\n<li><b>IBKR silver line improving:</b> at US$53.0 and 1.2787, collateral approx S$120,440; equity approx S$64,200 vs S$56,240 loan - <b>approx 1.88x</b> (1.91x Mon, 1.93x Fri, 1.77x 16 Oct). Each -4% silver day approx -7.5% of line equity.</li>\n<li>Event risk tonight: hot CPI hits the duration gate, the AI complex and silver at once.</li>\n<li>NVDA probe contagion into NVDA earnings 17 Nov and SMIC Q3 Thursday; Megaspeed Singapore nexus bears watching.</li>\n<li>Iran two-tail: \"effectively over\" is a quote, not a deal; a breakdown re-inflates the oil premium funding this rally.</li>\n<li>FX: approx 35% of net worth non-SGD; SGD re-firming (1.2787) is a quiet translation drag.</li>\n<li>Concentration: STI -7.65% over the month into today's reopen.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Defense/duration (TLT):</b> 10y approx 4.88%, still approx 32bp below the 5.20% gate. Signal: CPI not hot tonight - deploy first tranche toward the 15% Defense target; hot CPI + Dec hike = stay parked (~62% of liquid book still idle cash).</li>\n<li><b>Asia semis (SMIC 0981.HK):</b> zone held (HK$46.04) but Q3 earnings Thu 12 Nov changes sizing math. Signal: staged entry only AFTER Thursday's print if HK$44-46 still holds - two event risks (CPI tonight, SMIC Thu) plus NVDA 17 Nov argue against lumping.</li>\n<li><b>Silver (XAGUSD):</b> line approx 1.88x and healing. Signal unchanged: ratio below ~1.7x AND spot above $55 before any Real-assets add; a deal-driven slide below $50 would be the better entry than chasing strength.</li>\n</ul>",
   "insiderTrades": [],
   "congressTrades": [
     {
-      "member": "House Democrat (NJ-5)",
+      "member": "House Republican (AK)",
       "chamber": "House",
-      "ticker": "AMAT",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-06",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (NJ-5)",
-      "chamber": "House",
-      "ticker": "BHE",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-06",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (NJ-5)",
-      "chamber": "House",
-      "ticker": "TLK",
+      "ticker": "WDC",
       "type": "Sell",
       "range": "$1,001-$15,000",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (district not shown)",
-      "chamber": "House",
-      "ticker": "CSCO",
+      "member": "Senate Republican (WV)",
+      "chamber": "Senate",
+      "ticker": "AAPL",
       "type": "Sell",
       "range": "$1,001-$15,000",
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (district not shown)",
-      "chamber": "House",
-      "ticker": "NVDA",
-      "type": "Buy",
-      "range": "$1,001-$15,000 x2 (23 Oct trades)",
-      "date": "2026-11-05",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (district not shown)",
-      "chamber": "House",
-      "ticker": "PG",
-      "type": "Buy",
-      "range": "$1,001-$15,000 x2 (23 Oct trades)",
-      "date": "2026-11-05",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (PA-16)",
-      "chamber": "House",
-      "ticker": "Fairfax Cnty VA GO bond",
+      "member": "Senate Republican (WV)",
+      "chamber": "Senate",
+      "ticker": "META",
       "type": "Sell",
-      "range": "$50,001-$100,000",
-      "date": "2026-11-05",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-04",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (PA-16)",
-      "chamber": "House",
-      "ticker": "NC Housing Fin Agy bond",
-      "type": "Buy",
-      "range": "$50,001-$100,000",
-      "date": "2026-11-05",
+      "member": "Senate Republican (WV)",
+      "chamber": "Senate",
+      "ticker": "MSFT",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-04",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OH-5)",
-      "chamber": "House",
-      "ticker": "FMAO",
-      "type": "Buy",
+      "member": "Senate Republican (WV)",
+      "chamber": "Senate",
+      "ticker": "ZTS",
+      "type": "Sell",
       "range": "$1,001-$15,000",
       "date": "2026-11-04",
       "url": "https://unusualwhales.com/politics"
@@ -240,51 +208,51 @@
   ],
   "trumpWatch": [
     {
-      "title": "Blockbuster NFP locks the December hike",
-      "detail": "October payrolls +165k vs +65k expected; unemployment 4.1%; Aug/Sep revised +84k; wages +0.4% m/m. NEC's Hassett: labor demand 'skyrocketing', claims lowest since WWII. 10y settled 4.859% (+2.2bp) even as stocks rebounded.",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html"
+      "title": "Iran endgame: Trump says war 'effectively over' after Qatar PM meeting",
+      "detail": "Trump told CNN fresh strikes are 'highly unlikely' if talks progress, then met Qatar's PM Monday and declared the war effectively over; Iran's Pezeshkian says the Supreme Leader ordered an end to the neither-war-nor-peace state. Brent settled -5.8% at $92.57, WTI -4.4% at $86.85 - but tanker incidents continued (Dana Gas UAE hit, Aramco office debris, UKMTO Hormuz strike, burning tanker off Khasab).",
+      "url": "https://www.marketwatch.com/story/oil-futures-slide-as-trump-says-new-strikes-on-iran-unlikely-update-38ab6adf?mod=investing"
     },
     {
-      "title": "Iran diplomacy's best weekend yet",
-      "detail": "Trump to CNN Sunday: renewed war 'highly unlikely' if Tehran signs 'a very strong agreement'; Vance and senior officials given 'a few days' to land it. Iran's Doha proposal demands sanctions relief, frozen assets, reparations; Araghchi offers Hormuz reopening within two days if conditions met.",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-914255"
+      "title": "NVDA board opens independent probe into Chinese-intelligence targeting of Jensen Huang",
+      "detail": "Independent directors plus outside counsel are investigating reports the CEO was targeted via ex-Megaspeed executive Alice Huang; Huang admitted the affair in an employee memo ('I was unfaithful to my wife... no excuse'). Board sees no evidence secrets were compromised and backs Huang; Trump called him 'an honorable guy'. Megaspeed (Singapore-based) faces a US Justice criminal inquiry over chip diversion; NVDA -4.27% Monday, earnings 17 Nov.",
+      "url": "https://www.moneycontrol.com/world/what-is-megaspeed-and-why-its-links-to-alice-huang-have-come-under-scrutiny-after-jensen-huang-affair-article-14075574.html"
     },
     {
-      "title": "...but the kinetic tape did not stop",
-      "detail": "Weekend explosions on Qeshm Island and Bandar Abbas; two tankers reportedly hit Hormuz mines plus a UKMTO projectile strike; US forces disabled the M/V Huda in the Gulf of Oman; a third US carrier strike group arrived. WTI ~$89.8 Friday - oil can gap either way at tonight's open.",
-      "url": "https://www.iranintl.com/en/202611086475"
+      "title": "US CPI tonight is the last gate input before the December FOMC",
+      "detail": "CPI prints Tue 8:30pm SGT with a December hike already priced after Friday's +165k NFP. Also today: NFIB small-business optimism, NY Fed Q3 Household Debt; Fed's Schmid and Paulson speak. Thursday: jobless claims, existing home sales, AMAT and CSCO earnings; Friday: PPI.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
     },
     {
-      "title": "Post-blue-wave scorecard: worst week since June",
-      "detail": "SPX -4.36% Thursday (chips' worst day since Mar 2020), +0.31% Friday rebound; Nasdaq still in correction. VIX back to 25.64 from 28.18. NVDA earnings 17 Nov is the next AI-complex test under a Democratic Congress.",
-      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-tech-stocks-worst-day-since-2020-employment-report"
+      "title": "Vol regime normalized: VIX -22% to 19.92, SPX best day since April",
+      "detail": "SPX +2.35% to 7,549.94 (biggest one-day gain since 8 April, -3.44% from the 6 Oct record), Dow +2.15% (+1,104), Nasdaq +2.74%, Russell +3.15%. SOX +6.9%: AMD +13.3% (Oppenheimer upgrade), AMAT +11.4%, LRCX +10.4%, AVGO +8.8%, MU +6.2%. Roughly half of Thursday's crash retraced.",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close"
     },
     {
-      "title": "Week ahead: US CPI is the gate input",
-      "detail": "9-13 Nov: US CPI (first inflation print since the FOMC hold), China inflation, UK GDP, BoJ Summary of Opinions, NZ elections.",
-      "url": "https://www.newsquawk.com/daily"
+      "title": "Metals firm despite December-hike pricing",
+      "detail": "Silver approx $52.8-53.1 (+1.6-2.2%), gold approx $4,118-4,126 (+1.2-1.5%) as the dollar softened; gold/silver ratio approx 78. The post-blue-wave metals bid held through Friday's hot jobs report. Read-through to the GDX/SILJ/SLVP sleeve and the IBKR silver line (approx 1.88x).",
+      "url": "https://www.usagold.com/daily-silver-price-history/"
     },
     {
-      "title": "Singapore banks week closes mixed",
-      "detail": "OCBC Q3 beat: +3% y/y S$2.04bn, NII six-quarter high S$2.31bn (higher SORA net positive), record WM AUM S$358bn, NPL 0.8%, 9M record S$6.24bn. DBS missed Thursday; UOB reported 4 Nov. Local banks are net beneficiaries of higher-for-longer.",
-      "url": "https://www.ocbc.com/group/media/release/2026/ocbc-group-third-quarter-2026-results.page"
+      "title": "Singapore reopens after Deepavali with a catch-up tailwind",
+      "detail": "SGX was closed Monday 9 Nov (Deepavali in-lieu). It reopens Tuesday into a global risk-on tape: US +2.35%, metals up, oil -5.8% - net positive for the STI's banks/industrials mix after a -7.65% month. Local police confirm the Megaspeed investigation remains open, keeping Singapore in the chip-diversion story.",
+      "url": "https://www.timeanddate.com/holidays/singapore/diwali"
     }
   ],
   "opportunities": [
     {
       "ticker": "TLT",
-      "thesis": "Defense/long-duration sleeve: 10y at 4.859% is 34bp below the 5.20% gate and gridlock relieves term premium, but Friday's +165k NFP (vs the 'not hot' trigger) argues for patience over front-running.",
-      "signal": "Deploy a first tranche toward the 15% Defense target only if Wednesday's US CPI does not accelerate; a hot CPI with a December hike ahead = stay parked (~62% of liquid book still idle cash)."
+      "thesis": "Defense/long-duration sleeve: 10y approx 4.88% is still ~32bp below the 5.20% gate; gridlock plus a deflating oil war premium relieves term premium, but tonight's CPI is the decision input with a December hike already priced.",
+      "signal": "If tonight's US CPI does not accelerate, deploy a first tranche toward the 15% Defense target; a hot CPI with the hike ahead = stay parked (~62% of the liquid book still idle cash)."
     },
     {
       "ticker": "0981.HK",
-      "thesis": "Asia semis: Friday's entry condition was MET - SMIC closed HK$45.58, holding well above the 41.06 week low through the US-crash gap-down; QCOM memory-shortage commentary stands against the glut thesis.",
-      "signal": "If SMIC holds the HK$44-46 zone early this week, begin staged entry for the Asia-semis leg of the 15% AI-bottlenecks target; size before NVDA earnings 17 Nov, not after."
+      "thesis": "Asia semis: SMIC held the HK$44-46 zone a second session (HK$46.04, +1.01%) with Q3 earnings now on Thursday 12 Nov (guide: revenue +2-4% q/q, GM 26-28%; 'AI spillover' demand commentary) - and the NVDA probe adds fresh headline risk to the AI complex.",
+      "signal": "Staged entry only AFTER Thursday's print if the zone still holds; do not lump in front of two event risks (CPI tonight, SMIC Thu) with NVDA earnings 17 Nov behind them."
     },
     {
       "ticker": "XAGUSD",
-      "thesis": "Silver: IBKR line ~1.91x and rebuilding slowly; Iran deal would deflate the premium, Hormuz incidents would spike it - two-tail week.",
-      "signal": "Unchanged: ratio below ~1.7x AND spot above $55 before any Real-assets add; a Hormuz spike above $55 while ratio is above 1.9x is a deleveraging window, not an add window."
+      "thesis": "Silver: IBKR line approx 1.88x and healing as spot rebuilds toward $53; an Iran deal could deflate the war premium the way it has in oil.",
+      "signal": "Unchanged: ratio below ~1.7x AND spot above $55 before any Real-assets add; a deal-driven slide toward under-$50 would be the better entry than chasing strength."
     }
   ]
 }
