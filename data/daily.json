@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-11",
-  "navSgd": 10233521.0,
-  "navChgPct": 0.448,
-  "listedChgPct": 2.657,
+  "date": "2026-11-12",
+  "navSgd": 10236161.0,
+  "navChgPct": 0.141,
+  "listedChgPct": 0.824,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2817,
-    "CNY": 0.192208,
-    "HKD": 0.163388,
-    "MYR": 0.316157
+    "USD": 1.2843,
+    "CNY": 0.192554,
+    "HKD": 0.163724,
+    "MYR": 0.315553
   },
   "riskFlags": [],
   "navHistory": [
@@ -154,91 +154,67 @@
     },
     {
       "date": "2026-11-11",
-      "nav": 10233521.0
+      "nav": 10244718.0
+    },
+    {
+      "date": "2026-11-12",
+      "nav": 10236161.0
     }
   ],
-  "snapshotAt": "2026-11-11T07:40:10+08:00",
+  "snapshotAt": "2026-11-12T07:40:12+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV and the tape</h3>\n<ul>\n<li><b>NAV S$10,233,521</b> · reported +0.45% · real day move ≈ -0.04% (S$-4,440 vs yesterday's restated 10,237,961). NAV level authoritative.</li>\n<li><b>Biggest mover: NVDA -5.47% to US$168.89</b> - day two of the Jensen Huang board-probe fallout (two-day ≈ -9.5%). In the book, silver -2.8% to $51.92 hit the SLVP/SILJ sleeve and the IBKR line.</li>\n<li><b>The one thing:</b> October CPI hot - headline +0.4% m/m (vs +0.3% exp), core +0.3% (vs +0.2%) - and core exactly met Waller's pre-committed test for considering a <b>50bp December hike</b>. 8-9 Dec hike locked; jumbo ~9.5% odds. 10y closed <b>4.983%</b> after topping 5% intraday - the 5.20% duration gate is ~22bp away.</li>\n<li>US Tue: SPX 7,520.93 -0.38%, Dow 52,231.89 -0.30%, Nasdaq 25,065.87 -0.74%. <b>VIX 19.46, -2.31%</b> - rotation, not panic.</li>\n<li>Asia Tue: <b>STI +1.53% to 5,258.59</b> (post-Deepavali catch-up); HSI +0.44% to 24,557. <b>SMIC +2.6% to HK$47.24</b> - broke above the HK$44-46 zone a day before Q3 (Thu). Xiaomi +1.66%, Tencent -0.14%.</li>\n<li>Oil: <b>Brent -2.58% below $90</b> (first since 31 Aug) on Iran de-escalation plus a ~1.4mb/d surplus (JPMorgan). Metals: gold $4,053.30 -2.11%, <b>silver $51.92 -2.80%</b>, ratio 78.06.</li>\n<li>AI watch: Culper says Megaspeed \"isn't the only company\" helping China access chips; Anthropic opened its roadshow for a possible week-of-16-Nov Nasdaq debut (valuation above $1tn).</li>\n</ul>\n<h3>Flag integrity</h3>\n<ul>\n<li>riskFlags: <b>ZERO</b> - fourth consecutive clean snapshot.</li>\n<li>L46.SI (Lum Chang): Yahoo 404, <b>30th consecutive session</b>.</li>\n<li>listedChgPct +2.66% mixes a two-session SGX move with one-day HK/US moves - directional, not live.</li>\n<li>Nov 10 NAV restated UP to 10,237,961 (from 10,234,479); reported +0.45% vs real ≈ -0.04%.</li>\n</ul>\n<h3>Insider trades (last 7 days)</h3>\n<ul>\n<li><b>SGX direct check failed today</b> - links.sgx.com announcements API unreachable; sweep via web sources only.</li>\n<li>Wing Tai (W05.SI): no new Form 1s since 4 Nov as of the last good fetch - cadence pause now <b>three trading sessions</b> (5, 6, 10 Nov).</li>\n<li>DBS, OCBC, UOB, Fraser and Neave, VICOM, Straits Trading, CDL, UOL, Yanlord, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT: <b>none found</b>. HK names (Tencent, SMIC, Xiaomi): none found. US ETFs: none by construction.</li>\n</ul>\n<h3>Congress filings (new, via Unusual Whales)</h3>\n<ul>\n<li>House Democrat (NY-3): <b>Buy US T-Bill</b> $15k-50k (trade 13 Oct), filed 9 Nov. <a href=\"https://unusualwhales.com/politics\">source</a></li>\n<li>House Democrat (NY-3): <b>Buy US T-Bill</b> $15k-50k (trade 15 Oct), filed 9 Nov. <a href=\"https://unusualwhales.com/politics\">source</a></li>\n<li>House Republican (TN-8): <b>Sell WBD</b> $1k-15k (trade 7 Oct), filed 9 Nov. <a href=\"https://unusualwhales.com/politics\">source</a></li>\n<li>Nothing filed 10 Nov in the feed yet. NY-3's mid-October T-bill buying aged well into the hot-CPI tape.</li>\n</ul>\n<h3>Trump / policy watch (24-48h)</h3>\n<ul>\n<li><b>Hot CPI + Waller's test met:</b> December hike locked, 50bp live (~9.5%); Logan \"more rapidly this winter\"; Goolsbee: problem \"all on the inflation side\". <a href=\"https://www.bls.gov/cpi/\">BLS CPI</a></li>\n<li><b>Oil below $90:</b> Trump signals further Iran strikes \"may not be necessary\"; JPMorgan ~1.4mb/d October surplus. <a href=\"https://tradingeconomics.com/commodity/crude-oil\">Trading Economics</a></li>\n<li><b>NVDA probe widens:</b> -5.47% day two; Culper on other China chip channels; Anthropic roadshow opened. <a href=\"https://www.marketwatch.com/\">MarketWatch</a></li>\n<li><b>10y at ~5%:</b> 4.983% close, topped 5% intraday; 30y ~5.35% - duration gate 5.20% only ~22bp away. <a href=\"https://tradingeconomics.com/united-states/government-bond-yield\">Trading Economics</a></li>\n<li><b>VIX 19.46, -2.31%:</b> fell even on a hot-CPI day - rotation, not panic. <a href=\"https://portfolio-terminal.com/markets/stock-market-close\">portfolio-terminal</a></li>\n<li><b>Week ahead:</b> Thu jobless claims + AMAT/CSCO + SMIC Q3; Fri PPI + Daly; BIS 50% Rule stay technically expired - Federal Register watch. <a href=\"https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\">FOMC calendar</a></li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li><b>Silver line ≈1.91x:</b> collateral 1,777 oz × $51.92 × 1.2817 ≈ S$118,249 vs S$56,240 loan; equity ≈ S$62,009. Tuesday's -2.8% ≈ -5.3% of line equity - drifting back toward mid-October stress.</li>\n<li><b>50bp tail:</b> duration gate ~22bp away; deployment could trigger INTO an accelerating hiking cycle.</li>\n<li><b>NVDA probe contagion</b> into SMIC Q3 (Thu) and NVDA earnings (17 Nov); Megaspeed Singapore nexus stays in the news.</li>\n<li><b>Oil two-tail now downside-biased</b> for the war premium - metals' premium deflating with it.</li>\n<li><b>FX:</b> ~35% of net worth non-SGD; USDSGD 1.2817. <b>Concentration:</b> STI rebound recovers only part of the month's -7.65% slide.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>TLT / Defense:</b> prepare the first tranche toward the 15% target but deploy AT the 5.20% gate, not before - a 50bp hike likely punches through it. ~62% of the liquid book still idle cash.</li>\n<li><b>SMIC 0981.HK:</b> zone breakout (HK$47.24) a day before Q3 - if the GM 26-28% guide holds and price holds above ~46 post-print, begin a staged entry.</li>\n<li><b>Silver:</b> unchanged - ratio below ~1.7x AND spot above $55 before any add; the sub-$50 entry is getting closer, not further.</li>\n</ul>",
+  "briefHtml": "<h3>NAV and the tape</h3>\n<ul>\n<li><b>NAV S$10,236,161</b> · reported +0.14% · real day move ≈ -0.08% (S$-8,557 vs Wednesday's restated 10,244,718). NAV level authoritative.</li>\n<li><b>Biggest mover in the book: SMIC +3.73% to HK$49.00</b> - second breakout day, one session BEFORE Q3 tonight. On the tape: CoreWeave +24%; NVDA +2.9% rebound (still ~-12% in November).</li>\n<li><b>The one thing:</b> the market looked through the hot CPI - SPX +1.31%, Nasdaq +1.60% (post-election losses erased), <b>VIX -10.1% to 17.49</b> - with a December hike locked and a ~9.5% tail on 50bp. Bonds were shut (Veterans Day): 10y frozen at 4.983%; today's reopen + PPI Friday decide whether the 5.20% gate gets tested this week.</li>\n<li>Asia Wed: <b>STI +0.59% to 5,289.66</b> (day two of the rebound); HSI -0.98% to 24,316. Tencent 409.60 -1.96%, Xiaomi 30.10 -1.63%; Alibaba -0.98%, Meituan -3.51%.</li>\n<li>Oil: Brent ~$91.69, +0.2% - stabilising just above $90. Metals choppy: silver ~$52.0 (+~0.9%), gold ~$4,030 fading toward ~$3,981 late; ratio ~78.</li>\n<li>Tonight: <b>SMIC Q3 after the HK close</b>; AMAT (consensus ~$10.30bn / EPS $4.06) and CSCO after the US close; PPI Friday; NVDA 17 Nov, Tencent 18 Nov.</li>\n</ul>\n<h3>Flag integrity</h3>\n<ul>\n<li>riskFlags: <b>ZERO</b> - fifth consecutive clean snapshot.</li>\n<li>L46.SI (Lum Chang): Yahoo 404, <b>31st consecutive session</b>.</li>\n<li>listedChgPct +0.82% - closest to a clean one-day read this week (Wed Asia + Wed US).</li>\n<li>Nov 11 NAV restated UP to 10,244,718 (from 10,233,521); reported +0.14% vs real ≈ -0.08%.</li>\n</ul>\n<h3>Insider trades (last 7 days)</h3>\n<ul>\n<li><b>SGX direct check failed again</b> - links.sgx.com API 404 for a second day; sweep via web sources only.</li>\n<li>Wing Tai (W05.SI): nothing newer than the 4 Nov Form 1 - cadence pause now <b>four trading sessions</b> (5, 6, 10, 11 Nov).</li>\n<li>DBS, OCBC, UOB, Fraser and Neave, VICOM, Straits Trading, CDL, UOL, Yanlord, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT: <b>none found</b>. HK names (Tencent, SMIC, Xiaomi): none found. US ETFs: none by construction.</li>\n</ul>\n<h3>Congress filings (via Unusual Whales)</h3>\n<ul>\n<li><b>No new filings since yesterday's brief</b> - newest in the feed remain the 9 Nov batch (NY-3 Democrat's two US T-bill buys of $15k-50k each; TN-8 Republican's WBD sell; AK Republican's WDC sell). Nothing filed 10-11 Nov yet.</li>\n</ul>\n<h3>Trump / policy watch (24-48h)</h3>\n<ul>\n<li><b>Truce roll-over week:</b> reciprocal-tariff suspension and 178 Section 301 exclusions hit their 10 Nov expiry; USTR extended the ships-301 action two months on 6 Nov; no snapback, no renewal notice yet. <a href=\"https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-targeting-maritime-logistics-and-shipbuilding-sectors-dominance\">USTR</a></li>\n<li><b>December hike locked, 50bp tail intact:</b> no walk-back from Waller/Logan; FedWatch ~90.5% 25bp / ~9.5% 50bp. <a href=\"https://www.bls.gov/cpi/\">BLS CPI</a></li>\n<li><b>Graham Act waiver digested:</b> Russia duties incl. uranium stay waived - fuel-price priority; mildly positive for uranium/grid supply. <a href=\"https://www.legal500.com/intelligence/global/international-law/trump-administration-waives-new-russia-sanctions-and-tariffs-under-graham-act\">Legal 500</a></li>\n<li><b>NVDA probe day three:</b> +2.9% rebound, chips led; Anthropic now seeking ~$1.4tn; CoreWeave +24%. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html\">Yahoo Finance</a></li>\n<li><b>VIX 17.49, -10.1%:</b> lowest since the crash; bonds reopen today with the 10y frozen at 4.983%. <a href=\"https://www.cboe.com/en/tradable-products/vix/\">CBOE</a></li>\n<li><b>Event cluster:</b> SMIC Q3 tonight, AMAT/CSCO tonight, PPI Friday, NVDA 17 Nov, Tencent 18 Nov. <a href=\"https://news.futunn.com/en/post/1003985572/chart-preview-smic-s-q3-earnings-are-coming\">Futunn</a></li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li><b>SMIC earnings TONIGHT:</b> +6.4% two-day breakout into the print - some good news priced; GM guide 26-28% is the line.</li>\n<li><b>Silver line ≈1.90x:</b> collateral 1,777 oz × $52.0 × 1.2843 ≈ S$118,674 vs S$56,240 loan; equity ≈ S$62,434. Steady vs Wednesday's 1.91x.</li>\n<li><b>Event cluster risk:</b> four binary events across core themes inside six days (AMAT/CSCO, PPI, NVDA 17 Nov, Tencent 18 Nov).</li>\n<li><b>Truce-expiry tail:</b> failed renewals would snap tariffs back onto the HK/China sleeve (Tencent already -38% from its high).</li>\n<li><b>FX:</b> ~35% of net worth non-SGD; USDSGD 1.2843. <b>Concentration:</b> STI rebound only two sessions old into tonight's US data.</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>TLT / Defense:</b> deploy AT the 5.20% gate, not before - a hot PPI Friday could deliver the level. ~62% of the liquid book still idle cash.</li>\n<li><b>SMIC 0981.HK:</b> no chasing into tonight's print - staged entry only if the GM guide holds AND price holds above ~46 afterward; a zone re-entry is the cheaper entry.</li>\n<li><b>Tencent 0700.HK:</b> Asia-barbell deployment watch into 18 Nov at ~14x TTM - a clean Q3 with stable AI-capex commentary is the trigger to start building.</li>\n</ul>",
   "insiderTrades": [],
-  "congressTrades": [
-    {
-      "member": "House Democrat (NY-3)",
-      "chamber": "House",
-      "ticker": "US T-Bill",
-      "type": "Buy",
-      "range": "$15,001-$50,000",
-      "date": "2026-11-09",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (NY-3)",
-      "chamber": "House",
-      "ticker": "US T-Bill",
-      "type": "Buy",
-      "range": "$15,001-$50,000",
-      "date": "2026-11-09",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (TN-8)",
-      "chamber": "House",
-      "ticker": "WBD",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-09",
-      "url": "https://unusualwhales.com/politics"
-    }
-  ],
+  "congressTrades": [],
   "trumpWatch": [
     {
-      "title": "Hot CPI meets Waller's 50bp test - December hike locked, jumbo live",
-      "detail": "October CPI +0.4% m/m vs +0.3% exp; core +0.3% vs +0.2% (third straight 0.3, no y/y published). Core exactly hit Waller's pre-set bar for considering 50bp ('credibility at risk'); Logan: 'more rapidly this winter'. CME FedWatch: ~90.5% 25bp, ~9.5% 50bp for the 8-9 Dec FOMC (FF 3.75-4.00%, chair Warsh).",
+      "title": "US-China truce roll-over week: ships-301 extended, tariffs hit expiry",
+      "detail": "The reciprocal-tariff suspension and 178 Section 301 exclusions hit their 10 Nov 2026 expiry this week. USTR posted a two-month further suspension of the China maritime/logistics/shipbuilding Section 301 action on 6 Nov. No tariff snapback announced, no renewal notice sighted yet - direct read-through to China/HK tech and shipping names.",
+      "url": "https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-targeting-maritime-logistics-and-shipbuilding-sectors-dominance"
+    },
+    {
+      "title": "December hike locked, 50bp tail intact - market looked through it",
+      "detail": "No walk-back from Waller/Logan after Tuesday's hot core CPI (0.3% met Waller's 50bp test). FedWatch: ~90.5% 25bp, ~9.5% 50bp for 8-9 Dec. Wednesday: SPX +1.31%, Nasdaq +1.60% erasing post-election losses.",
       "url": "https://www.bls.gov/cpi/"
     },
     {
-      "title": "Brent below $90: Iran de-escalation plus a real supply surplus",
-      "detail": "Brent -2.58% to ~$90.18, first close below $90 since 31 Aug (-23% from the 30 Oct $118 high); WTI ~$84.74. Trump says further strikes 'may not be necessary'; JPMorgan pegs the October global surplus near 1.4mb/d as OPEC output rises. Waller caveat: Hormuz ship insurance and diesel refining keep energy costs sticky.",
-      "url": "https://tradingeconomics.com/commodity/crude-oil"
+      "title": "Graham Act waiver digested: Russia duties incl. uranium stay waived",
+      "detail": "Legal 500 analysis (11 Nov) of the October EO: the 500% Russia duty and secondary tariffs remain waived, including provisions touching Russian uranium - fuel-price and supply priorities over sanctions pressure. Marginally positive for uranium/grid supply chains.",
+      "url": "https://www.legal500.com/intelligence/global/international-law/trump-administration-waives-new-russia-sanctions-and-tariffs-under-graham-act"
     },
     {
-      "title": "NVDA probe fallout day two; chip-diversion story widens",
-      "detail": "NVDA -5.47% to $168.89 (two-day approx -9.5%) as the Jensen Huang board probe unwinds AI-complex premium; Culper Research says Megaspeed 'isn't the only company' helping China access chips. Anthropic opened its IPO roadshow (Nasdaq debut possible week of 16 Nov; S-1: $33.2bn 9M revenue, $895.4bn compute commitments, valuation above $1tn).",
-      "url": "https://www.marketwatch.com/"
+      "title": "NVDA probe day three: stock rebounded +2.9%, chips led",
+      "detail": "NVDA +2.87% to ~$173.7 (still ~-12% in November); CoreWeave +24% on a strong revenue outlook; Anthropic's updated filing seeks ~$1.4tn. AI-compute demand prints still landing.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html"
     },
     {
-      "title": "10y back at ~5%: closed 4.983%, topped 5% intraday",
-      "detail": "UST 10y +11.9bp to 4.983% (first 5% print in a week); 30y ~5.35% intraday, highest since 29 Oct. The 5.20% duration gate is only ~22bp away - a 50bp December tail would likely punch through it.",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+      "title": "Vol reset complete: VIX 17.49, -10.1%",
+      "detail": "From 28.18 a week ago to the lowest since the crash. Bond market was closed for Veterans Day - 10y frozen at 4.983%; reopen today plus jobless claims, then PPI Friday, test the 5% line. Duration gate 5.20% sits ~22bp above.",
+      "url": "https://www.cboe.com/en/tradable-products/vix/"
     },
     {
-      "title": "VIX fell on a hot-CPI day: rotation, not panic",
-      "detail": "VIX 19.46, -2.31% even as CPI beat; SPX -0.38%, Dow -0.30%, Nasdaq -0.74%. Utilities down as yields rose - vol normalization continues while rate-sensitive corners absorb the hit.",
-      "url": "https://portfolio-terminal.com/markets/stock-market-close"
-    },
-    {
-      "title": "Rest of the week: SMIC Q3 Thursday, PPI Friday, BIS rule watch",
-      "detail": "Thu: jobless claims, AMAT and CSCO earnings, SMIC Q3 (guide GM 26-28%). Fri: PPI, Fed's Daly. The BIS '50% Rule' stay technically expired 9/10 Nov - watching the Federal Register for an extension notice (China/HK tech angle).",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      "title": "Event cluster: SMIC Q3 tonight, AMAT/CSCO tonight, PPI Friday",
+      "detail": "SMIC Q3 after the HK close today (guide GM 26-28%, consensus rev $3.094bn +29.9% y/y; call Fri 8:30am SGT); AMAT (consensus ~$10.30bn, EPS $4.06) and CSCO after the US close; PPI Friday; NVDA earnings 17 Nov, Tencent 18 Nov.",
+      "url": "https://news.futunn.com/en/post/1003985572/chart-preview-smic-s-q3-earnings-are-coming"
     }
   ],
   "opportunities": [
     {
       "ticker": "TLT",
-      "thesis": "Defense/long-duration sleeve: 10y at 4.983% is only ~22bp below the 5.20% gate, with core CPI exactly meeting Waller's 50bp test - a live jumbo-hike tail into the 8-9 Dec FOMC.",
-      "signal": "Prepare the first tranche toward the 15% Defense target now but deploy AT the gate (5.20%), not before - a 50bp hike likely punches through it and hands a better entry. ~62% of the liquid book still idle cash."
+      "thesis": "Defense/long-duration sleeve: 10y frozen at 4.983% through the Veterans Day bond closure, ~22bp below the 5.20% gate, with PPI Friday and a ~9.5% 50bp December tail.",
+      "signal": "Unchanged: tranche prepared, deploy AT the gate (5.20%), not before - a hot PPI Friday could deliver the level. ~62% of the liquid book still idle cash."
     },
     {
       "ticker": "0981.HK",
-      "thesis": "Asia semis: SMIC broke above the HK$44-46 zone (HK$47.24, +2.6% on higher volume) one day before Q3 earnings on Thursday 12 Nov (guide: revenue +2-4% q/q, GM 26-28%).",
-      "signal": "Zone-hold condition met but the print is tomorrow: if Q3 holds the GM guide and price holds above ~46 post-print, begin a staged entry; NVDA probe fallout and Friday's US PPI are live headline risks on either side."
+      "thesis": "Asia semis: SMIC broke out a second day (HK$49.00, +3.73%, two-day +6.4%) clear of the HK$44-46 zone, into Q3 results after tonight's HK close (guide GM 26-28%; consensus rev $3.094bn).",
+      "signal": "No chasing into the print: staged entry only if Q3 holds the GM guide AND price holds above ~46 afterward; a miss dragging it back into the zone is the cheaper, lower-risk entry."
     },
     {
-      "ticker": "XAGUSD",
-      "thesis": "Silver: IBKR line back to ~1.91x after Tuesday's -2.8% slide to $51.92 as the hot CPI deflated the metals war premium along with oil's (Brent below $90).",
-      "signal": "Unchanged: ratio below ~1.7x AND spot above $55 before any Real-assets add; with the war premium deflating and a 50bp tail in play, the sub-$50 entry is getting closer, not further."
+      "ticker": "0700.HK",
+      "thesis": "Asia barbell: Tencent HK$409.60 (-1.96% Wed), ~38% below its 52-week high at ~14x TTM earnings, Q3 on 18 Nov; the sleeve sits well under its 10% target with ~62% of the book idle.",
+      "signal": "Deployment watch: a clean Q3 with stable AI-capex commentary is the trigger to start building; US-China truce-snapback headlines are the main macro risk to timing."
     }
   ]
 }
