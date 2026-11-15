@@ -1,35 +1,55 @@
 {
-  "date": "2026-11-13",
-  "navSgd": 10216741.0,
-  "navChgPct": -0.38,
-  "listedChgPct": -2.192,
+  "date": "2026-11-16",
+  "navSgd": 10193410.0,
+  "navChgPct": -0.6,
+  "listedChgPct": -3.462,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2868,
-    "CNY": 0.193138,
-    "HKD": 0.164043,
-    "MYR": 0.315702
+    "USD": 1.2878,
+    "CNY": 0.193059,
+    "HKD": 0.164149,
+    "MYR": 0.315251
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "Tencent Holdings -7.3% in a day",
+      "title": "Xiaomi Corp -5.0% in a day",
+      "detail": "Position is 1.2% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "VanEck Gold Miners -6.8% in a day",
+      "detail": "Position is 1.0% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "ETFMG Jr Silver Miners -7.6% in a day",
       "detail": "Position is 0.7% of NW."
     },
     {
       "level": "critical",
-      "title": "City Developments -9.4% in a day",
+      "title": "iShares Global Silver Miners -7.6% in a day",
+      "detail": "Position is 0.7% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Tencent Holdings -7.9% in a day",
+      "detail": "Position is 0.7% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "City Developments -11.0% in a day",
       "detail": "Position is 0.5% of NW."
     },
     {
       "level": "critical",
-      "title": "Silver — unallocated (IBKR) -5.0% in a day",
-      "detail": "Position is 1.1% of NW."
+      "title": "Listed book -3.46% today",
+      "detail": "All listed securities combined."
     },
     {
       "level": "critical",
-      "title": "Silver -5.0% — leveraged IBKR line",
-      "detail": "~1.5x leverage implies account equity ~-7.5%."
+      "title": "Silver -4.8% — leveraged IBKR line",
+      "detail": "~1.5x leverage implies account equity ~-7.2%."
     }
   ],
   "navHistory": [
@@ -183,63 +203,140 @@
     },
     {
       "date": "2026-11-13",
-      "nav": 10216741.0
+      "nav": 10202462.0
+    },
+    {
+      "date": "2026-11-16",
+      "nav": 10193410.0
     }
   ],
-  "snapshotAt": "2026-11-13T07:40:12+08:00",
+  "snapshotAt": "2026-11-16T07:40:03+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3>NAV and the tape</h3>\n<ul>\n<li><b>NAV S$10,216,741</b> · reported -0.38% · real day move ≈ -0.04% (S$-4,555 vs Thursday's restated 10,221,296). NAV level authoritative.</li>\n<li><b>Biggest mover in the book's world: NVDA -4.34% to $166.19</b> after Jensen Huang RESIGNED as CEO, effective immediately — opened -14%, now ~-30% in a month, below a $4tn market cap. Earnings 17 Nov now land in a governance vacuum.</li>\n<li><b>The one thing:</b> the <b>10y jumped +12bp to 5.12%</b> (Trump dismissed an immediate Iran deal → WTI ~$89; SF Fed's Daly biased to more tightening; FedWatch 89% 25bp / 11% 50bp). <b>The 5.20% Defense gate is ~8bp away — one hot PPI (tonight 9:30pm SGT) could touch it.</b></li>\n<li>Watcher fired <b>4 critical riskFlags</b> (Tencent, CDL, silver x2) — directionally right but magnitudes overstated on stale baselines: Tencent real -2.64% (flag -7.3%), CDL real -6.74% (flag -9.4%, 52-week low 6.40 on 4x volume), silver real -3.47% (flag -5.0%).</li>\n<li>Metals smashed on a 19-month-high dollar: <b>gold $3,866.51 -3.05%</b>, <b>silver $49.88 -3.47%, back below $50</b>, ratio 77.5. Silver line now ~1.97x.</li>\n<li><b>SMIC Q3 beat after the HK close:</b> revenue $3.190bn +33.9% y/y (~+3% beat), net income $428m (~+17% beat), Q4 guided +4–6% q/q (accelerating). Reaction day today; call 8:30am SGT. CSCO beat big after the US close (rev +24%, EPS +40%, FY guide raised); AMAT figures not yet retrieved.</li>\n</ul>\n<h3>Flag integrity</h3>\n<ul>\n<li>riskFlags: <b>FOUR critical</b> — first flags in a week. All four point at real large moves; treat printed magnitudes as upper bounds (stale ~5-session baselines on Tencent and CDL).</li>\n<li>L46.SI (Lum Chang): Yahoo 404, <b>32nd consecutive session</b>.</li>\n<li>Nov 12 NAV restated DOWN to 10,221,296 (from 10,236,161) → reported -0.38% embeds offset; real ≈ -0.04%.</li>\n<li>listedChgPct -2.19% — a genuine down-day read this time (Thu Asia and Thu US both fell).</li>\n</ul>\n<h3>Insider trades (last 7 days)</h3>\n<ul>\n<li><b>None found.</b> SGX links API 404 for a third consecutive day — web sweep only.</li>\n<li>Wing Tai: nothing newer than the 4 Nov Form 1 — pause now <b>five trading sessions</b> (5, 6, 10, 11, 12 Nov).</li>\n<li>DBS, Fraser and Neave, VICOM, Straits Trading, City Developments, UOL, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT; HK names Tencent, SMIC, Xiaomi: none found. US sleeve is ETFs — no insider filings exist.</li>\n</ul>\n<h3>Congress trades (STOCK Act)</h3>\n<ul>\n<li><b>None new.</b> Newest items remain the 9 Nov batch (NY-3 T-bills x2; TN-8 WBD sale; AK WDC sale). Nothing filed 10–12 Nov.</li>\n</ul>\n<h3>Trump and policy watch (24–48h)</h3>\n<ul>\n<li><b>Trump dismisses immediate Iran deal</b> — WTI ~$89, 10y +12bp to 5.12%. Inflation-from-oil channel live; 5.20% gate ~8bp away. <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html\">Yahoo</a></li>\n<li><b>Jensen Huang resigned as NVDA CEO, effective immediately</b>; Reuters reports a third alleged affair; US probe of Alice Huang over China chip links. NVDA -4.34% to $166.19 (opened -14%). Earnings 17 Nov; Anthropic IPO confirmed 19 Nov.</li>\n<li><b>Daly hawkish:</b> bias is further tightening; FedWatch 89% 25bp / 11% 50bp for December. PPI tonight 9:30pm SGT is the next input.</li>\n<li><b>SMIC beat</b> (+33.9% y/y revenue, Q4 guide accelerates to +4–6% q/q) — direct read-through to the China/HK tech sleeve. <a href=\"https://www.rttnews.com/3713723/smic-q3-income-climbs.aspx\">RTTNews</a></li>\n<li><b>Metals smashed on 19-month-high dollar:</b> gold -3.05% to $3,866.51; silver -3.47% to $49.88, below $50; ratio 77.5. <a href=\"https://www.usagold.com/daily-silver-price-history/\">USAGOLD</a></li>\n<li>Week closes with PPI tonight; US-China truce renewal notices beyond the ships-301 extension still unsighted — snapback risk technically open. <a href=\"https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-targeting-maritime-logistics-and-shipbuilding-sectors-dominance\">USTR</a></li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line: 1,777 oz x $49.88 x 1.2868 ≈ S$114,058 collateral vs S$56,240 loan → equity ≈ S$57,818, ratio ≈ <b>1.97x</b> — pressing the 2x zone; one more down-leg from forced-deleveraging territory.</li>\n<li>Duration gate proximity: 10y 5.12% vs 5.20% gate = ~8bp, one hot PPI away; gate plan must be executable tonight.</li>\n<li>NVDA governance vacuum 4 days before earnings; Anthropic IPO 19 Nov — two volatility nodes next week.</li>\n<li>CDL 52-week low on 4x volume (UOL flat — name-specific); watch read-across to Wing Tai / Ho Bee if yields keep climbing.</li>\n<li>Concentration and FX: ~35% of net worth non-SGD at USDSGD 1.2868; unlisted plus property still dominate.</li>\n</ul>\n<h3>Alpha — signals, not advice (~62% of the liquid book idle cash)</h3>\n<ul>\n<li><b>TLT / Defense sleeve:</b> 10y 5.12%, gate 5.20% ~8bp away, PPI tonight. Signal: alert armed — deploy first tranche AT the gate; a hot PPI likely overshoots, and the overshoot is the better fill, so stage the order.</li>\n<li><b>SMIC (0981.HK):</b> beat plus accelerating Q4 guide. Signal: staged-entry trigger met IF price holds above ~HK$46–47 post-print today; the 8:30am SGT call's gross-margin detail (guide 26–28%) is the confirm/kill input.</li>\n<li><b>Silver / real assets:</b> spot below $50 — the flagged entry is here. Signal: line at ~1.97x is ABOVE the 1.7x health bar, so no adds; discipline flips from wait-to-add to watch-for-forced-deleveraging. Adds stay on hold until ratio below 1.7x AND spot reclaims $55.</li>\n</ul>",
+  "briefHtml": "<h3>NAV and the tape</h3>\n<ul>\n<li><b>NAV S$10,193,410</b> · reported -0.60% · real day move ≈ -0.09% (S$-9,052 vs Friday's final 10,202,462). NAV level authoritative; Friday's NAV was restated down 0.14% after the morning snapshot.</li>\n<li><b>Biggest mover in the book's world: AMD -8.75% Friday</b> as the post-Huang chip selloff rolled on; NVDA -2.01% to $162.85 (-12% on the week, below $4tn) into <b>earnings TOMORROW (Tue 17 Nov)</b> — first print of the post-Huang era, interim CEO Colette Kress.</li>\n<li><b>The one thing:</b> the <b>10y closed 5.15% Friday (+5bp, high 5.17%) — the 5.20% Defense gate is 5bp away</b>, the closest yet, with PPI at 6.5% y/y (hottest since Nov 2022) keeping a December hike ~90% locked. Gate decision lands between NVDA Tuesday and Anthropic's ~$1.4tn IPO Thursday.</li>\n<li><b>All 8 watcher riskFlags are stale-baseline artifacts:</b> real Friday moves — Xiaomi -3.74% (flag -5.0%), GDX -0.24% (flag -6.8%), SILJ ≈-1.5% (flag -7.6%), SLVP -1.20% (flag -7.6%), Tencent -3.06% (flag -7.9% = its exact 5-day move), CDL ≈+0.4% (flag -11.0%, wrong sign), silver futures -1.89% (flag -4.8%). listedChgPct -3.46% is inconsistent with NAV -0.09%.</li>\n<li>Metals at support: <b>gold $3,878.70 — sitting ON its 52-week low</b> ($3,875.36); silver spot ~$48.97, second week below $50. Silver line now ≈1.99x — effectively AT 2x.</li>\n<li><b>SMIC sell-the-news on a strong print:</b> spiked to HK$52.30 (+7.3%), closed 48.52 -0.45%; Q3 gross margin 29.9% crushed the 26–28% guide, utilisation 97.3%, Q4 guided +4–6% q/q. AMAT verified: Q4 revenue $10.41bn +53%, Q1 guide $11.1bn far above consensus; stock -2.8% Friday.</li>\n</ul>\n<h3>Flag integrity</h3>\n<ul>\n<li>riskFlags: <b>EIGHT critical — every magnitude overstated</b> (verification table in the brief). Tencent's -7.9% exactly matches its 5-day move: the watcher is printing multi-day moves as daily.</li>\n<li>No position had a real -5% Friday; the Asia-tech and metals complex DID fall hard over the week — direction right, magnitude wrong.</li>\n<li>L46.SI (Lum Chang): Yahoo 404, <b>33rd consecutive session</b>.</li>\n<li>listedChgPct -3.46% fails the NAV cross-check (NAV -0.09%); treat as stale too.</li>\n</ul>\n<h3>Insider trades (last 7 days)</h3>\n<ul>\n<li><b>None found.</b> SGX links API 404 for a fourth consecutive trading day — web sweep only.</li>\n<li>Wing Tai: nothing newer than the 4 Nov Form 1 — pause now <b>six trading sessions</b> (5, 6, 10, 11, 12, 13 Nov).</li>\n<li>DBS, Fraser and Neave, VICOM, Straits Trading, City Developments, UOL, Ho Bee, Seatrium, YZJ, Singtel, Keppel REIT; HK names Tencent, SMIC, Xiaomi: none found. US sleeve is ETFs — no insider filings exist.</li>\n</ul>\n<h3>Congress trades (STOCK Act)</h3>\n<ul>\n<li><b>88 trades disclosed Nov 7–14 (45 buys / 43 sells) — one lawmaker made 58 of them.</b></li>\n<li><b>CA-31 (House, D), filed 11 Nov:</b> SOLD NVDA on 20 Oct — three weeks before the Huang scandal broke; sold Tokyo Electron twice; bought CSCO, META, ServiceNow, Moderna, Lumentum.</li>\n<li><b>OH-2 (House, R), filed 13 Nov:</b> 19-row rotation — bought AVGO, LRCX, GOOGL x2, Eaton x2, ATandT x2; sold Visa x2, Eli Lilly x2, Kroger x2, Amgen x2, PG, Home Depot (trades 3–5 Nov).</li>\n<li><b>NJ-5 (House, D), filed 6 Nov:</b> bought AMAT on 26 Oct — two weeks before its +53% revenue print.</li>\n<li><b>GA-12 (House, R), filed 12 Nov:</b> bought two US Treasury notes ($15,001–50,000 each, 2 Oct). <b>WV (Senate, R), filed 4 Nov:</b> sold AAPL, META, MSFT, Zoetis (21 Oct).</li>\n</ul>\n<h3>Trump and policy watch (weekend + 48h)</h3>\n<ul>\n<li><b>NVDA scandal is now a China-policy storm:</b> bipartisan push (Johnson + Jeffries backing) to attach tougher AI-chip export curbs on China to the NDAA before year-end; Wyden and Neal opened a probe into the H200 approve-and-tax deal; Lutnick testifies 10 Dec. <a href=\"https://thehill.com/policy/technology/6217470-democrats-investigate-trump-nvidia-chips-china/\">The Hill</a></li>\n<li><b>Megaspeed — the Singapore angle:</b> Bessent said Treasury, Defense, State and USTR all wanted the Singapore-based firm on the Entity List for months; Commerce BIS stalled. Export-diversion scrutiny of SG intermediaries intensifies. <a href=\"https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/\">CBS</a></li>\n<li><b>China extended the Busan truce ~2 months to 10 Jan 2027</b> — rare-earth, battery and graphite export-control suspensions, US-vessel port fees, Hanwha countermeasures; matches USTR's 6 Nov ships-301 extension. Snapback risk defused for now. Beijing warned against new chip controls. <a href=\"https://www.china-briefing.com/news/us-china-relations-in-the-trump-2-0-implications/\">China Briefing</a></li>\n<li><b>PPI 6.5% y/y — hottest since Nov 2022</b> (+0.3% m/m, cooler than feared); December hike ~90% priced; 10y 5.15%, 2y 4.88% (+42bp in a week — bear flattener). <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html\">Yahoo</a></li>\n<li><b>Anthropic IPO week:</b> pricing Wed 18 Nov, first trade Thu 19 Nov as ANT — 825m shares at $70–78 (~$1.4tn fully diluted); FT: bankers weighing pricing ABOVE $78 on heavy demand; ~20% retail; TSMC taking $500m; run-rate revenue ~$81bn. <a href=\"https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html\">Yahoo</a></li>\n<li><b>Oil surplus signal:</b> IEA sees the oil market in surplus for the first time since the war began; Brent ~$96 posted a second straight weekly decline despite Trump's Iran-deal dismissal. <a href=\"https://globaloilshock.com/en/oil-price-today/\">Global Oil Shock</a></li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line: 1,777 oz x $48.97 x 1.2878 ≈ S$112,064 collateral vs S$56,240 loan → equity ≈ S$55,824 (-S$2.0k d/d), ratio ≈ <b>1.99x — AT the 2x line</b>; a further ~2% silver drop pushes it through.</li>\n<li>Duration gate at 5bp: 10y 5.15% vs 5.20% gate, with NVDA (Tue) and Anthropic (Thu) binaries able to gap yields either way — gate order must be staged and executable.</li>\n<li>NVDA earnings tomorrow: first print without Huang, mid-scandal, after a -12% week; AI-sleeve correlations go to 1 on a miss.</li>\n<li>NDAA chip-curb tail hits the China/HK tech sleeve; partially offset by the Busan extension to January.</li>\n<li>Real assets bleeding into support: gold ON its 52-week low, silver ~$49, SILJ YTD -12% — the 20% target sleeve is the book's biggest mark-to-market drag.</li>\n<li>Concentration and FX: ~35% of net worth non-SGD at USDSGD 1.2878; unlisted plus property dominate; CDL stabilised Friday (+0.4%).</li>\n</ul>\n<h3>Alpha — signals, not advice (~62% of the liquid book idle cash)</h3>\n<ul>\n<li><b>TLT / Defense sleeve:</b> 10y 5.15%, gate 5.20% just 5bp away — closest yet. Signal: alert armed; deploy first tranche AT 5.20%; let any event-driven overshoot (5.25%+) be the better fill. The 2y at 4.88% says the market is doing the Fed's work.</li>\n<li><b>SMIC (0981.HK):</b> GM 29.9% crushed guidance, Q4 accelerating, yet faded +7.3% → -0.45% Friday. Signal: staged-entry trigger (hold above ~HK$46–47) is MET at 48.52; the fade is a better price than Thursday's chase. Size in tranches; December NDAA debate is the explicit risk budget.</li>\n<li><b>Gold / miners (Real assets):</b> gold ON its 52-week low with GDX flat Friday — downside momentum exhausting at support. Signal: UNLEVERED sleeve only (silver line at ~1.99x gets nothing): if gold holds 3,850–3,875 through the NVDA/Anthropic gauntlet, begin the first accumulation tranche toward the 20% target; a clean break below 3,850 defers it.</li>\n</ul>",
   "insiderTrades": [],
-  "congressTrades": [],
+  "congressTrades": [
+    {
+      "member": "CA-31 (D)",
+      "chamber": "House",
+      "ticker": "NVDA",
+      "type": "Sell",
+      "range": "$1,001 - $15,000",
+      "date": "2026-10-20 (filed 2026-11-11)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "CA-31 (D)",
+      "chamber": "House",
+      "ticker": "TOELF (Tokyo Electron)",
+      "type": "Sell",
+      "range": "$1,001 - $15,000 x2",
+      "date": "2026-10-23 and 2026-10-30 (filed 2026-11-11)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "OH-2 (R)",
+      "chamber": "House",
+      "ticker": "AVGO",
+      "type": "Buy",
+      "range": "$1,001 - $15,000",
+      "date": "2026-11-05 (filed 2026-11-13)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "OH-2 (R)",
+      "chamber": "House",
+      "ticker": "LRCX",
+      "type": "Buy",
+      "range": "$1,001 - $15,000",
+      "date": "2026-11-05 (filed 2026-11-13)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "OH-2 (R)",
+      "chamber": "House",
+      "ticker": "GOOGL",
+      "type": "Buy",
+      "range": "$1,001 - $15,000 x2",
+      "date": "2026-11-03 (filed 2026-11-13)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "NJ-5 (D)",
+      "chamber": "House",
+      "ticker": "AMAT",
+      "type": "Buy",
+      "range": "$1,001 - $15,000",
+      "date": "2026-10-26 (filed 2026-11-06)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "GA-12 (R)",
+      "chamber": "House",
+      "ticker": "US Treasury notes (2029/2030)",
+      "type": "Buy",
+      "range": "$15,001 - $50,000 x2",
+      "date": "2026-10-02 (filed 2026-11-12)",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "WV (R)",
+      "chamber": "Senate",
+      "ticker": "AAPL / META / MSFT / Zoetis",
+      "type": "Sell",
+      "range": "$1,001 - $15,000 each",
+      "date": "2026-10-21 (filed 2026-11-04)",
+      "url": "https://unusualwhales.com/politics"
+    }
+  ],
   "trumpWatch": [
     {
-      "title": "Trump dismisses immediate Iran deal — oil up, 10y +12bp to 5.12%",
-      "detail": "Trump said he has no plans to bring an immediate end to the war; WTI rallied to ~$89 and the 10y jumped +12bp to 5.12% on the post-Veterans-Day reopen (30y 5.44%). The 5.20% duration gate is now ~8bp away with PPI tonight 9:30pm SGT.",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+      "title": "NVDA scandal becomes a China-policy storm: chip curbs headed for the NDAA",
+      "detail": "Bipartisan lawmakers backed by Speaker Johnson and incoming-speaker Jeffries are pushing tougher AI-chip export curbs on China, possibly attached to the must-pass NDAA before year-end. Wyden and Neal opened a probe into Trump's approve-and-tax H200 deal (25% revenue cut) and ordered Commerce Secretary Lutnick to preserve records; Lutnick testifies to Senate Banking on 10 Dec.",
+      "url": "https://thehill.com/policy/technology/6217470-democrats-investigate-trump-nvidia-chips-china/"
     },
     {
-      "title": "Jensen Huang resigned as NVDA CEO, effective immediately",
-      "detail": "NVDA opened -14% and closed -4.34% at $166.19, ~-30% in a month and below a $4tn market cap. Reuters reports a third alleged affair; US investigators probing Alice Huang over China chip-smuggling links. Earnings 17 Nov now land in a governance vacuum; AVGO +5.5% and AMD +5.9% on the share-shift bid.",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+      "title": "Megaspeed fight puts Singapore in the export-diversion spotlight",
+      "detail": "Treasury Secretary Bessent said on CNBC Friday that Treasury, Defense, State and USTR all supported adding Singapore-based Megaspeed to the Entity List 'for months' while Commerce BIS stalled. Expect tighter scrutiny of Singapore-based chip intermediaries; Beijing calls the Huang allegations a pretext for a technological blockade.",
+      "url": "https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/"
     },
     {
-      "title": "Daly hawkish; December 50bp tail grows to 11%",
-      "detail": "SF Fed's Daly: 'my bias is that further tightening will be needed... consistent pressure on inflation that isn't simply in the sectors most directly affected by tariffs or oil'. FedWatch: 89% 25bp / 11% 50bp for December. PPI tonight (9:30pm SGT) is the next input. Jobless claims 200k, steady.",
-      "url": "https://www.usagold.com/daily-silver-price-history/"
+      "title": "China extended the Busan truce ~2 months to 10 Jan 2027",
+      "detail": "MOFCOM/GAC rolled over suspensions of rare-earth, lithium-battery and graphite export controls, US-vessel port fees and Hanwha countermeasures on 9 Nov, matching USTR's 6 Nov ships-301 extension. The tariff-snapback risk flagged last week is defused for now; direct relief for the China/HK tech sleeve.",
+      "url": "https://www.china-briefing.com/news/us-china-relations-in-the-trump-2-0-implications/"
     },
     {
-      "title": "SMIC Q3 beat with accelerating Q4 guide",
-      "detail": "Revenue $3.190bn +33.9% y/y (~+3% above consensus $3.094bn; +6.1% q/q); net income $428.4m vs ~$366m expected (+17%); Q4 guided +4% to +6% q/q vs Q3's +2–4% guide. Closed HK$48.74 -0.53% before the print; reaction day and 8:30am SGT call today.",
-      "url": "https://www.rttnews.com/3713723/smic-q3-income-climbs.aspx"
+      "title": "PPI 6.5% y/y — hottest since Nov 2022; December hike ~90% locked",
+      "detail": "October PPI rose 0.3% m/m (cooler than the 0.4% expected) but the annual rate hit 6.5%, the largest since Nov 2022. 10y closed 5.15% Friday (+5bp, high 5.17%), 2y 4.88% (+42bp in a week) — a bear flattener doing the Fed's work. The 5.20% duration gate is 5bp away.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html"
     },
     {
-      "title": "Metals smashed on a 19-month-high dollar",
-      "detail": "Gold $3,866.51 -3.05% (-$121.46; broke $3,900, third down session); silver $49.88 -3.47% (-$1.79), back below $50; gold/silver ratio 77.5. Hike repricing plus dollar strength squeezes the whole real-assets sleeve.",
-      "url": "https://www.usagold.com/daily-silver-price-history/"
+      "title": "Anthropic IPO week: pricing Wed, trading Thu as ANT",
+      "detail": "825m Class A shares at $70–78 (~$1.4tn fully diluted at the top) plus a $26bn concurrent placement; the institutional book was covered on day one and FT reports bankers are weighing pricing above $78. Up to 20% retail; TSMC is taking $500m at the IPO price. Run-rate revenue ~$81bn as of 31 Oct. NVDA earnings Tuesday opens the same AI-trade test.",
+      "url": "https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html"
     },
     {
-      "title": "PPI tonight; truce renewal notices still unsighted",
-      "detail": "PPI lands tonight 9:30pm SGT with the 10y 8bp under the 5.20% gate. Beyond USTR's 6 Nov two-month extension of the ships-301 suspension, no further US-China truce renewal notice has been sighted after the 10 Nov tariff-expiry date — snapback risk technically open. CSCO beat big after the close (rev +24% y/y, adj EPS +40%, FY guide raised); Anthropic confirmed IPO 19 Nov.",
-      "url": "https://www.thestreet.com/technology/cisco-systems-csco-q1-2027-earnings-call-stock-updates"
+      "title": "IEA: oil market in surplus for the first time since the war began",
+      "detail": "Brent (~$96) posted a second straight weekly decline and WTI settled $88.56 despite Trump's Thursday dismissal of an immediate Iran deal; US crude stocks rose 4.7m barrels. The oil-driven inflation impulse is fading even as PPI prints hot.",
+      "url": "https://globaloilshock.com/en/oil-price-today/"
     }
   ],
   "opportunities": [
     {
       "ticker": "TLT",
-      "thesis": "Defense/long-duration sleeve (15% target): 10y jumped +12bp to 5.12% on the Iran-deal dismissal and Daly's hawkish bias — now ~8bp below the 5.20% deployment gate with PPI tonight 9:30pm SGT and an 11% 50bp December tail.",
-      "signal": "Alert armed: deploy the first tranche AT the gate (5.20%), not before. A hot PPI likely overshoots the gate — the overshoot is the better fill, so stage the order tonight rather than chase. ~62% of the liquid book still idle cash."
+      "thesis": "Defense/long-duration sleeve (15% target): 10y closed 5.15% Friday (+5bp; high 5.17%) — the 5.20% deployment gate is 5bp away, the closest yet, behind a 6.5% y/y PPI and a bear flattener (2y +42bp in a week to 4.88%).",
+      "signal": "Alert stays armed: deploy the first tranche AT 5.20%, and let any event-driven overshoot (5.25%+) around NVDA (Tue) and Anthropic (Thu) be the better fill. Stage the order so it is executable, not theoretical. ~62% of the liquid book still idle cash."
     },
     {
       "ticker": "0981.HK",
-      "thesis": "Asia semis: SMIC Q3 beat — revenue $3.190bn +33.9% y/y (~+3% above consensus), net income +17% above expectations, Q4 guided to ACCELERATE at +4–6% q/q (vs +2–4% prior guide). Closed HK$48.74 before the print; reaction day today.",
-      "signal": "Staged-entry trigger from the zone-breakout thesis is met IF price holds above ~HK$46–47 post-print today; the 8:30am SGT call's gross-margin detail (guide 26–28%) is the confirm/kill input. A drop back into the HK$44–46 zone remains the cheaper entry."
+      "thesis": "Asia semis: SMIC's Q3 gross margin of 29.9% crushed the 26–28% guide with 97.3% utilisation and an accelerating Q4 guide (+4–6% q/q) — yet the stock faded from +7.3% to -0.45% on Friday, a sell-the-news close at HK$48.52.",
+      "signal": "The staged-entry trigger (hold above ~HK$46–47 post-print) is met at 48.52 — the fade is a better entry than Thursday's chase. Size in tranches; the December NDAA export-curb debate is the explicit risk budget for this entry."
     },
     {
-      "ticker": "XAGUSD",
-      "thesis": "Real-assets sleeve (20% target): silver $49.88, -3.47% and back below $50 on a 19-month-high dollar — the sub-$50 entry the briefs have flagged is here. But the leveraged IBKR line is ~1.97x, above the 1.7x health bar.",
-      "signal": "No adds: the line being above 1.7x overrides the sub-$50 price signal. Discipline flips from wait-to-add to watch-for-forced-deleveraging (equity ~S$57.8k on ~S$114.1k collateral vs the fixed S$56.24k loan). Adds stay on hold until ratio below 1.7x AND spot reclaims $55."
+      "ticker": "XAUUSD",
+      "thesis": "Real-assets sleeve (20% target): gold closed Friday at $3,878.70 — 0.06% above its 52-week low — while GDX finished flat (-0.24%), a first sign of miner stabilisation after the washout (SILJ YTD -12%).",
+      "signal": "Contrarian accumulation watch for the UNLEVERED sleeve only (the silver line at ~1.99x gets nothing): if gold holds the 3,850–3,875 shelf through this week's NVDA/Anthropic gauntlet, begin the first tranche toward the 20% target; a clean break below 3,850 defers it to the next shelf."
     }
   ]
 }
