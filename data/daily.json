@@ -1,55 +1,55 @@
 {
-  "date": "2026-11-17",
-  "navSgd": 10178005.0,
-  "navChgPct": -0.762,
-  "listedChgPct": -4.41,
+  "date": "2026-11-18",
+  "navSgd": 10168883.0,
+  "navChgPct": -0.737,
+  "listedChgPct": -4.274,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.289,
-    "CNY": 0.193721,
-    "HKD": 0.164285,
-    "MYR": 0.314928
+    "USD": 1.2884,
+    "CNY": 0.193297,
+    "HKD": 0.164213,
+    "MYR": 0.315012
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "VanEck Gold Miners -13.7% in a day",
+      "title": "VanEck Gold Miners -8.0% in a day",
       "detail": "Position is 1.0% of NW."
     },
     {
       "level": "critical",
-      "title": "ETFMG Jr Silver Miners -16.8% in a day",
+      "title": "ETFMG Jr Silver Miners -11.0% in a day",
       "detail": "Position is 0.7% of NW."
     },
     {
       "level": "critical",
-      "title": "iShares Global Silver Miners -16.3% in a day",
+      "title": "iShares Global Silver Miners -10.5% in a day",
       "detail": "Position is 0.7% of NW."
     },
     {
       "level": "critical",
-      "title": "Tencent Holdings -6.7% in a day",
+      "title": "Tencent Holdings -10.0% in a day",
       "detail": "Position is 0.7% of NW."
     },
     {
       "level": "critical",
-      "title": "City Developments -8.7% in a day",
+      "title": "City Developments -8.2% in a day",
       "detail": "Position is 0.5% of NW."
     },
     {
       "level": "critical",
-      "title": "Silver — unallocated (IBKR) -9.5% in a day",
+      "title": "Silver — unallocated (IBKR) -5.3% in a day",
       "detail": "Position is 1.1% of NW."
     },
     {
       "level": "critical",
-      "title": "Listed book -4.41% today",
+      "title": "Listed book -4.27% today",
       "detail": "All listed securities combined."
     },
     {
       "level": "critical",
-      "title": "Silver -9.5% — leveraged IBKR line",
-      "detail": "~1.5x leverage implies account equity ~-14.3%."
+      "title": "Silver -5.3% — leveraged IBKR line",
+      "detail": "~1.5x leverage implies account equity ~-7.9%."
     }
   ],
   "navHistory": [
@@ -211,145 +211,149 @@
     },
     {
       "date": "2026-11-17",
-      "nav": 10178005.0
+      "nav": 10176198.0
+    },
+    {
+      "date": "2026-11-18",
+      "nav": 10168883.0
     }
   ],
-  "snapshotAt": "2026-11-17T07:40:03+08:00",
+  "snapshotAt": "2026-11-18T07:40:10+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3><b>NAV S$10,178,005</b> - reported -0.76%, real approx -0.06% after restatement</h3>\n<ul>\n<li><b>Biggest mover:</b> Nvidia -4.12% to $156.14, leading SPX -1.92% / Nasdaq -2.49% (correction) into tonight's earnings</li>\n<li><b>The one thing:</b> NVDA reports tonight (about 5:20am Wed SGT) with VIX +18.7% at 22.91 and SOX -5.3%; the 10y eased to 5.12% (gate 5.20%, 8bp away) and silver broke to a 1-year low near $47.2 - leveraged silver line now about 1.93x</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US Mon: SPX 7,416.59 -1.92%; Dow 51,608.17 -1.41%; Nasdaq 24,509.76 -2.49%; VIX 22.91 +18.7%; 10y 5.12%; DXY 103.58</li>\n<li>Asia Mon: HSI 23,754 +0.5% (Tencent HK$390.40 +0.98%, Xiaomi HK$29.08 +0.76%); STI 5,183.18 -0.93%</li>\n<li>Metals: gold about $3,859-3,874 (13-month low); silver about $47.2-47.5 intraday Monday (1-year low; Fri close $48.77)</li>\n<li>FX: USDSGD 1.289, USDCNY about 6.65</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>All 8 risk flags are stale-baseline artefacts, magnitudes roughly doubled (GDX -13.7%, SILJ -16.8%, SLVP -16.3%, Tencent -6.7% despite a +0.98% day, CDL -8.7%, silver -9.5%, listed book -4.41%, silver line equity -14.3%)</li>\n<li>L46.SI Yahoo 404 - 34th session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul><li>None found (SGX API 404 for the 5th straight trading day; Wing Tai pause 7 sessions; US holdings are ETFs)</li></ul>\n<h3>Congress trades</h3>\n<ul>\n<li>No new filings dated 11/14-11/16; latest batch filed 11/13: House Republican (OH-2) 19-trade batch - buys AVGO, LRCX, ETN, GOOGL, T; sells PG, HD, V, LLY, KR, AMGN</li>\n<li>Filed 11/12: GA-12 bought 2 US Treasury notes ($15,001-$50,000 each); TX-37 bought KO</li>\n<li>Source: <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>BIS rule closes China's remote-access chip loophole; licenses now needed for advanced-chip exports to Singapore, Malaysia, Indonesia, Thailand, Brazil <a href=\"https://thehill.com/policy/technology/6222897-bis-limits-remote-computing-exports/\">The Hill</a></li>\n<li>Huang resigned as NVDA CEO Thursday over Megaspeed-linked scandal; Lutnick to face Senate Banking; Kessler requested by House Foreign Affairs</li>\n<li>Trump-Xi meeting in Shenzhen Nov 19 <a href=\"https://tradingeconomics.com/hong-kong/stock-market\">Trading Economics</a></li>\n<li>Warsh spoke Monday (AI/productivity, no rate signal); FOMC minutes Wed; Waller floated 50bp December hike <a href=\"https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026\">Admirals</a></li>\n<li>Anthropic prices Wed ($70-$78, about $1.3-1.45T), trades Thu as ANT; NVDA is a $10B private-placement buyer <a href=\"https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html\">Yahoo Finance</a></li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line about 1.93x (equity approx S$52,100), down from about 1.99x Friday</li>\n<li>Binary event risk tonight: NVDA print with VIX 22.91</li>\n<li>Metals downtrend: gold -15% over 12 weeks; FX about 35% non-SGD at 1.289</li>\n<li>Concentration: SGX property plus HK tech; STI -4.2% in a month</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>TLT:</b> 10y 5.12%, gate 5.20% 8bp away - deploy AT the gate, not before</li>\n<li><b>NVDA/AI bottlenecks:</b> no pre-print trade; beat-and-raise vs about $108bn/74% GM is the trigger to start the 15% sleeve from the ~62% idle cash</li>\n<li><b>Real assets:</b> unlevered sleeve only; gold holding 3,850-3,875 through NVDA = first tranche; silver line gets nothing</li>\n</ul>",
+  "briefHtml": "<h3><b>NAV S$10,168,883</b> - reported -0.74%, real approx -0.07% after restatement</h3>\n<ul>\n<li><b>Biggest mover:</b> Tencent -3.69% to HK$376.00 (52-week-low zone) into today's earnings; Alibaba -5.21%</li>\n<li><b>The one thing:</b> Nvidia smashed it after the bell - Q3 revenue $115.8bn (+103%) vs ~$109bn expected, Q4 guided ~$130bn vs $125bn consensus, backlog now $2.5tn, FY28 outlook raised to 75%; board ruled out reinstating Huang. NVDA +2-4% after hours. The AI-bottleneck deployment trigger has fired.</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US Tue: SPX 7,340.53 -1.03%; Dow 50,759.42 -1.64%; Nasdaq 24,328.39 -0.74%; VIX 25.46 +11.1%; 10y ~5.10%; DXY ~103.5</li>\n<li>Asia Tue: HSI 23,508 -1.03%; Tencent HK$376.00 -3.69%; Alibaba -5.21%; Xiaomi +2.13%; STI 5,109.13 -1.43%; Nikkei -1.34%; KOSPI -2.59%</li>\n<li>Metals: gold ~$3,840-3,860 (lowest since Sep 2025); silver $47.26 +0.23% (session low $46.83; -59.9% from 52-wk high)</li>\n<li>FX: USDSGD 1.2884, USDCNY ~6.67</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>8 flags; magnitudes shifting as baselines partially reset. Tencent flag (-10.0%) is converging on REAL weakness (HK$376, 52-wk-low shelf, reports today). Silver flags (-5.3%) are artefacts - silver actually rose Tuesday</li>\n<li>L46.SI Yahoo 404 - 35th session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul><li>None found (SGX API 404 for the 6th straight trading day; Wing Tai pause 8 sessions; US holdings are ETFs)</li></ul>\n<h3>Congress trades</h3>\n<ul>\n<li>Filed 11/17: House Republican (FL-19) 8-trade batch - buys IBKR x2; sells NFLX, ZTS, ADSK (x2 each)</li>\n<li>Filed 11/16: CA-50 sold a $500k-1M US T-Bill; IL-1 bought DDOG, EL and sold BP, SPHR; AR-2 sold JBGS; WA-1 municipal switches</li>\n<li>Source: <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>NVDA Q3: $115.8bn revenue, $2.68 EPS, Q4 guide ~$130bn, $2.5tn backlog, $150bn buyback authorization (approved Sept); board: no Huang reinstatement <a href=\"https://www.morningstar.com/news/globe-newswire/9879852/nvidia-announces-financial-results-for-third-quarter-fiscal-2027\">Press release</a></li>\n<li>Trump-Xi-Putin trilateral in Shenzhen Nov 18-19; Busan truce extension the goal; China extended rare-earth pause to Jan 10; chip curbs not on the table <a href=\"https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit\">NPR</a></li>\n<li>BIS remote-access rule names Singapore among diversion-risk countries <a href=\"https://thehill.com/policy/technology/6222897-bis-limits-remote-computing-exports/\">The Hill</a></li>\n<li>FOMC minutes today 2pm ET; Anthropic prices today, trades Thu as ANT; Tencent reports today</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line ~1.92x (equity approx S$52,000); silver -59.9% from 52-wk high despite Tuesday's +0.2%</li>\n<li>VIX 25.46 (intraday 27.73) into a catalyst cluster: FOMC minutes, ANT pricing, summit</li>\n<li>Gold broke the 3,850-3,875 shelf intraday (low 3,836.96)</li>\n<li>FX ~35% non-SGD at 1.2884; concentration: HK tech + SGX property; STI -2.3% in two sessions</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>AI bottlenecks - TRIGGER FIRED:</b> beat-and-raise with governance steadying delivered; begin staged deployment of the 15% sleeve from idle cash, first tranche after the AH move settles</li>\n<li><b>Asia barbell:</b> Tencent reports at a 52-week low; clean print plus truce extension makes the HK-tech leg actionable</li>\n<li><b>Defense:</b> 10y ~5.10%, gate 5.20% 10bp away - deploy AT the gate only</li>\n</ul>",
   "insiderTrades": [],
   "congressTrades": [
     {
-      "member": "House Republican (OH-2)",
+      "member": "House Republican (FL-19)",
       "chamber": "House",
-      "ticker": "AVGO",
+      "ticker": "IBKR",
       "type": "Buy",
       "range": "$1,001-$15,000",
-      "date": "2026-11-13",
+      "date": "2026-11-17",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OH-2)",
+      "member": "House Republican (FL-19)",
       "chamber": "House",
-      "ticker": "LRCX",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-13",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (OH-2)",
-      "chamber": "House",
-      "ticker": "ETN",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-13",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (OH-2)",
-      "chamber": "House",
-      "ticker": "GOOGL",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-13",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (OH-2)",
-      "chamber": "House",
-      "ticker": "T",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-13",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (OH-2)",
-      "chamber": "House",
-      "ticker": "PG",
+      "ticker": "NFLX",
       "type": "Sell",
       "range": "$1,001-$15,000",
-      "date": "2026-11-13",
+      "date": "2026-11-17",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (OH-2)",
+      "member": "House Republican (FL-19)",
       "chamber": "House",
-      "ticker": "HD",
+      "ticker": "ZTS",
       "type": "Sell",
       "range": "$1,001-$15,000",
-      "date": "2026-11-13",
+      "date": "2026-11-17",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (GA-12)",
+      "member": "House Republican (FL-19)",
       "chamber": "House",
-      "ticker": "US Treasury Note 3.5% 1/31/30",
-      "type": "Buy",
-      "range": "$15,001-$50,000",
-      "date": "2026-11-12",
+      "ticker": "ADSK",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-17",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Democrat (TX-37)",
+      "member": "House Democrat (CA-50)",
       "chamber": "House",
-      "ticker": "KO",
+      "ticker": "US Treasury Bill",
+      "type": "Sell",
+      "range": "$500,001-$1,000,000",
+      "date": "2026-11-16",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (IL-1)",
+      "chamber": "House",
+      "ticker": "DDOG",
       "type": "Buy",
       "range": "$1,001-$15,000",
-      "date": "2026-11-12",
+      "date": "2026-11-16",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (IL-1)",
+      "chamber": "House",
+      "ticker": "BP",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-16",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (AR-2)",
+      "chamber": "House",
+      "ticker": "JBGS",
+      "type": "Sell",
+      "range": "$1,001-$15,000",
+      "date": "2026-11-16",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Democrat (WA-1)",
+      "chamber": "House",
+      "ticker": "San Joaquin Clean Energy Bonds",
+      "type": "Buy",
+      "range": "$250,001-$500,000",
+      "date": "2026-11-16",
       "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "BIS closes China remote-access chip loophole",
-      "detail": "Interim final rule (Mon, effective in 90 days) requires licenses for chips to overseas data centers serving restricted-country firms, and for advanced-chip exports to Singapore, Malaysia, Indonesia, Thailand and Brazil as diversion-risk countries.",
+      "title": "NVDA Q3 smash; board rules out Huang return",
+      "detail": "Revenue $115.8bn (+103% y/y) vs about $109bn consensus; non-GAAP EPS $2.68 vs $2.47; Q4 guided $127.4-132.6bn vs $125.25bn consensus; cloud backlog now $2.5tn; FY28 growth outlook raised to 75%. Kress interim CEO; board will not reinstate Huang; new National Security and Export Control Oversight Committee. NVDA +2-4% after hours.",
+      "url": "https://www.morningstar.com/news/globe-newswire/9879852/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+      "title": "Trump-Xi-Putin trilateral in Shenzhen Nov 18-19",
+      "detail": "Trump met Quad leaders in Manila and is to sign a Thailand trade deal en route. Goal is extending the Busan truce expiring in January; China extended its rare-earth export-control pause to Jan 10. Chip curbs explicitly not negotiated.",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6042448/trump-to-meet-chinese-leader-xi-jinping-and-russias-vladimir-putin-for-joint-summit"
+    },
+    {
+      "title": "BIS remote-access chip rule",
+      "detail": "Monday interim final rule: licenses for chips to overseas data centers serving restricted countries; Singapore, Malaysia, Indonesia, Thailand, Brazil named diversion-risk jurisdictions.",
       "url": "https://thehill.com/policy/technology/6222897-bis-limits-remote-computing-exports/"
     },
     {
-      "title": "Huang fallout hits NVDA and Commerce",
-      "detail": "Jensen Huang resigned as Nvidia CEO Thursday after the Megaspeed-linked scandal; probe now with DOJ. Lutnick to face Senate Banking; BIS head Kessler requested by House Foreign Affairs. NVDA down about $490B in market cap.",
-      "url": "https://thehill.com/policy/technology/6222897-bis-limits-remote-computing-exports/"
-    },
-    {
-      "title": "Trump-Xi meeting in Shenzhen Nov 19",
-      "detail": "Now a named catalyst in Hong Kong market commentary; same day Anthropic begins trading.",
-      "url": "https://tradingeconomics.com/hong-kong/stock-market"
-    },
-    {
-      "title": "Warsh remarks; FOMC minutes Wednesday",
-      "detail": "Fed Chair Warsh spoke Monday at the SF Fed productivity/AI task-force conference (no rate signal expected). October FOMC minutes Wed 2pm ET; Waller floated a possible 50bp December hike. December hike fully priced, debate on size.",
+      "title": "FOMC minutes today",
+      "detail": "October minutes at 2pm ET Wednesday; Waller floated 50bp for December; a December hike is fully priced, debate is on size.",
       "url": "https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026"
     },
     {
-      "title": "Anthropic IPO prices Wednesday",
-      "detail": "825M shares at $70-$78 (valuation roughly $1.3-1.45T) price Nov 18 after close, trade Nov 19 as ANT; $26B concurrent private placement includes Nvidia as a $10B buyer.",
+      "title": "Anthropic prices IPO today",
+      "detail": "825M shares at $70-$78 (valuation roughly $1.3-1.45tn) price Wednesday after close; ANT trades Thursday, same day as the Trump-Xi bilateral.",
       "url": "https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html"
     },
     {
-      "title": "NVDA earnings tonight",
-      "detail": "Results about 4:20pm ET Tuesday (about 5:20am Wed SGT); street guide about $108bn revenue and 74% gross margin. First print since Huang's resignation.",
-      "url": "https://finance.yahoo.com/quote/NVDA/"
+      "title": "Tencent reports today at a 52-week low",
+      "detail": "Tencent closed HK$376.00 (-3.69%) Tuesday, near its 52-week low of 375.20, into Wednesday results; Alibaba fell 5.21%. China October data soft: retail sales +0.4% vs +0.8% forecast, industrial production +4.8% vs +5.3%.",
+      "url": "https://tradingeconomics.com/hong-kong/stock-market"
     }
   ],
   "opportunities": [
     {
+      "ticker": "NVDA/AI",
+      "thesis": "AI bottlenecks (target 15%, 0% deployed): pre-committed trigger fired - beat-and-raise ($115.8bn, Q4 guide ~$130bn, $2.5tn backlog) with governance steadying (Kress interim, no Huang return, new oversight committee).",
+      "signal": "Begin staged deployment of the 15% sleeve from the ~62% idle cash; first tranche after the after-hours move settles, not into a gap"
+    },
+    {
+      "ticker": "0700.HK",
+      "thesis": "Asia barbell (target 10%): Tencent at HK$376 (52-week low, ~13x TTM P/E) reports today - second binary of the week; Alibaba -5.2% shows sentiment is washed out.",
+      "signal": "No pre-print action; clean Tencent print plus truce extension Thursday makes the HK-tech leg actionable at depressed levels"
+    },
+    {
       "ticker": "TLT",
-      "thesis": "Defense sleeve (target 15%): 10y at 5.12% sits 8bp below the 5.20% deployment gate; NVDA print, retail sales and FOMC minutes this week can gap the long end; Waller keeps 50bp December talk alive.",
-      "signal": "Alert armed - deploy AT the 5.20% gate, not before"
-    },
-    {
-      "ticker": "NVDA",
-      "thesis": "AI bottlenecks (target 15%, 0% deployed): not a pre-earnings trade. Beat-and-raise vs about $108bn/74% GM with governance steadying is the trigger to start the sleeve from the ~62% idle cash; Anthropic debut Thursday is the second test.",
-      "signal": "Decision point is after tonight's print; no pre-print deployment"
-    },
-    {
-      "ticker": "SLV/Gold",
-      "thesis": "Real assets (target 20%): silver at 1-year low (~$47.2), gold at 13-month low (~$3,859, -15% over 12 weeks). Unlevered sleeve only - the leveraged silver line at ~1.93x gets nothing.",
-      "signal": "Gold holding the 3,850-3,875 shelf through NVDA = first small accumulation tranche; clean break below defers"
+      "thesis": "Defense sleeve (target 15%): 10y at ~5.10% is 10bp below the 5.20% gate; FOMC minutes today and the December-size debate keep two-way risk; a risk-on turn could push yields down and the gate out of reach.",
+      "signal": "Alert armed - deploy AT the 5.20% gate only"
     }
   ]
 }
