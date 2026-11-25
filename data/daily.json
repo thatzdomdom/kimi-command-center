@@ -1,55 +1,35 @@
 {
-  "date": "2026-11-25",
-  "navSgd": 10075493.0,
-  "navChgPct": -0.878,
-  "listedChgPct": -5.304,
+  "date": "2026-11-26",
+  "navSgd": 10079658.0,
+  "navChgPct": -0.545,
+  "listedChgPct": -3.344,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2891,
-    "CNY": 0.193724,
-    "HKD": 0.164395,
-    "MYR": 0.313421
+    "USD": 1.2902,
+    "CNY": 0.193744,
+    "HKD": 0.164592,
+    "MYR": 0.313384
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "Xiaomi Corp -10.8% in a day",
+      "title": "SMIC -7.9% in a day",
+      "detail": "Position is 0.8% of NW."
+    },
+    {
+      "level": "critical",
+      "title": "Xiaomi Corp -10.5% in a day",
       "detail": "Position is 1.2% of NW."
     },
     {
       "level": "critical",
-      "title": "VanEck Gold Miners -10.3% in a day",
-      "detail": "Position is 0.9% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "ETFMG Jr Silver Miners -13.2% in a day",
+      "title": "Tencent Holdings -9.5% in a day",
       "detail": "Position is 0.6% of NW."
     },
     {
       "level": "critical",
-      "title": "iShares Global Silver Miners -13.0% in a day",
-      "detail": "Position is 0.6% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Tencent Holdings -9.1% in a day",
-      "detail": "Position is 0.6% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Silver — unallocated (IBKR) -7.7% in a day",
-      "detail": "Position is 0.9% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Listed book -5.30% today",
+      "title": "Listed book -3.34% today",
       "detail": "All listed securities combined."
-    },
-    {
-      "level": "critical",
-      "title": "Silver -7.7% — leveraged IBKR line",
-      "detail": "~1.5x leverage implies account equity ~-11.5%."
     }
   ],
   "navHistory": [
@@ -235,228 +215,126 @@
     },
     {
       "date": "2026-11-25",
-      "nav": 10075493.0
+      "nav": 10059268.0
+    },
+    {
+      "date": "2026-11-26",
+      "nav": 10079658.0
     }
   ],
-  "snapshotAt": "2026-11-25T07:40:21+08:00",
+  "snapshotAt": "2026-11-26T07:40:27+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3><b>NAV S$10,075,493</b> - reported -0.88% (stale baseline), recorded -0.07% d/d; lowest print of the drawdown</h3>\n<ul>\n<li><b>Biggest mover:</b> silver -6.0% to $40.59 futures - lowest settle of the year (spot $40.76, 14-month low, -39% in 13 weeks); leveraged IBKR line back to ~1.65x, equity ~S$36.7k</li>\n<li><b>The one thing:</b> Monday's Trump-brokered rally round-tripped in one session - NVDA -5.9%, SOXX -8%, ANT closed below its $83 IPO price, gold/silver fresh 14-month lows - and USTR teed up new Section 301 tariffs on China, the EU, Japan and 13 others for Tuesday night (US). October PCE lands 8:30am ET today with the Dec 9 hike 97% priced, into a Thanksgiving-thinned tape.</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US Tue: SPX 7,201 -0.50%; Nasdaq 23,734 -1.48%; Dow 50,019 +0.85% (value rotation: Kohl's +19.5%, Dollar Tree +11.2%); NVDA $155.38 -5.86%; ANT ~$82 -6.5% (below $83 IPO); SOXX -8%, ADI -17%, MU ~-10%; DELL -11% then beat (rev $54.94bn +103%, EPS $9.45, AI backlog $132.3bn) and still fell after hours; HPE -16% on a beat-and-raise; VIX 26.36; 10y ~4.91-4.92%; consumer confidence 103.3 vs 92.2 consensus</li>\n<li>Metals: gold futures $3,550-3,554 -2.7-2.8% (14-month low); silver futures $40.59 -6.0%, lowest settle of the year; spot silver $40.76 (-39% in 13 weeks, steepest since Lehman); BTC $59,500; WTI $81.45 +1.6%</li>\n<li>Asia Tue: STI 4,958.87 +0.10% (SG Q3 GDP beat; 2026 forecast raised to 6.0%; inflation 1.9%); HSI 22,220 -0.73%; Tencent HK$341.60 -0.70%; Xiaomi HK$26.50 -3.71% on 232.8M shares (Q3 imminent); DBS +1.3% morning (close not yet in Yahoo)</li>\n<li>FX: USDSGD 1.2891; USDCNY ~6.65; USDHKD ~7.84</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>8 critical flags - all 5-session windows anchored to 11-17 closes, mislabeled in a day (Tencent 341.60 vs 376.00 exact; Xiaomi 26.50 vs 29.70 exact; silver -7.7% implies ~$43.98 baseline, plausible)</li>\n<li>GDX -10.3% / SILJ -13.2% / SLVP -13.0% are plausible 5-session windows including Tuesday's -6% silver day; listed book -5.30% is the same artefact; recorded NAV -0.07% d/d is the truth</li>\n<li>DBS dropped off the flag list (5-session move only ~-3%). L46.SI Yahoo 404 - 40th session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul>\n<li><b>DBS Group (D05.SI): BlackRock filed Form 3 - ceasing to be a substantial shareholder</b> (below 5%); notice dated 16.11.2026, broadcast 18-Nov-2026; share count in the PDF, not the summary. Institutional supply on SG banks, on tape <a href=\"https://links.sgx.com/1.0.0/corporate-announcements/868ZRE1PC62AF21R/\">SGX</a></li>\n<li>Nothing else for held names (SGX API now 401, 11th day; Wing Tai pause 13 sessions; no HKEX filings for Tencent/SMIC/Xiaomi; US holdings are ETFs)</li>\n</ul>\n<h3>Congress trades</h3>\n<ul>\n<li>Week to Nov 23: 50 transactions filed by 8 members - Armstrong (R-OK) 23 (largest: Idaho revenue bond buy up to $1.0M), Donalds (R-FL) 8, Rulli (R-OH) 6, Kean (R-NJ) 6, Boozman (R-AR) 4 <a href=\"https://www.capitolexposed.com/news/weekly-roundup-2026-w48\">CapitolExposed</a></li>\n<li>Nov 14-21: 21 trades, 18 sells vs 3 buys - Donalds sold WBD + NFLX, bought MSFT; Rulli sold ZTS/COST/LITE, bought MSFT; Kean sold MSFT ($15-50K); Sewell sold TPR. Donalds is the FL-19 filer behind the 11/17 batch <a href=\"https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14\">Congress Stock Tracker</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>New Section 301 tariff proposals due Tuesday night (US): EU, China, Mexico, Japan + 12 others over excess manufacturing capacity; rumored up to +7.5% - recreates duties the Supreme Court struck down in February <a href=\"https://www.politico.com/news/2026/11/24/trump-tariffs-china-eu-mexico-manufacturing-01181685\">POLITICO</a></li>\n<li>China extends its pause on additional rare-earth/mineral export controls to keep the truce (the Jan 10 cliff softens) <a href=\"https://businessmirror.com.ph/2026/11/24/china-extends-pause-on-us-minerals-ban-to-keep-truce/\">BusinessMirror/Bloomberg</a></li>\n<li>Fed: NY Fed's Williams - inflation too high, still work to do; futures 97% for a 25bp Dec 9 hike, 3% tail for 50bp; Ackman - the Fed is about to make another mistake on Dec 9 <a href=\"https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-fed-mistake-112420261\">BullionVault</a></li>\n<li>October PCE today 8:30am ET + Q3 GDP 2nd est; US closed Thu, 1pm ET close Fri</li>\n<li>Trump (11/17): US will catch China on rare earths within 10 months <a href=\"https://finance.yahoo.com/energy/articles/trump-says-u-catch-china-162736652.html\">Yahoo Finance</a></li>\n<li>AI capex credibility: Dell's $132.3bn-backlog blowout got sold; HPE's beat-and-raise fell 16% - prints do not matter this week</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line (est., $40.59 x 1.2891): collateral ~S$92,985; loan ~S$56,240; equity ~S$36,745; ratio ~1.65x (Monday's 1.76x relief fully reversed); -$1 silver = -S$2,291 equity; ~$33 stress zone only $7.60 below</li>\n<li>ANT below its $83 IPO removes the private-AI-demand corroboration; event stack in 24h: 301 tariffs + PCE + holiday tape + Dec 9 hike 97% priced</li>\n<li>DBS 2.0% of NW with BlackRock exiting above-5% holder status; FX ~35% non-SGD (USDHKD ~7.84 peg edge); metals cluster still the dominant risk factor</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Real assets (20%):</b> capitulation deepening - silver lowest settle of the year, miners -10% to -13% over five sessions; trigger stays mechanical: 2-3-session gold hold ~$3,500-3,550 through PCE + holiday before any unlevered tranche; silver line gets nothing</li>\n<li><b>AI bottlenecks (15%, 0% deployed):</b> NVDA a whisker above the $150-155 zone; ANT below $83 cracks the thesis corroboration; Dell proved prints do not matter this week - staged tranche stays parked until a 2-3-session base or the Dec 9 FOMC clears</li>\n<li><b>Defense (15%):</b> 10y 4.91-4.92% - the 5.20% gate is 28-29bp away; hot PCE + hawkish Dec 9 could deliver it; deploy TLT in size AT the gate only</li>\n</ul>",
-  "insiderTrades": [
-    {
-      "ticker": "DBS Group (D05.SI)",
-      "insider": "BlackRock",
-      "role": "Substantial shareholder (Form 3)",
-      "type": "Sell",
-      "shares": "not disclosed in announcement summary",
-      "value": "not disclosed in announcement summary",
-      "date": "2026-11-16",
-      "url": "https://links.sgx.com/1.0.0/corporate-announcements/868ZRE1PC62AF21R/"
-    }
-  ],
+  "briefHtml": "<h3><b>NAV S$10,079,658</b> - reported -0.55% (stale baseline), recorded +0.20% d/d; yesterday's print restated down to S$10,059,268</h3>\n<ul>\n<li><b>Biggest mover:</b> silver's hammer reversal - intraday low $38.09 (lowest in over a year) then ~9% round-trip to close up: spot ~$41.12 +0.8%, futures ~$41.68 +2.3%; GDX +3.5%, SILJ +4.3%, SLVP +4.4%; metals flags cleared</li>\n<li><b>The one thing:</b> USTR published Section 301 excess-capacity tariffs - Singapore named at up to 20%, China up to 20% (40% alternative), Vietnam 35%, EU/Japan/Korea/Taiwan 15%; proposed not final (comments Jan 5, hearings Jan 25, effect January at earliest). Hot October PCE (3.8% headline, 3.3% core) keeps the Dec 9 hike ~98% priced</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US Wed: wild round-trip - Dow +0.33% 50,183 (erased an 1,100pt loss), SPX 7,186 -0.21%, Nasdaq 23,586 -0.62% (was -4.7%); NVDA $149.30 -3.91% (broke $150); ANT +1.1% still below $83 IPO ($74 low); SOXX -0.5%; DELL +0.7%, HPQ +11%; VIX 28.29 (touched 35); 10y ~4.85-4.87% <a href=\"https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11252026-12279355\">Investopedia</a></li>\n<li>Metals: gold futures $3,605 +1.2% ($3,426 low); silver futures $41.68 +2.3%, spot ~$41.12 ($38.09 low - lowest in over a year) <a href=\"https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving\">Kitco</a>; BTC ~$60,300; WTI $84.10 +2.5%</li>\n<li>Asia Wed: STI 4,930.83 -0.57% (lowest since May 8 intraday); DBS S$65.44 -1.21%; HSI 21,966 -1.1% (electronic tech -5%: SMIC HK$45.30 -7.5%, Z.AI -14.1%, Lenovo -11.0%); Tencent HK$337.40 -1.2%; Xiaomi HK$26.56 +0.23% after Q3: rev RMB107.2bn -5% y/y, net profit -68% to RMB3.88bn, EV deliveries 100,975 with EV/AI losing RMB3.4bn</li>\n<li>FX: USDSGD 1.2902; USDCNY ~6.66; USDHKD ~7.84</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>4 critical flags (down from 8): SMIC -7.9% (approximately true: actual -7.5%); Tencent -9.5% and Xiaomi -10.5% are six-session windows anchored to 11-17; listed book -3.34% same artefact; recorded NAV +0.20% d/d is the truth</li>\n<li>Metals flags (silver, GDX, SILJ, SLVP) cleared after Wednesday's reversal. L46.SI Yahoo 404 - 41st session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul>\n<li><b>None found for held names in the Nov 19-26 window.</b> The BlackRock/DBS Form 3 (18-Nov broadcast) rolled just outside 7 days - still the reference institutional-supply event on SG banks</li>\n<li>SGX API still 401 (12th trading day); Wing Tai pause 14 sessions; no HKEX filings for Tencent/SMIC/Xiaomi; US holdings are ETFs</li>\n</ul>\n<h3>Congress trades</h3>\n<ul>\n<li>House Republican (WY-1), filed 11/23: dozens of back-dated IRA trades - NVDA partial sale (10/14, $1-15K), MSFT sales (7/02, 10/14), ORCL/SNOW/PANW/CRM/NOW sales; buys in MU, TSM (x2), TSLA, NVDA (4/29), PLD, PG, PFE, WM, SO. Net: selling megacap tech, buying memory/foundry/value <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n<li>Senate Democrat (CT), filed 11/24: private-asset program - multiple buys of MH Four Winds LLC and MH Built to Last LLC interests (10/15-10/28, clips up to $500K-1M); one stock sale: Starling Oncology ($1-15K) <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>Section 301 tariffs announced: 14 of 16 investigations affirmative - China up to 20% combined (40% alternative), Singapore up to 20% (10% possible), Vietnam 35% (20% possible), India 25% (17% possible), EU/Japan/Korea/Switzerland/Taiwan 15%; comments due Jan 5, hearings Jan 25, effect January at earliest; China truce expires Jan 10 <a href=\"https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html\">Yahoo Finance</a>, <a href=\"https://www.wiley.law/alert-USTR-Announces-Affirmative-Section-301-Determinations-and-Proposes-New-Tariffs-on-14-Trading-Partners-to-Address-Structural-Excess-Capacity\">Wiley</a></li>\n<li>China: overcapacity is a false proposition; rare-earth pause extension still lacks written confirmation</li>\n<li>October PCE hot: headline 3.8% y/y (highest since 2023), core 3.3% vs 3.2% expected; Q3 GDP revised up to 4.3%; Dec 9 hike ~96-98% priced for 25bp <a href=\"https://www.tradingkey.com/analysis/commodities/metal/262322306-gold-drop-3500-gdp-pce-fed-rate-hike-what-reasons-prices-to-fall-tradingkey\">TradingKey</a></li>\n<li>Huang testifies before Congress next week; Trump (NYP): pardon always an option, he should tell the truth <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html\">Yahoo Finance</a></li>\n<li>US closed Thursday; Friday 1pm ET half-session</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line (est., $41.68 x 1.2902): collateral ~S$95,565; loan ~S$56,240; equity ~S$39,325; ratio ~1.70x (from 1.65x) - but Wednesday's $38.09 low marked equity ~S$31.1k at ~1.55x; stress zone tested and held; -$1 silver = -S$2,293 equity</li>\n<li>Singapore named a tariff target (up to 20%) - overhang on STI exporters, SGD and the SG-rates theme as STI touches its lowest since May; VNM faces a proposed 35% Vietnam rate - highest on the board</li>\n<li>NVDA below $150 with congressional testimony next week; ANT below $83 IPO; FX ~35% non-SGD (USDHKD ~7.84 peg edge); metals cluster still dominant despite the relief day; L46.SI 404 41st session; NAV restatements continue</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Real assets (20%):</b> strongest reversal of the drawdown - silver $38.09 to $41.12 hammer on a hot-PCE day, gold held $3,426 and closed $3,605, miners +3.5-4.4%. Mechanical trigger (2-3-session gold hold above ~$3,500 through PCE + holiday): session one in the books; Friday's half-session and Monday complete the count. Silver line gets nothing</li>\n<li><b>AI bottlenecks (15%, 0% deployed):</b> NVDA closed below the $150-155 zone ($149.30), ANT below IPO, VIX 28 - the zone is being traded through, not just approached; Huang testimony next week is the binary. Tranche stays parked until a 2-3-session base or post-FOMC clarity</li>\n<li><b>Defense (15%):</b> 10y fell to ~4.85-4.87% on the safety bid - the 5.20% gate is 33-35bp away and receding; TLT stays gated AT 5.20% only; a risk-off bond rally is not the entry</li>\n</ul>",
+  "insiderTrades": [],
   "congressTrades": [
     {
-      "member": "House Republican (FL-19)",
+      "member": "House Republican (WY-1)",
       "chamber": "House",
-      "ticker": "IBKR",
-      "type": "Buy",
+      "ticker": "NVDA",
+      "type": "Sell (partial)",
       "range": "$1,001-$15,000",
-      "date": "2026-11-17",
+      "date": "trade 2026-10-14, filed 2026-11-23",
       "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "House Republican (FL-19)",
-      "chamber": "House",
-      "ticker": "NFLX",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-17",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (FL-19)",
-      "chamber": "House",
-      "ticker": "ZTS",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-17",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (FL-19)",
-      "chamber": "House",
-      "ticker": "ADSK",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-17",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (CA-50)",
-      "chamber": "House",
-      "ticker": "US Treasury Bill",
-      "type": "Sell",
-      "range": "$500,001-$1,000,000",
-      "date": "2026-11-16",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (IL-1)",
-      "chamber": "House",
-      "ticker": "DDOG",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-16",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (IL-1)",
-      "chamber": "House",
-      "ticker": "BP",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-16",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Republican (AR-2)",
-      "chamber": "House",
-      "ticker": "JBGS",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-16",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "House Democrat (WA-1)",
-      "chamber": "House",
-      "ticker": "San Joaquin Clean Energy Bonds",
-      "type": "Buy",
-      "range": "$250,001-$500,000",
-      "date": "2026-11-16",
-      "url": "https://unusualwhales.com/politics"
-    },
-    {
-      "member": "Byron Donalds (R-FL)",
-      "chamber": "House",
-      "ticker": "WBD",
-      "type": "Sell",
-      "range": "not disclosed in roundup",
-      "date": "filed wk 2026-11-14..21",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Byron Donalds (R-FL)",
-      "chamber": "House",
-      "ticker": "MSFT",
-      "type": "Buy",
-      "range": "not disclosed in roundup",
-      "date": "filed wk 2026-11-14..21",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Michael Rulli (R-OH)",
-      "chamber": "House",
-      "ticker": "COST",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-12",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Michael Rulli (R-OH)",
-      "chamber": "House",
-      "ticker": "LITE",
-      "type": "Sell",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-04",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Michael Rulli (R-OH)",
-      "chamber": "House",
-      "ticker": "MSFT",
-      "type": "Buy",
-      "range": "$1,001-$15,000",
-      "date": "2026-11-04",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Thomas Kean Jr (R-NJ)",
+      "member": "House Republican (WY-1)",
       "chamber": "House",
       "ticker": "MSFT",
       "type": "Sell",
-      "range": "$15,001-$50,000",
-      "date": "2026-10-27",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
+      "range": "$1,001-$15,000",
+      "date": "trade 2026-10-14, filed 2026-11-23",
+      "url": "https://unusualwhales.com/politics"
     },
     {
-      "member": "Terri Sewell (D-AL)",
+      "member": "House Republican (WY-1)",
       "chamber": "House",
-      "ticker": "TPR",
+      "ticker": "MU",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "trade 2026-07-02, filed 2026-11-23",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (WY-1)",
+      "chamber": "House",
+      "ticker": "TSM",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "trade 2026-07-02, filed 2026-11-23",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "House Republican (WY-1)",
+      "chamber": "House",
+      "ticker": "TSLA",
+      "type": "Buy",
+      "range": "$1,001-$15,000",
+      "date": "trade 2026-03-31, filed 2026-11-23",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Senate Democrat (CT)",
+      "chamber": "Senate",
+      "ticker": "MH Four Winds LLC (private)",
+      "type": "Buy",
+      "range": "$500,001-$1,000,000 (largest clip)",
+      "date": "trade 2026-10-26, filed 2026-11-24",
+      "url": "https://unusualwhales.com/politics"
+    },
+    {
+      "member": "Senate Democrat (CT)",
+      "chamber": "Senate",
+      "ticker": "Starling Oncology",
       "type": "Sell",
       "range": "$1,001-$15,000",
-      "date": "2026-11-05",
-      "url": "https://www.congressstock.com/articles/congressional-trades-week-of-2026-11-14"
-    },
-    {
-      "member": "Alan Armstrong (R-OK)",
-      "chamber": "Congress (per source)",
-      "ticker": "Idaho St Tax Revenue Bond",
-      "type": "Buy",
-      "range": "up to $1,000,000",
-      "date": "2026-10-22",
-      "url": "https://www.capitolexposed.com/news/weekly-roundup-2026-w48"
+      "date": "trade 2026-11-04, filed 2026-11-24",
+      "url": "https://unusualwhales.com/politics"
     }
   ],
   "trumpWatch": [
     {
-      "title": "New Section 301 tariffs teed up for Tuesday night",
-      "detail": "USTR Greer to announce proposed tariff hikes on the EU, China, Mexico, Japan and 12 other trading partners over 'excess manufacturing capacity' - recreating duties the Supreme Court struck down in February; rumored up to +7.5%. Direct hit-list relevance for China/HK tech and Asia supply chains.",
-      "url": "https://www.politico.com/news/2026/11/24/trump-tariffs-china-eu-mexico-manufacturing-01181685"
+      "title": "Section 301 excess-capacity tariffs announced - Singapore named at up to 20%",
+      "detail": "USTR affirmative determinations in 14 of 16 investigations (Mexico, Norway excepted). China up to 20% combined (40% alternative if talks fail), Singapore up to 20% (10% possible), Vietnam 35% (20% possible), India 25% (17% possible), EU/Japan/Korea/Switzerland/Taiwan 15%, Bangladesh/Cambodia/Indonesia/Malaysia/Thailand up to 18%; Brazil +10% on sugar/aircraft. Proposed not final: comments due Jan 5 2027, hearings Jan 25, effect 'probably January at the earliest' - the China truce expires Jan 10.",
+      "url": "https://www.wiley.law/alert-USTR-Announces-Affirmative-Section-301-Determinations-and-Proposes-New-Tariffs-on-14-Trading-Partners-to-Address-Structural-Excess-Capacity"
     },
     {
-      "title": "China extends rare-earth export-control pause",
-      "detail": "Beijing extended its pause on additional export controls on rare earths and critical minerals to keep the trade truce - the Jan 10 cliff this brief has been flagging now softens, pending written confirmation.",
-      "url": "https://businessmirror.com.ph/2026/11/24/china-extends-pause-on-us-minerals-ban-to-keep-truce/"
+      "title": "October PCE hot; Q3 GDP revised up to 4.3%; Dec hike ~98% priced",
+      "detail": "PCE headline 3.8% y/y - highest since 2023; core 3.3% vs 3.2% expected. Q3 GDP second estimate revised from 3.4% to 4.3% annualized. CME FedWatch ~96-98% for a 25bp Dec 9 hike.",
+      "url": "https://www.tradingkey.com/analysis/commodities/metal/262322306-gold-drop-3500-gdp-pce-fed-rate-hike-what-reasons-prices-to-fall-tradingkey"
     },
     {
-      "title": "Fed hawks into PCE day; Dec 9 hike 97% priced",
-      "detail": "NY Fed's Williams: economy strong, inflation too high, 'still work to do' raising rates. Futures price 97% for a 25bp Dec 9 hike with a 3% tail for 50bp. Ackman: the Fed 'is about to make another mistake on December 9th'. October PCE lands today 8:30am ET with Q3 GDP (2nd est).",
-      "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-fed-mistake-112420261"
+      "title": "China rejects overcapacity charges; rare-earth extension unconfirmed in writing",
+      "detail": "China's Foreign Ministry: 'the so-called issue of overcapacity is a false proposition, and China opposes using it as a pretext for political manipulation.' Tuesday's reported rare-earth export-control pause extension still lacks written confirmation.",
+      "url": "https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html"
     },
     {
-      "title": "AI capex credibility breaks: Dell blowout gets sold",
-      "detail": "Dell beat hugely after Tuesday's close - revenue $54.94bn +103%, adj EPS $9.45 +265%, AI orders $60.2bn, AI backlog a record $132.3bn - and the stock still fell in after-hours on margin-sustainability questions, after dropping 11% in the session. HPE fell 16% on a beat-and-raise. Prints do not matter this week.",
-      "url": "https://www.fxleaders.com/news/2026/11/24/dell-stock-falls-while-dell-reports-third-quarter-revenue-doubled-on-ai-strength/"
+      "title": "Huang to testify before Congress next week; Trump floats pardon",
+      "detail": "Jensen Huang appears before congressional committees next week over the scandal that briefly ousted him. Trump (NY Post): a pardon is 'always an option' but he does not think it will be necessary; Huang should 'tell the truth'. NVDA closed below $150 at $149.30, -3.91%.",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
     },
     {
-      "title": "ANT closes below its $83 IPO price",
-      "detail": "Anthropic fell 6.5% Tuesday to just under $82 - first close below the $83 IPO price since last week's record $107.3bn debut. NVDA gave back 5.9% of Monday's +31.6% Trump-brokered surge; SOXX -8%.",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11242026-12275797"
-    },
-    {
-      "title": "Trump: US will catch China on rare earths in 10 months",
-      "detail": "Trump (11/17): the US is producing rare earths 'at a level that we've never made before' and will catch China within 10 months; he looks forward to APEC in China and expects Xi to raise Taiwan first.",
-      "url": "https://finance.yahoo.com/energy/articles/trump-says-u-catch-china-162736652.html"
+      "title": "Metals hammer reversal on hot-PCE day",
+      "detail": "Silver printed $38.09 intraday - lowest in over a year - then reversed ~9% to close up (spot ~$41.12 +0.8%, futures ~$41.68 +2.3%); gold futures $3,605 +1.2% off a $3,426 low; miners GDX +3.5% / SILJ +4.3% / SLVP +4.4%. First session of the mechanical stabilisation trigger.",
+      "url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving"
     }
   ],
   "opportunities": [
     {
       "ticker": "Gold/Silver",
-      "thesis": "Real assets (target 20%): silver futures $40.59 - lowest settle of the year (spot $40.76, 14-month low, -39% in 13 weeks, steepest since Lehman); gold $3,550 back at the 14-month low; miners -10% to -13% over five sessions. Capitulation deepening, still a falling knife.",
-      "signal": "Trigger stays mechanical: a 2-3-session gold hold at ~$3,500-3,550 through PCE and the Thanksgiving tape before any unlevered tranche; the leveraged silver line (~1.65x, equity ~S$36.7k) gets nothing - survival first"
+      "thesis": "Real assets (target 20%): strongest reversal of the drawdown - silver's $38.09 to $41.12 hammer on a hot-PCE day (futures $41.68 +2.3%), gold held $3,426 and closed $3,605 futures, miners +3.5-4.4%. Leveraged line back to ~1.70x equity ~S$39.3k after testing ~1.55x intraday.",
+      "signal": "Mechanical trigger (2-3-session gold hold above ~$3,500 through PCE + holiday): session one in the books. Friday's half-session and Monday complete the count - a first unlevered tranche comes into view if gold holds ~$3,550+ into next week; the silver line gets nothing"
     },
     {
       "ticker": "NVDA/ANT/AI",
-      "thesis": "AI bottlenecks (target 15%, 0% deployed): NVDA $155.38 sits a whisker above the $150-155 zone after the round-trip; ANT closed below its $83 IPO - the demand corroboration is cracked; Dell's $132.3bn-backlog blowout got sold, proving prints do not matter this week.",
-      "signal": "Staged tranche stays parked from the ~62% idle cash - no deployment before a 2-3-session base forms or the Dec 9 FOMC clears, whichever comes first"
+      "thesis": "AI bottlenecks (target 15%, 0% deployed): NVDA closed below the $150-155 zone at $149.30, ANT still below its $83 IPO ($74 intraday low), Nasdaq-100 flirting with a bear-market close, VIX 28.29 after touching 35. The zone is now being traded through, not just approached.",
+      "signal": "Tranche stays parked from the ~62% idle cash - Huang's congressional testimony next week is the binary; no deployment before a 2-3-session base or post-FOMC clarity"
     },
     {
       "ticker": "TLT",
-      "thesis": "Defense (target 15%): 10y at 4.91-4.92% - the 5.20% gate is 28-29bp away with a hot-PCE tail and a hawkish Dec 9 hike (97% priced, 3% for 50bp) that could deliver it.",
-      "signal": "Deploy TLT in size AT the 5.20% gate only, not in anticipation - entry quality over calendar"
+      "thesis": "Defense (target 15%): 10y fell to ~4.85-4.87% on the equity safety bid - the 5.20% gate is 33-35bp away and receding.",
+      "signal": "TLT stays gated AT 5.20% only, not in anticipation - a risk-off rally in bonds is not the entry"
     }
   ]
 }
