@@ -1,34 +1,29 @@
 {
-  "date": "2026-11-26",
-  "navSgd": 10079658.0,
-  "navChgPct": -0.545,
-  "listedChgPct": -3.344,
+  "date": "2026-11-27",
+  "navSgd": 10080155.0,
+  "navChgPct": -0.493,
+  "listedChgPct": -3.03,
   "fx": {
     "SGD": 1.0,
-    "USD": 1.2902,
-    "CNY": 0.193744,
-    "HKD": 0.164592,
-    "MYR": 0.313384
+    "USD": 1.2901,
+    "CNY": 0.193732,
+    "HKD": 0.164629,
+    "MYR": 0.313512
   },
   "riskFlags": [
     {
       "level": "critical",
-      "title": "SMIC -7.9% in a day",
+      "title": "SMIC -9.1% in a day",
       "detail": "Position is 0.8% of NW."
     },
     {
       "level": "critical",
-      "title": "Xiaomi Corp -10.5% in a day",
+      "title": "Xiaomi Corp -6.7% in a day",
       "detail": "Position is 1.2% of NW."
     },
     {
       "level": "critical",
-      "title": "Tencent Holdings -9.5% in a day",
-      "detail": "Position is 0.6% of NW."
-    },
-    {
-      "level": "critical",
-      "title": "Listed book -3.34% today",
+      "title": "Listed book -3.03% today",
       "detail": "All listed securities combined."
     }
   ],
@@ -219,14 +214,18 @@
     },
     {
       "date": "2026-11-26",
-      "nav": 10079658.0
+      "nav": 10083060.0
+    },
+    {
+      "date": "2026-11-27",
+      "nav": 10080155.0
     }
   ],
-  "snapshotAt": "2026-11-26T07:40:27+08:00",
+  "snapshotAt": "2026-11-27T07:40:09+08:00",
   "priceErrors": [
     "L46.SI: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/L46.SI?interval=1d&range=5d"
   ],
-  "briefHtml": "<h3><b>NAV S$10,079,658</b> - reported -0.55% (stale baseline), recorded +0.20% d/d; yesterday's print restated down to S$10,059,268</h3>\n<ul>\n<li><b>Biggest mover:</b> silver's hammer reversal - intraday low $38.09 (lowest in over a year) then ~9% round-trip to close up: spot ~$41.12 +0.8%, futures ~$41.68 +2.3%; GDX +3.5%, SILJ +4.3%, SLVP +4.4%; metals flags cleared</li>\n<li><b>The one thing:</b> USTR published Section 301 excess-capacity tariffs - Singapore named at up to 20%, China up to 20% (40% alternative), Vietnam 35%, EU/Japan/Korea/Taiwan 15%; proposed not final (comments Jan 5, hearings Jan 25, effect January at earliest). Hot October PCE (3.8% headline, 3.3% core) keeps the Dec 9 hike ~98% priced</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US Wed: wild round-trip - Dow +0.33% 50,183 (erased an 1,100pt loss), SPX 7,186 -0.21%, Nasdaq 23,586 -0.62% (was -4.7%); NVDA $149.30 -3.91% (broke $150); ANT +1.1% still below $83 IPO ($74 low); SOXX -0.5%; DELL +0.7%, HPQ +11%; VIX 28.29 (touched 35); 10y ~4.85-4.87% <a href=\"https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11252026-12279355\">Investopedia</a></li>\n<li>Metals: gold futures $3,605 +1.2% ($3,426 low); silver futures $41.68 +2.3%, spot ~$41.12 ($38.09 low - lowest in over a year) <a href=\"https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving\">Kitco</a>; BTC ~$60,300; WTI $84.10 +2.5%</li>\n<li>Asia Wed: STI 4,930.83 -0.57% (lowest since May 8 intraday); DBS S$65.44 -1.21%; HSI 21,966 -1.1% (electronic tech -5%: SMIC HK$45.30 -7.5%, Z.AI -14.1%, Lenovo -11.0%); Tencent HK$337.40 -1.2%; Xiaomi HK$26.56 +0.23% after Q3: rev RMB107.2bn -5% y/y, net profit -68% to RMB3.88bn, EV deliveries 100,975 with EV/AI losing RMB3.4bn</li>\n<li>FX: USDSGD 1.2902; USDCNY ~6.66; USDHKD ~7.84</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>4 critical flags (down from 8): SMIC -7.9% (approximately true: actual -7.5%); Tencent -9.5% and Xiaomi -10.5% are six-session windows anchored to 11-17; listed book -3.34% same artefact; recorded NAV +0.20% d/d is the truth</li>\n<li>Metals flags (silver, GDX, SILJ, SLVP) cleared after Wednesday's reversal. L46.SI Yahoo 404 - 41st session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul>\n<li><b>None found for held names in the Nov 19-26 window.</b> The BlackRock/DBS Form 3 (18-Nov broadcast) rolled just outside 7 days - still the reference institutional-supply event on SG banks</li>\n<li>SGX API still 401 (12th trading day); Wing Tai pause 14 sessions; no HKEX filings for Tencent/SMIC/Xiaomi; US holdings are ETFs</li>\n</ul>\n<h3>Congress trades</h3>\n<ul>\n<li>House Republican (WY-1), filed 11/23: dozens of back-dated IRA trades - NVDA partial sale (10/14, $1-15K), MSFT sales (7/02, 10/14), ORCL/SNOW/PANW/CRM/NOW sales; buys in MU, TSM (x2), TSLA, NVDA (4/29), PLD, PG, PFE, WM, SO. Net: selling megacap tech, buying memory/foundry/value <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n<li>Senate Democrat (CT), filed 11/24: private-asset program - multiple buys of MH Four Winds LLC and MH Built to Last LLC interests (10/15-10/28, clips up to $500K-1M); one stock sale: Starling Oncology ($1-15K) <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>Section 301 tariffs announced: 14 of 16 investigations affirmative - China up to 20% combined (40% alternative), Singapore up to 20% (10% possible), Vietnam 35% (20% possible), India 25% (17% possible), EU/Japan/Korea/Switzerland/Taiwan 15%; comments due Jan 5, hearings Jan 25, effect January at earliest; China truce expires Jan 10 <a href=\"https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html\">Yahoo Finance</a>, <a href=\"https://www.wiley.law/alert-USTR-Announces-Affirmative-Section-301-Determinations-and-Proposes-New-Tariffs-on-14-Trading-Partners-to-Address-Structural-Excess-Capacity\">Wiley</a></li>\n<li>China: overcapacity is a false proposition; rare-earth pause extension still lacks written confirmation</li>\n<li>October PCE hot: headline 3.8% y/y (highest since 2023), core 3.3% vs 3.2% expected; Q3 GDP revised up to 4.3%; Dec 9 hike ~96-98% priced for 25bp <a href=\"https://www.tradingkey.com/analysis/commodities/metal/262322306-gold-drop-3500-gdp-pce-fed-rate-hike-what-reasons-prices-to-fall-tradingkey\">TradingKey</a></li>\n<li>Huang testifies before Congress next week; Trump (NYP): pardon always an option, he should tell the truth <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html\">Yahoo Finance</a></li>\n<li>US closed Thursday; Friday 1pm ET half-session</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line (est., $41.68 x 1.2902): collateral ~S$95,565; loan ~S$56,240; equity ~S$39,325; ratio ~1.70x (from 1.65x) - but Wednesday's $38.09 low marked equity ~S$31.1k at ~1.55x; stress zone tested and held; -$1 silver = -S$2,293 equity</li>\n<li>Singapore named a tariff target (up to 20%) - overhang on STI exporters, SGD and the SG-rates theme as STI touches its lowest since May; VNM faces a proposed 35% Vietnam rate - highest on the board</li>\n<li>NVDA below $150 with congressional testimony next week; ANT below $83 IPO; FX ~35% non-SGD (USDHKD ~7.84 peg edge); metals cluster still dominant despite the relief day; L46.SI 404 41st session; NAV restatements continue</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Real assets (20%):</b> strongest reversal of the drawdown - silver $38.09 to $41.12 hammer on a hot-PCE day, gold held $3,426 and closed $3,605, miners +3.5-4.4%. Mechanical trigger (2-3-session gold hold above ~$3,500 through PCE + holiday): session one in the books; Friday's half-session and Monday complete the count. Silver line gets nothing</li>\n<li><b>AI bottlenecks (15%, 0% deployed):</b> NVDA closed below the $150-155 zone ($149.30), ANT below IPO, VIX 28 - the zone is being traded through, not just approached; Huang testimony next week is the binary. Tranche stays parked until a 2-3-session base or post-FOMC clarity</li>\n<li><b>Defense (15%):</b> 10y fell to ~4.85-4.87% on the safety bid - the 5.20% gate is 33-35bp away and receding; TLT stays gated AT 5.20% only; a risk-off bond rally is not the entry</li>\n</ul>",
+  "briefHtml": "<h3><b>NAV S$10,080,155</b> - reported -0.49% (stale baseline), recorded -0.03% d/d; essentially flat</h3>\n<ul>\n<li><b>Biggest mover:</b> Asia's Thanksgiving-Day rebound with the US shut - HSI +1.19% to 22,226.88, STI +0.65% to 4,962.64, SMIC +1.3%, Tencent +1.1%, DBS +0.6%; silver futures ~$41.7 and gold ~$3,591 in early Friday Globex, holding Wednesday's reversal</li>\n<li><b>The one thing:</b> global pushback on the Section 301 tariffs - China threatened necessary measures, Japan protested, Singapore said it was very disappointed (up to 20% proposed); AP confirms the US-China truce now expires Jan 10, 2027 with ~$60bn of reciprocal tariff cuts agreed. US reopens today for a 1pm ET half-session</li>\n</ul>\n<h3>Markets</h3>\n<ul>\n<li>US: closed Thursday (Thanksgiving); Wednesday recap - Dow 50,183 +0.33% (1,100pt intraday recovery), SPX 7,186 -0.21%, Nasdaq 23,586 -0.62%; NVDA $149.30; ANT below $83 IPO; VIX 28.29; 10y ~4.85-4.87%. Friday half-session 9:30am-1pm ET</li>\n<li>Asia Thu: HSI 22,226.88 +1.19% <a href=\"https://en.kabutan.com/jp/news/n202611261095\">Kabutan</a>; STI 4,962.64 +0.65% <a href=\"https://tradingeconomics.com/singapore/stock-market\">Trading Economics</a>; DBS S$65.85 +0.63%; Tencent HK$341.00 +1.07%; SMIC HK$45.88 +1.28%; Xiaomi HK$26.60 +0.15% (holding after Q3: net profit -68% y/y to RMB3.88bn, revenue RMB107.2bn -5%)</li>\n<li>Metals (Fri morning Globex, indicative): silver ~$41.7, gold ~$3,591; Wednesday spot closes silver ~$41.12 +0.8%, gold ~$3,576 +0.6% <a href=\"https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving\">Kitco</a>; miners Wed: GDX $73.89 +3.5%, SILJ $19.91 +4.3%, SLVP $25.84 +4.4%</li>\n<li>FX: USDSGD 1.2901; USDCNY ~6.66; USDHKD ~7.84</li>\n</ul>\n<h3>Flags</h3>\n<ul>\n<li>3 critical flags: SMIC -9.1% and Xiaomi -6.7% are 5-session windows anchored to 11-19 closes (actual Thu moves +1.28% and +0.15%); listed book -3.03% same artefact; recorded NAV -0.03% d/d is the truth</li>\n<li>Tencent's flag cleared after Thursday's +1.1%. L46.SI Yahoo 404 - 42nd session</li>\n</ul>\n<h3>Insider trades</h3>\n<ul>\n<li><b>None found for held names in the Nov 20-27 window.</b> Keppel REIT's only SGX item this week (25-Nov) was conference slides, not a dealing</li>\n<li>SGX API still 401 (13th trading day); Wing Tai pause 15 sessions; no HKEX filings for Tencent/SMIC/Xiaomi; US holdings are ETFs</li>\n</ul>\n<h3>Congress trades</h3>\n<ul>\n<li>No new filings after 11/24 (Thanksgiving freeze). Freshest: House Republican (WY-1), filed 11/23 - NVDA partial sale (10/14), MSFT sales, software sales; buys in MU, TSM x2, TSLA, NVDA (4/29) <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n<li>Senate Democrat (CT), filed 11/24 - repeated buys of MH Four Winds LLC / MH Built to Last LLC private interests (clips up to $500K-1M); one stock sale: Starling Oncology <a href=\"https://unusualwhales.com/politics\">Unusual Whales</a></li>\n</ul>\n<h3>Trump / policy</h3>\n<ul>\n<li>Global pushback on Section 301: China MFA - false premise, necessary measures pledged; Japan protested; Singapore's trade ministry very disappointed - our policies do not protect our domestic market or subsidize manufacturing for export; Malaysia and EU reject the premise; Vietnam negotiating; Thailand calls 18% better than feared <a href=\"https://krcgtv.com/news/nation-world/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans\">AP via KRCG</a></li>\n<li>Truce math: US-China truce extended two months, expires Jan 10, 2027; ~$60bn reciprocal non-sensitive tariff cuts agreed - the 301 proposals (January at earliest) land exactly on that cliff <a href=\"https://krcgtv.com/news/nation-world/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans\">AP via KRCG</a></li>\n<li>Capital Economics: new tariffs broadly replace rather than add to July's forced-labor duties, but keep core goods inflation firm into next year - feeds the Dec 9 hike calculus (~96-98% for 25bp)</li>\n<li>Rare-earth watch today: China's gallium/germanium export-control clock for Western buyers runs to Nov 27; USCC 2026 report: China's Dy/Lu/Sc/Tb/Y exports to the US fell to zero in May 2026 <a href=\"https://rareearthexchanges.com/countries/canada/\">Rare Earth Exchanges</a></li>\n<li>NVDA: Huang congressional testimony next week; closed Wednesday at $149.30 below $150</li>\n</ul>\n<h3>Risk</h3>\n<ul>\n<li>Silver line (est., ~$41.7 x 1.2901): collateral ~S$95,500; loan ~S$56,240; equity ~S$39,300; ratio ~1.70x - stable through the holiday; -$1 silver = -S$2,293 equity</li>\n<li>Singapore named on the 301 board (up to 20%) and publicly very disappointed - overhang for STI exporters, SGD, SG rates into the Jan 5 comment deadline; VNM faces the board's highest proposed rate at 35%</li>\n<li>Thin-tape Friday after a VIX-35 week; FX ~35% non-SGD (USDHKD ~7.84 peg edge, USDCNY ~6.66 into the Jan 10 cliff); metals cluster still dominant; L46.SI 404 42nd session; NAV restatements continue</li>\n</ul>\n<h3>Alpha (signals, not advice)</h3>\n<ul>\n<li><b>Real assets (20%):</b> trigger count advances - Wed hammer (session 1), Thu quiet hold above $3,550 with US shut (session 2), Friday half-session (session 3) with gold ~$3,591. If gold closes the week above ~$3,550, the mechanical trigger is satisfied - first unlevered tranche actionable next week; silver line gets nothing</li>\n<li><b>AI bottlenecks (15%, 0% deployed):</b> NVDA $149.30 below the $150-155 zone into testimony week; ANT below IPO - parked until post-testimony, a 2-3-session base, or the Dec 9 FOMC clears</li>\n<li><b>Defense (15%):</b> 10y ~4.85-4.87% - the 5.20% gate is 33-35bp away and receding on the safety bid; TLT gated AT 5.20% only</li>\n</ul>",
   "insiderTrades": [],
   "congressTrades": [
     {
@@ -295,46 +294,46 @@
   ],
   "trumpWatch": [
     {
-      "title": "Section 301 excess-capacity tariffs announced - Singapore named at up to 20%",
-      "detail": "USTR affirmative determinations in 14 of 16 investigations (Mexico, Norway excepted). China up to 20% combined (40% alternative if talks fail), Singapore up to 20% (10% possible), Vietnam 35% (20% possible), India 25% (17% possible), EU/Japan/Korea/Switzerland/Taiwan 15%, Bangladesh/Cambodia/Indonesia/Malaysia/Thailand up to 18%; Brazil +10% on sugar/aircraft. Proposed not final: comments due Jan 5 2027, hearings Jan 25, effect 'probably January at the earliest' - the China truce expires Jan 10.",
-      "url": "https://www.wiley.law/alert-USTR-Announces-Affirmative-Section-301-Determinations-and-Proposes-New-Tariffs-on-14-Trading-Partners-to-Address-Structural-Excess-Capacity"
+      "title": "Global pushback on Section 301 tariffs; Singapore very disappointed",
+      "detail": "China MFA's Guo Jiakun: overcapacity is a 'false premise', Beijing will take 'necessary measures'. Japan's Kihara: 'regrettable'. Singapore's trade ministry: 'very disappointed', noting its policies do not protect the domestic market or subsidize manufacturing for export. Malaysia and the EU reject the premise; Vietnam is negotiating; Thailand calls its 18% cap better than feared.",
+      "url": "https://krcgtv.com/news/nation-world/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans"
     },
     {
-      "title": "October PCE hot; Q3 GDP revised up to 4.3%; Dec hike ~98% priced",
-      "detail": "PCE headline 3.8% y/y - highest since 2023; core 3.3% vs 3.2% expected. Q3 GDP second estimate revised from 3.4% to 4.3% annualized. CME FedWatch ~96-98% for a 25bp Dec 9 hike.",
-      "url": "https://www.tradingkey.com/analysis/commodities/metal/262322306-gold-drop-3500-gdp-pce-fed-rate-hike-what-reasons-prices-to-fall-tradingkey"
+      "title": "US-China truce confirmed to expire Jan 10, 2027",
+      "detail": "AP background: the truce was extended two months and now expires Jan 10, 2027; both sides agreed tariff cuts on ~$60bn of reciprocal non-sensitive products. The 301 proposals (effect 'January at the earliest') land exactly on that cliff.",
+      "url": "https://krcgtv.com/news/nation-world/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans"
     },
     {
-      "title": "China rejects overcapacity charges; rare-earth extension unconfirmed in writing",
-      "detail": "China's Foreign Ministry: 'the so-called issue of overcapacity is a false proposition, and China opposes using it as a pretext for political manipulation.' Tuesday's reported rare-earth export-control pause extension still lacks written confirmation.",
-      "url": "https://finance.yahoo.com/markets/article/us-announces-new-tariffs-of-up-to-20-on-china-the-eu-and-12-other-nations-131802359.html"
+      "title": "Capital Economics: tariffs replace rather than add, but keep goods inflation firm",
+      "detail": "Stephen Brown: the new Section 301 rates broadly replace July's forced-labor duties rather than stacking fully, but will likely push prices higher and 'keep core goods inflation firm into next year' - feeds the Dec 9 hike calculus (~96-98% priced for 25bp).",
+      "url": "https://krcgtv.com/news/nation-world/china-and-other-us-trading-partners-hit-back-at-trumps-new-tariff-plans"
     },
     {
-      "title": "Huang to testify before Congress next week; Trump floats pardon",
-      "detail": "Jensen Huang appears before congressional committees next week over the scandal that briefly ousted him. Trump (NY Post): a pardon is 'always an option' but he does not think it will be necessary; Huang should 'tell the truth'. NVDA closed below $150 at $149.30, -3.91%.",
+      "title": "China gallium/germanium export-control deadline lands today (Nov 27)",
+      "detail": "China's gallium/germanium export-control clock for Western buyers runs to Nov 27. USCC's 2026 report to Congress: China's exports of dysprosium, lutetium, scandium, terbium and yttrium to the US fell to zero in May 2026, with licensing delays persisting despite the truce.",
+      "url": "https://rareearthexchanges.com/countries/canada/"
+    },
+    {
+      "title": "Huang congressional testimony lands next week",
+      "detail": "Jensen Huang appears before congressional committees next week over the scandal that briefly ousted him; Trump has called a pardon 'always an option'. NVDA closed Wednesday at $149.30, below $150.",
       "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html"
-    },
-    {
-      "title": "Metals hammer reversal on hot-PCE day",
-      "detail": "Silver printed $38.09 intraday - lowest in over a year - then reversed ~9% to close up (spot ~$41.12 +0.8%, futures ~$41.68 +2.3%); gold futures $3,605 +1.2% off a $3,426 low; miners GDX +3.5% / SILJ +4.3% / SLVP +4.4%. First session of the mechanical stabilisation trigger.",
-      "url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving"
     }
   ],
   "opportunities": [
     {
       "ticker": "Gold/Silver",
-      "thesis": "Real assets (target 20%): strongest reversal of the drawdown - silver's $38.09 to $41.12 hammer on a hot-PCE day (futures $41.68 +2.3%), gold held $3,426 and closed $3,605 futures, miners +3.5-4.4%. Leveraged line back to ~1.70x equity ~S$39.3k after testing ~1.55x intraday.",
-      "signal": "Mechanical trigger (2-3-session gold hold above ~$3,500 through PCE + holiday): session one in the books. Friday's half-session and Monday complete the count - a first unlevered tranche comes into view if gold holds ~$3,550+ into next week; the silver line gets nothing"
+      "thesis": "Real assets (target 20%): trigger count advancing - Wednesday's hammer (session 1), Thursday's quiet hold above $3,550 with the US shut (session 2), Friday's half-session (session 3) with gold ~$3,591 and silver ~$41.7 in early Globex. Leveraged line steady at ~1.70x, equity ~S$39.3k.",
+      "signal": "If gold closes the week above ~$3,550, the mechanical stabilisation trigger is satisfied - a first unlevered tranche becomes actionable next week; the silver line gets nothing"
     },
     {
       "ticker": "NVDA/ANT/AI",
-      "thesis": "AI bottlenecks (target 15%, 0% deployed): NVDA closed below the $150-155 zone at $149.30, ANT still below its $83 IPO ($74 intraday low), Nasdaq-100 flirting with a bear-market close, VIX 28.29 after touching 35. The zone is now being traded through, not just approached.",
-      "signal": "Tranche stays parked from the ~62% idle cash - Huang's congressional testimony next week is the binary; no deployment before a 2-3-session base or post-FOMC clarity"
+      "thesis": "AI bottlenecks (target 15%, 0% deployed): NVDA $149.30 sits below the $150-155 zone into a congressional-testimony week; ANT below its $83 IPO.",
+      "signal": "Parked - earliest sensible reassessment is post-testimony; nothing deploys before a 2-3-session base or the Dec 9 FOMC clears"
     },
     {
       "ticker": "TLT",
-      "thesis": "Defense (target 15%): 10y fell to ~4.85-4.87% on the equity safety bid - the 5.20% gate is 33-35bp away and receding.",
-      "signal": "TLT stays gated AT 5.20% only, not in anticipation - a risk-off rally in bonds is not the entry"
+      "thesis": "Defense (target 15%): 10y ~4.85-4.87% - the 5.20% gate is 33-35bp away and receding on the safety bid.",
+      "signal": "TLT stays gated AT 5.20% only, not in anticipation"
     }
   ]
 }
